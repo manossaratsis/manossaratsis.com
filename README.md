@@ -1,2 +1,2 @@
 # web
-Personal website built with Nanoc
+Personal website built using nanoc
