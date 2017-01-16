@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600');
+
 * {
   margin: 0;
   padding: 0;
-
-  font-family: Georgia, Palatino, serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 body {
-  background: #ccc;
+  background: rgba(33,33,33,1.0);
+  color: #bbb;
 }
 
 a {
@@ -15,7 +17,7 @@ a {
 
 a:link,
 a:visited {
-  color: #f30;
+  color: #666;
 }
 
 a:hover {
@@ -24,27 +26,22 @@ a:hover {
 
 #main {
   position: absolute;
-
   top: 40px;
   left: 280px;
-
   width: 500px;
 }
 
 #main h1 {
+  color: #fff;
   font-size: 40px;
   font-weight: normal;
-
   line-height: 40px;
-
   letter-spacing: -1px;
 }
 
 #main p {
   margin: 20px 0;
-
   font-size: 15px;
-
   line-height: 20px;
 }
 
@@ -54,7 +51,6 @@ a:hover {
 
 #main li {
   font-size: 15px;
-
   line-height: 20px;
 }
 
@@ -64,38 +60,26 @@ a:hover {
 
 #sidebar {
   position: absolute;
-
   top: 40px;
   left: 20px;
   width: 200px;
-
-  padding: 20px 20px 0 0;
-
-  border-right: 1px solid #ccc;
-
   text-align: right;
 }
 
 #sidebar h2 {
   text-transform: uppercase;
-
   font-size: 13px;
-
-  color: #333;
-
+  color: #444;
   letter-spacing: 1px;
-
   line-height: 20px;
 }
 
 #sidebar ul {
   list-style-type: none;
-
   margin: 20px 0;
 }
 
 #sidebar li {
   font-size: 14px;
-
   line-height: 20px;
 }
