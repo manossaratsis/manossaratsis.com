@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #bbb;
+  background: #ddd;
   color: rgba(33,33,33,1.0);
 }
 
@@ -17,7 +17,8 @@ a {
 
 a:link,
 a:visited {
-  color: #666;
+  color: #999;
+  font-weight: 300;
 }
 
 a:hover {
@@ -34,19 +35,24 @@ a:hover {
 #main h1 {
   color: #fff;
   font-size: 40px;
-  font-weight: normal;
-  line-height: 40px;
-  letter-spacing: -1px;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+#main h2 {
+  font-weight: 500;
 }
 
 #main p {
   margin: 20px 0;
   font-size: 15px;
+  font-weight: 300;
   line-height: 20px;
 }
 
 #main ul, #main ol {
   margin: 20px;
+  list-style-type: square;
 }
 
 #main li {
@@ -54,8 +60,14 @@ a:hover {
   line-height: 20px;
 }
 
-#main ul li {
-  list-style-type: square;
+#main hr {
+  border-color: #fff;
+  border-style: solid;
+  margin-top: 3em;
+}
+
+#main strong {
+  font-weight: 500;
 }
 
 #sidebar {
@@ -69,9 +81,10 @@ a:hover {
 #sidebar h2 {
   text-transform: uppercase;
   font-size: 13px;
-  color: #444;
+  color: #999;
   letter-spacing: 1px;
   line-height: 20px;
+  font-weight: 500;
 }
 
 #sidebar ul {
