@@ -2,13 +2,19 @@
 title: Tangible Interface
 ---
 
-# A tangible interface <br/> for collaborative urban design <br/> for energy efficiency, daylighting and walkability
+# A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
+
+---
+
+[Read Here]()
 
 **Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 
-Building Simulation 2015: International Conference of the Building Performance Simulation Association <br/>
-*Hyderabad, India, December 2015* <br/>
+Building Simulation 2015: International Conference <br/>
+of the Building Performance Simulation Association <br/>
+Hyderabad, India, December 2015 <br/>
 pp. 2691-2698
+
 
 ## Abstract
 

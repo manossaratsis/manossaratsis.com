@@ -4,10 +4,14 @@ title: Design BEM
 
 # Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building
 
+---
+[Read Here]()
+
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 
-Building Simulation 2015: International Conference of the Building Performance Simulation Association <br/>
-*Hyderabad, India, December 2015* <br/>
+Building Simulation 2015: International Conference <br/>
+of the Building Performance Simulation Association <br/>
+Hyderabad, India, December 2015 <br/>
 pp. 1419-1425
 
 ## Abstract

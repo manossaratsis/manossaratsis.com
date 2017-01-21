@@ -2,12 +2,16 @@
 title: Floor Plan BEM
 ---
 
-# The optimization potential <br/> of floor-plan typologies <br/>in early design energy modeling
+# The optimization potential of floor-plan typologies in early design energy modeling
+
+---
+[Read Here]()
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 
-Building Simulation 2015: International Conference of the Building Performance Simulation Association <br/>
-*Hyderabad, India, December 2015* <br/>
+Building Simulation 2015: International Conference <br/>
+of the Building Performance Simulation Association <br/>
+Hyderabad, India, December 2015 <br/>
 pp. 1853-1860
 
 ## Abstract

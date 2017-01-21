@@ -2,14 +2,16 @@
 title: Thesis
 ---
 
-# Simulation-based daylighting analysis procedure <br/> for developing urban zoning rules
+# Simulation-based daylighting analysis procedure for developing urban zoning rules
+
+---
+[Read here](http://www.tandfonline.com/doi/full/10.1080/09613218.2016.1159850)
 
 **Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)** <br/>
 
 Building Research & Information <br/>
 DOI: 10.1080/09613218.2016.1159850 <br/>
 
-[Read here](http://www.tandfonline.com/doi/full/10.1080/09613218.2016.1159850)
 
 ## Abstract
 
