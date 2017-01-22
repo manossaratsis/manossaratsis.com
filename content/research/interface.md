@@ -6,14 +6,14 @@ title: Tangible Interface
 
 ---
 
-[Read Here]()
+[Read here]()
 
 **Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 
-Building Simulation 2015: International Conference <br/>
+*Building Simulation 2015: International Conference <br/>
 of the Building Performance Simulation Association <br/>
 Hyderabad, India, December 2015 <br/>
-pp. 2691-2698
+pp. 2691-2698*
 
 
 ## Abstract

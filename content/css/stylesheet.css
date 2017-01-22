@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i');
 
 * {
   margin: 0;
@@ -27,16 +27,16 @@ a:hover {
 
 #main {
   position: absolute;
-  top: 40px;
-  left: 280px;
-  width: 500px;
+  top: 2.5em;
+  left: 17.5em;
+  width: 32em;
 }
 
 #main h1 {
   color: #fff;
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 300;
-  line-height: 44px;
+  line-height: 1.2em;
 }
 
 #main h2 {
@@ -44,20 +44,20 @@ a:hover {
 }
 
 #main p {
-  margin: 20px 0;
-  font-size: 15px;
+  margin: 1.25em 0;
+  font-size: 0.92em;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 1.5em;
 }
 
 #main ul, #main ol {
-  margin: 20px;
+  margin: 1.2em;
   list-style-type: square;
 }
 
 #main li {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.92em;
+  line-height: 1.2em;
 }
 
 #main hr {
@@ -70,29 +70,36 @@ a:hover {
   font-weight: 400;
 }
 
+#main em {
+  font-size: 0.92em;
+  font-weight: 300i;
+  line-height: 1.5em;
+  font-weight: 300i;
+}
+
 #sidebar {
   position: absolute;
-  top: 40px;
-  left: 20px;
-  width: 200px;
+  top: 2.5em;
+  left: 1.2em;
+  width: 12.5em;
   text-align: right;
 }
 
 #sidebar h2 {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 0.8em;
   color: #b7b7b7;
-  letter-spacing: 1px;
-  line-height: 20px;
+  letter-spacing: 0.1em;
+  line-height: 2.4em;
   font-weight: 500;
 }
 
 #sidebar ul {
   list-style-type: none;
-  margin: 20px 0;
+  margin: 1.2em 0;
 }
 
 #sidebar li {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.92em;
+  line-height: 1.5em;
 }

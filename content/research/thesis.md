@@ -9,8 +9,9 @@ title: Thesis
 
 **Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)** <br/>
 
-Building Research & Information <br/>
-DOI: 10.1080/09613218.2016.1159850 <br/>
+
+*Building Research & Information <br/>
+DOI: 10.1080/09613218.2016.1159850 <br/>*
 
 
 ## Abstract
