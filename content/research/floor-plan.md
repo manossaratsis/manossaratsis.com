@@ -5,6 +5,7 @@ title: Floor Plan BEM
 # The optimization potential of floor-plan typologies in early design energy modeling
 
 ---
+
 [Read here]()
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
