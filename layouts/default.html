@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>MS |  <%= @item[:title] %></title>
-    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="favicon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/stylesheet.css" />
   </head>
   <body>
+    <ul id='navbar'>
+      <li><a class="highlight" href="/index.html">MS</a></li>
+      <li><a href="/research">Research</a></li>
+      <li><a href="/bio">Bio</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
     <div id="main">
       <%= yield %>
     </div>
     <div id="sidebar">
-      <h2>Research</h2>
       <ul>
         <li><a href="/research/thesis.html">Thesis</a></li>
         <li><a href="/research/interface.html">Tangible Interface</a></li>

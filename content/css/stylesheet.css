@@ -9,23 +9,66 @@
 body {
   background: #ddd;
   color: rgba(33,33,33,1.0);
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
 }
 
-a:link,
-a:visited {
-  color: #b1b1b1;
-  font-weight: 300;
+a:hover {
+  cursor: hand;
 }
 
-a:hover {
+#main a:link,
+#main a:visited {
   color: #1e00ee;
 }
 
+#sidebar a:link,
+#sidebar a:visited {
+  color: #b1b1b1;
+}
+
+#sidebar a:hover,
+#sidebar a:visited:hover {
+  color: #1e00ee;
+}
+
+#navbar {
+  background-color: rgba(235,235,235,0.9);
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 3em;
+  width: 100vw;
+  overflow: hidden;
+  list-style-type: none;
+  z-index: 1;
+}
+
+#navbar a.highlight {
+  background-color: #1e00ee;
+  color: #fff;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 1.3em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #1e00ee;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+
 #main {
+  margin-top: 2.5em;
   position: absolute;
   top: 2.5em;
   left: 17.5em;
@@ -82,6 +125,7 @@ a:hover {
   top: 2.5em;
   left: 1.2em;
   width: 12.5em;
+  margin-top: 2.5em;
   text-align: right;
 }
 
@@ -96,10 +140,9 @@ a:hover {
 
 #sidebar ul {
   list-style-type: none;
-  margin: 1.2em 0;
 }
 
 #sidebar li {
   font-size: 0.92em;
-  line-height: 1.5em;
+  line-height: 2em;
 }
