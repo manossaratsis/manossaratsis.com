@@ -1,6 +1,7 @@
 ---
 title: Bio
 ---
+# In my own words.
 
 ![profile-pic](profile-pic.jpg)
 
