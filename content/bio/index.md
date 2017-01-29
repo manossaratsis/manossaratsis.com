@@ -1,6 +1,10 @@
 ---
 title: Bio
 ---
+* TOC
+{:toc}
+{:.sidebar}
+
 # In my own words.
 
 ![profile-pic](profile-pic.jpg)

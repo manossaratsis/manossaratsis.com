@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 compile '/**/*.md' do
-  filter :kramdown
+  filter :kramdown, toc_levels: 2...6
   layout '/default.*'
 end
 

@@ -1,13 +1,11 @@
 ---
 title: Research
 ---
-<div markdown="block" id="sidebar">
-  * TOC
-  {:toc}
-</div>
+* TOC
+{:toc}
+{:.sidebar}
 
 # Understanding buildings and cities.
-{:.no_toc}
 ---
 
 If you can't measure it, you can't manage it. The first step to making our buildings and cities more sustainable, is being able to quantify what does and doesn't work about them.

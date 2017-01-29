@@ -1,0 +1,13 @@
+body {
+	font-size: 16px;
+}
+
+.sidebar {
+  display: none;
+}
+
+#main {
+	position: static;
+	margin: 5em auto;
+  width: 92vw;
+}
