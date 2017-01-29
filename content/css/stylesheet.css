@@ -25,35 +25,26 @@ a:hover {
   color: #1e00ee;
 }
 
-#navbar ul {
-  list-style-type: none;
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 3em;
+    overflow: hidden;
+    background-color: rgba(235,235,235,0.9);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
-#navbar {
-  background-color: rgba(235,235,235,0.9);
-  position: fixed;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  height: 3em;
-  width: 100vw;
-  overflow: hidden;
-  z-index: 1;
+ul.nav li {
+  float: left;
 }
 
-#navbar a.logo {
-  background-color: #1e00ee;
-  color: #fff;
-  margin-right: calc(17.5em - 1em);
-}
-
-
-#navbar li {
-    float: left;
-}
-
-#navbar li a {
-    display: block;
+ul.nav li a {
+    transition: 0.3s;
+    display: inline-block;
     padding: 1.3em;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -62,14 +53,24 @@ a:hover {
     font-weight: 400;
 }
 
-#navbar li a:not(.logo):hover {
+ul.nav li.icon {
+  display: none;
+}
+
+ul.nav a.logo {
+  background-color: #1e00ee;
+  color: #fff;
+  margin-right: calc(17.5em - 1em);
+}
+
+ul.nav li a:not(.logo):hover {
   background-color: #fff;
 }
 
 #main {
+  top: 2.5em;
   margin-top: 2.5em;
   position: relative;
-  top: 2.5em;
   left: 17.5em;
   width: 32em;
 }
@@ -94,7 +95,7 @@ a:hover {
   line-height: 1.5em;
 }
 
-#main ul, #main ol {
+#main ul:not(#markdown-toc) {
   margin: 1.2em;
   list-style-type: square;
 }
@@ -124,10 +125,9 @@ a:hover {
 
 #main .sidebar {
   position: fixed;
-  top: 2.5em;
+  margin-top: 2.5em;
   left: 1.2em;
   width: 12.5em;
-  margin-top: 2.5em;
   text-align: right;
   list-style-type: none;
 }

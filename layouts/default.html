@@ -4,11 +4,12 @@
     <%=render '/partials/head.html' %>
   </head>
   <body>
-    <div id="navbar">
+    <div>
       <%=render '/partials/navbar.html' %>
     </div>
     <div id="main">
       <%= yield %>
     </div>
+    <%= render '/partials/scripts.html' %>
   </body>
 </html>
