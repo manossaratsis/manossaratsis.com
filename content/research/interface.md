@@ -1,9 +1,13 @@
 ---
 title: Tangible Interface
 ---
+<div markdown="block" id="sidebar">
+  * TOC
+  {:toc}
+</div>
 
 # A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
-
+{:.no_toc}
 ---
 
 [Read here]()

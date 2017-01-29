@@ -7,23 +7,11 @@
     <link rel="stylesheet" href="/css/stylesheet.css" />
   </head>
   <body>
-    <ul id='navbar'>
-      <li><a class="logo" href="/index.html">MS</a></li>
-      <li><a href="/research">Research</a></li>
-      <li><a href="/bio">Bio</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
+    <div id="navbar">
+      <%=render '/partials/navbar.html' %>
+    </div>
     <div id="main">
       <%= yield %>
-    </div>
-    <div id="sidebar">
-      <ul>
-        <li><a href="/research/thesis.html">Thesis</a></li>
-        <li><a href="/research/interface.html">Tangible Interface</a></li>
-        <li><a href="/research/floor-plan.html">Floor Plan</a></li>
-        <li><a href="/research/design.html">Design</a></li>
-        <li><a href="/research/sim-game.html">Sim Game</a></li>
-      </ul>
     </div>
   </body>
 </html>

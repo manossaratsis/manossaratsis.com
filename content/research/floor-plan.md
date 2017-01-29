@@ -1,9 +1,13 @@
 ---
-title: Floor Plan BEM
+title: Floor Plan Aware BEM
 ---
+<div markdown="block" id="sidebar">
+  * TOC
+  {:toc}
+</div>
 
 # The optimization potential of floor-plan typologies in early design energy modeling
-
+{:.no_toc}
 ---
 
 [Read here]()

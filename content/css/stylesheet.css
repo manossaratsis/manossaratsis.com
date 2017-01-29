@@ -25,6 +25,10 @@ a:hover {
   color: #1e00ee;
 }
 
+#navbar ul {
+  list-style-type: none;
+}
+
 #navbar {
   background-color: rgba(235,235,235,0.9);
   position: fixed;
@@ -34,7 +38,6 @@ a:hover {
   height: 3em;
   width: 100vw;
   overflow: hidden;
-  list-style-type: none;
   z-index: 1;
 }
 
@@ -93,6 +96,10 @@ a:hover {
 #main ul, #main ol {
   margin: 1.2em;
   list-style-type: square;
+}
+
+#main #markdown-toc {
+  margin: 0;
 }
 
 #main li {

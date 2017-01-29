@@ -1,9 +1,13 @@
 ---
 title: Thesis
 ---
+<div markdown="block" id="sidebar">
+  * TOC
+  {:toc}
+</div>
 
 # Simulation-based daylighting analysis procedure for developing urban zoning rules
-
+{:.no_toc}
 ---
 
 [Read here](http://www.tandfonline.com/doi/full/10.1080/09613218.2016.1159850)

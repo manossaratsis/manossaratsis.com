@@ -1,9 +1,13 @@
 ---
 title: Sim Game
 ---
+<div markdown="block" id="sidebar">
+  * TOC
+  {:toc}
+</div>
 
 # Lessons learnt from a simulation-based approach to teaching building science to designers
-
+{:.no_toc}
 ---
 
 [Read here]()
