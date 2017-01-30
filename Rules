@@ -3,6 +3,16 @@
 compile '/**/*.md' do
   filter :kramdown, toc_levels: 2...6
   layout '/default.*'
+  filter :relativize_paths, type: :html
+end
+
+compile '/**/*.css' do
+    filter :relativize_paths, type: :css
+    write @item.identifier.without_ext + '.css'
+end
+
+compile '/**/*.{jpg,ico,js}' do
+    write item.identifier.to_s
 end
 
 route '/**/*.{html,md}' do
@@ -11,10 +21,6 @@ route '/**/*.{html,md}' do
   else
     item.identifier.without_ext + '.html'
   end
-end
-
-compile '/**/*' do
-    write item.identifier.to_s
 end
 
 layout '/**/*', :erb
