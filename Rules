@@ -14,7 +14,7 @@ route '/**/*.{html,md}' do
 end
 
 compile '/**/*' do
-  write item.identifier.to_s
+    write item.identifier.to_s
 end
 
 layout '/**/*', :erb
