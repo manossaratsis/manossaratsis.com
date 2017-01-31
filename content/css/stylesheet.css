@@ -61,7 +61,12 @@ ul.nav a.logo {
     margin-right: calc(17.5em - 1em);
 }
 
-ul.nav li a:not(.logo):hover {
+ul.nav li a:not(.logo):hover,
+ul.nav li a:not(.logo):active{
+    background-color: #f4f4f4;
+}
+
+ul.nav li a.currentLink {
     background-color: #fff;
 }
 
