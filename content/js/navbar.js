@@ -9,12 +9,17 @@ function openNav() {
 
 var highlightCurrentLink = function() {
 	var navLinks = document.querySelectorAll(".nav li a:not(.logo)");
-	for (var i = 0; i < navLinks.length; i++) {
-
-		if (window.location.href === navLinks[i].href) {
-			console.log(navLinks[i].href);
-			navLinks[i].classList.add("currentLink");
-			return;
+    var navPath = window.location.origin + "/" + 
+                  window.location.pathname.split("/")[1];
+    if (!navPath.endsWith("/")) {
+        navPath += "/";
+    }
+    for (var i = 0; i < navLinks.length; i++) {
+		if (navPath === navLinks[i].href) {
+            if (navLinks[i].className == "") {
+                navLinks[i].classList.add("currentLink");
+            }
+            return;
 		}
 	}
 };
