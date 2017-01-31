@@ -1,28 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500');
-
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 body {
-  background: #ddd;
-  color: rgba(33,33,33,1.0);
-  font-weight: 300;
+    background: #ddd;
+    color: rgba(33, 33, 33, 1.0);
+    font-weight: 300;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-  cursor: hand;
+    cursor: hand;
 }
 
-#main a:link,
-#main a:visited {
-  color: #1e00ee;
+#main a:link, #main a:visited {
+    color: #1e00ee;
 }
 
 ul.nav {
@@ -31,7 +29,7 @@ ul.nav {
     padding: 0;
     height: 3em;
     overflow: hidden;
-    background-color: rgba(235,235,235,0.9);
+    background-color: rgba(235, 235, 235, 0.9);
     z-index: 1;
     position: fixed;
     top: 0;
@@ -39,7 +37,7 @@ ul.nav {
 }
 
 ul.nav li {
-  float: left;
+    float: left;
 }
 
 ul.nav li a {
@@ -54,100 +52,97 @@ ul.nav li a {
 }
 
 ul.nav li.icon {
-  display: none;
+    display: none;
 }
 
 ul.nav a.logo {
-  background-color: #1e00ee;
-  color: #fff;
-  margin-right: calc(17.5em - 1em);
+    background-color: #1e00ee;
+    color: #fff;
+    margin-right: calc(17.5em - 1em);
 }
 
 ul.nav li a:not(.logo):hover {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 #main {
-  top: 2.5em;
-  margin-top: 2.5em;
-  position: relative;
-  left: 17.5em;
-  width: 32em;
+    top: 2.5em;
+    margin-top: 2.5em;
+    position: relative;
+    left: 17.5em;
+    width: 32em;
 }
 
 #main h1 {
-  color: #fff;
-  font-size: 2.5em;
-  font-weight: 300;
-  line-height: 1.2em;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.2em;
 }
 
 #main h2 {
-  margin-top: 2em;
-  font-size: 1.2em;
-  font-weight: 400;
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
 #main p {
-  margin: 1.25em 0;
-  font-size: 0.92em;
-  font-weight: 300;
-  line-height: 1.5em;
+    margin: 1.25em 0;
+    font-size: 0.92em;
+    font-weight: 300;
+    line-height: 1.5em;
 }
 
 #main ul:not(#markdown-toc) {
-  margin: 1.2em;
-  list-style-type: square;
+    margin: 1.2em;
+    list-style-type: square;
 }
 
-
 #main li {
-  font-size: 0.92em;
-  line-height: 1.5em;
+    font-size: 0.92em;
+    line-height: 1.5em;
 }
 
 #main hr {
-  border-color: #fff;
-  border-style: solid;
-  margin-top: 3em;
+    border-color: #fff;
+    border-style: solid;
+    margin-top: 3em;
 }
 
 #main strong {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 #main em {
-  font-size: 0.92em;
-  font-weight: 300i;
-  line-height: 1.5em;
-  font-weight: 300i;
+    font-size: 0.92em;
+    font-weight: 300i;
+    line-height: 1.5em;
+    font-weight: 300i;
 }
 
 #main .sidebar {
-  position: fixed;
-  margin-top: 2.5em;
-  left: 1.2em;
-  width: 12.5em;
-  text-align: right;
-  list-style-type: none;
+    position: fixed;
+    margin-top: 2.5em;
+    left: 1.2em;
+    width: 12.5em;
+    text-align: right;
+    list-style-type: none;
 }
 
-#main .sidebar a:link,
-#main .sidebar a:visited {
-  color: #b1b1b1;
+#main .sidebar a:link, #main .sidebar a:visited {
+    color: #b1b1b1;
 }
 
-#main .sidebar a:hover,
-#main .sidebar a:visited:hover {
-  color: #1e00ee;
+#main .sidebar a:hover, #main .sidebar a:visited:hover {
+    color: #1e00ee;
 }
 
 #main .sidebar li {
-  font-size: 0.92em;
-  line-height: 2em;
+    font-size: 0.92em;
+    line-height: 2em;
 }
 
 #main img {
-  height: 12em;
-  border-radius: 50%;
+    height: 12em;
+    border-radius: 50%;
 }

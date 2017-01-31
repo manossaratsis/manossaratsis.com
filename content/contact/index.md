@@ -5,6 +5,6 @@ title: Contact
 # Get in touch.
 
 ---
-* [Email](mailto:manos.saratsis@gmail.com)
-* [LinkedIn](http://www.linkedin.com/in/esaratsis)
-* [Twitter](https://twitter.com/sarstis)
+I currently live in the Bay Area and am always open to collaboration opportunities on research or software development. Feel free to shoot me an email at [manos.saratsis@gmail.com](mailto:manos.saratsis@gmail.com). 
+
+I try to update my [LinkedIn](http://www.linkedin.com/in/esaratsis) with my latest professional ventures. You will also occasionally find me on [Twitter](https://twitter.com/sarstis).
