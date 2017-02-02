@@ -18,10 +18,8 @@ ul.nav li:not(:first-child) {
     display: none;
 }
 
-
 ul.nav,
 ul.nav.responsive {
-	font-size: 2.4em;
     height: auto;
     position: fixed;
 }
@@ -31,12 +29,10 @@ ul.nav.responsive li {
     display: inline;
 }
 
+ul.nav li a,
 ul.nav.responsive li a {
+    font-size: 2.1em;
     display: block;
     text-align: left;
-}
-
-ul.nav li a.logo,
-ul.nav.responsive li a.logo {
     margin-right: 0;
 }
