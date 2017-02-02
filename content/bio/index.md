@@ -11,6 +11,6 @@ title: Bio
 
 ![profile-pic](profile-pic.jpg)
 
-## Summary
+## Who I am
 
-Manos is an environmental design professional with a background in computational design and architectural engineering. He develops software to optimally locate distributed energy resources across large urban regions. His work integrates geospatial modeling, building performance simulation, and data analytics and visualization. A graduate from MIT, Manos received a Master of Science in Architecture and Urbanism while conducting research at the MIT Sustainable Design Lab. He has published numerous papers on energy modeling and its implications for urban planning and design. Manos is currently the Software Product Manager at Station A, NRG Energy's Innovation Implementation group.
+I am an environmental design professional with a background in computational design and architectural engineering. I develop software to optimally locate distributed energy resources across large urban regions. My work integrates geospatial modeling, building performance simulation, and data analytics and visualization. I received a Master of Science in Architecture and Urbanism from MIT while conducting research at the MIT Sustainable Design Lab. I have published numerous papers on energy modeling and its implications for urban planning and design. My current position is Software Product Manager at Station A, NRG's Innovation Implementation group.
