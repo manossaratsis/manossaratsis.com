@@ -18,6 +18,7 @@ ul.nav li:not(:first-child) {
     display: none;
 }
 
+
 ul.nav,
 ul.nav.responsive {
 	font-size: 2.4em;
@@ -35,8 +36,7 @@ ul.nav.responsive li a {
     text-align: left;
 }
 
+ul.nav li a.logo,
 ul.nav.responsive li a.logo {
-    background-color: #1e00ee;
-    color: #fff;
     margin-right: 0;
 }
