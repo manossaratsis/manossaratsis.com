@@ -1,10 +1,12 @@
+body {
+    font-size: 2em;
+}
+
 .sidebar {
     display: none;
 }
 
 #main {
-	font-size: 2em;
-	line-height: 2em;
     position: static;
     margin: 5em auto;
     width: 92vw;
@@ -31,7 +33,6 @@ ul.nav.responsive li {
 
 ul.nav li a,
 ul.nav.responsive li a {
-    font-size: 2.1em;
     display: block;
     text-align: left;
     margin-right: 0;
