@@ -1,5 +1,5 @@
-body {
-    font-size: 2em;
+body{
+    font-size: 250%;
 }
 
 .sidebar {
@@ -10,10 +10,6 @@ body {
     position: static;
     margin: 5em auto;
     width: 92vw;
-}
-
-#main h1 {
-    font-size: 3.8em;
 }
 
 ul.nav li:not(:first-child) {
