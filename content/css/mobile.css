@@ -2,14 +2,14 @@ body{
     font-size: 250%;
 }
 
-.sidebar {
-    display: none;
-}
-
 #main {
     position: static;
     margin: 5em auto;
     width: 92vw;
+}
+
+.sidebar {
+    display: none;
 }
 
 ul.nav li:not(:first-child) {
