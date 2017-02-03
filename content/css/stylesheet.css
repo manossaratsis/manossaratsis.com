@@ -128,7 +128,7 @@ ul.nav li a.currentLink {
     font-weight: 300i;
 }
 
-#main .sidebar {
+#main ul.sidebar {
     position: fixed;
     margin-top: 2.5em;
     left: 1.2em;
@@ -153,4 +153,10 @@ ul.nav li a.currentLink {
 #main img {
     height: 12em;
     border-radius: 50%;
+}
+
+#main aside {
+    text-transform: lowercase;
+    color: #1e00ee;
+    font-size: 0.8em;
 }

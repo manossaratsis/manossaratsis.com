@@ -2,7 +2,11 @@
 
 compile '/**/*.md' do
     filter :kramdown, toc_levels: 2...6
-    layout '/default.*'
+    if @item.identifier.to_s.include? 'posts'
+        layout '/post.html'
+    else
+        layout '/default.html'
+    end
     filter :relativize_paths, type: :html
 end
 
@@ -12,7 +16,7 @@ compile '/**/*.css' do
 end
 
 compile '/**/*.{jpg,ico,js}' do
-    write item.identifier.to_s
+    write @item.identifier.to_s
 end
 
 route '/posts/*' do
@@ -21,10 +25,10 @@ route '/posts/*' do
 end
 
 route '/**/*.{html,md}' do
-  if item.identifier =~ '/index.*'
+  if @item.identifier =~ '/index.*'
     '/index.html'
   else
-    item.identifier.without_ext + '.html'
+    @item.identifier.without_ext + '.html'
   end
 end
 

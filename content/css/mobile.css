@@ -4,8 +4,14 @@
     width: 92vw;
 }
 
-.sidebar {
-    display: none;
+#main ul.sidebar {
+    position: static;
+    margin-bottom: 1.2em;
+}
+
+#main ul.sidebar li a {
+    display: block;
+    text-align: left;
 }
 
 ul.nav li:not(:first-child) {

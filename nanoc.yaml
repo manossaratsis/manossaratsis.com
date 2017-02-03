@@ -91,5 +91,6 @@ checks:
 
 deploy:
     default:
-          kind: git
-          branch: gh-pages
+        kind: git
+        branch: gh-pages
+        forced: true
