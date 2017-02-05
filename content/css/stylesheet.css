@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 
 body {
     background: #ddd;
-    color: rgba(33, 33, 33, 1.0);
+    color: rgba(30, 30, 30, 1.0);
     font-weight: 300;
 }
 
@@ -24,9 +24,6 @@ a:hover {
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e5e5e5' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-#main a:link, #main a:visited {
-    color: #1e00ee;
-}
 
 ul.nav {
     list-style-type: none;
@@ -38,6 +35,7 @@ ul.nav {
     position: fixed;
     top: 0;
     width: 100vw;
+    box-shadow: 0.06em 0.06em 0.06em 0.06em rgba(20, 20, 20, 0.05);
 }
 
 ul.nav li {
@@ -77,13 +75,17 @@ ul.nav li a.currentLink {
     top: 2.5em;
     margin-top: 2.5em;
     position: relative;
-    left: 17.5em;
-    width: 32em;
+    left: 16.5em;
+    width: 31em;
+}
+
+#main a:link, #main a:visited {
+    color: #1e00ee;
 }
 
 #main h1 {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-weight: 300;
     line-height: 1.2em;
 }
@@ -91,6 +93,11 @@ ul.nav li a.currentLink {
 #main h2 {
     margin-top: 2em;
     font-size: 1.2em;
+    font-weight: 400;
+}
+
+#main h3 {
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -115,6 +122,7 @@ ul.nav li a.currentLink {
     border-color: #fff;
     border-style: solid;
     margin-top: 3em;
+    margin-bottom: 1.5em;
 }
 
 #main strong {
@@ -125,7 +133,17 @@ ul.nav li a.currentLink {
     font-size: 0.92em;
     font-weight: 300i;
     line-height: 1.5em;
-    font-weight: 300i;
+}
+
+#main .short-post {
+    margin-top: 1.6em;
+    border-left: 4px solid rgba(235, 235, 235, 0.9);
+    padding-left: 1em;
+}
+
+#main .short-post p {
+    color: #888;
+    font-weight: 300;
 }
 
 #main ul.sidebar {

@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
-created_at: 2012-02-10 09:00:00 +0000
+created_at: 2017-02-04
 kind: article
 ---
 
-Welcome to my blog.
+Launching!
