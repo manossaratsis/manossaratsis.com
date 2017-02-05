@@ -35,8 +35,8 @@ ul.nav {
     position: fixed;
     top: 0;
     width: 100vw;
-    -webkit-box-shadow: 0.06em 0.06em 0.06em 0.06em rgba(20, 20, 20, 0.05);
-    box-shadow: 0.06em 0.06em 0.06em 0.06em rgba(20, 20, 20, 0.05);
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(20, 20, 20, 0.05);
+    box-shadow: 1px 1px 1px 1px rgba(20, 20, 20, 0.05);
 }
 
 ul.nav li {
