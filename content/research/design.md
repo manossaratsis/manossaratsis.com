@@ -8,7 +8,7 @@ title: Design BEM
 # Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building
 ---
 
-[Read here]()
+[Full paper](http://web.mit.edu/sustainabledesignlab/publications/BS2015_SimulationInformedDesignProcess.pdf)
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 

@@ -5,10 +5,10 @@ title: Research
 {:toc}
 {:.sidebar}
 
-# Understanding buildings and cities.
+# Understanding environmental performance in buildings and cities.
 ---
 
-If you can't measure it, you can't manage it. The first step to making our buildings and cities more sustainable, is being able to quantify what does and doesn't work about them. My research focuses on building- and urban-scale sustainability metrics for operational energy, daylighting, microclimatic conditions and walkability. My goal is to enable the proliferation of clean energy and high-performance design in our built environment.
+If you can't measure it, you can't manage it. The first step to making our buildings and cities more sustainable is being able to quantify what does and doesn't work about them. My research focuses on building- and urban-scale environmental performance metrics for operational energy, daylighting, microclimatic conditions and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
 
 ##Journal Publications
 

@@ -8,7 +8,7 @@ title: Tangible Interface
 # A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
 ---
 
-[Read here]()
+[Full paper](http://web.mit.edu/sustainabledesignlab/publications/BS2015_TangibleUserInterface_Riyadh.pdf)
 
 **Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 
