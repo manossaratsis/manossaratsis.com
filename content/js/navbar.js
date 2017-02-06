@@ -24,4 +24,4 @@ var highlightCurrentLink = function() {
 	}
 };
 
-window.addEventListener('load', highlightCurrentLink);
+window.addEventListener("load", highlightCurrentLink);

@@ -92,12 +92,15 @@ ul.nav li a.currentLink {
 }
 
 #main h2 {
-    margin-top: 2em;
+    margin-top: -2em;
+    padding-top: 3em;
     font-size: 1.2em;
     font-weight: 400;
 }
 
 #main h3 {
+    margin-top: -2em;
+    padding-top: 3em;
     font-size: 1em;
     font-weight: 400;
 }
@@ -145,6 +148,11 @@ ul.nav li a.currentLink {
 #main .short-post p {
     color: #888;
     font-weight: 300;
+}
+
+#main .short-post h3 {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #main ul.sidebar {
