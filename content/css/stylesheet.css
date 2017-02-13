@@ -177,6 +177,13 @@ ul.nav li a.currentLink {
     line-height: 2em;
 }
 
+article img {
+    width: 100vw;
+    position: relative;
+    margin-top: 2em;
+    margin-left: -17.9em;
+}
+
 #profile-pic img {
     height: 12em;
     border-radius: 50%;

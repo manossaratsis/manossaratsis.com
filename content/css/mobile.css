@@ -39,3 +39,8 @@ ul.nav.responsive li a {
     text-align: left;
     margin-right: 0;
 }
+
+article img {
+    margin-left: -4vw;
+    margin-right: -4vw;
+}
