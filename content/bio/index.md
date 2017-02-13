@@ -10,6 +10,7 @@ title: Bio
 ---
 
 ![profile-pic](profile-pic.jpg)
+{: #profile-pic}
 
 ## Who I am
 

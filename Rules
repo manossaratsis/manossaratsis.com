@@ -21,10 +21,10 @@ compile '/**/*.{jpg,ico,js}' do
     write @item.identifier.to_s
 end
 
-route '/posts/*' do
-    y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)/.match(item.identifier.without_ext).captures
-    "/posts/#{y}/#{m}/#{slug}.html"
-end
+#route '/posts/*' do
+#    y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)/.match(item.identifier.without_ext).captures
+#    "/posts/#{y}/#{m}/#{slug}.html"
+#end
 
 route '/**/*.{html,md}' do
   if @item.identifier =~ '/index.*'
