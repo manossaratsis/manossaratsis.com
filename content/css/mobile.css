@@ -9,6 +9,7 @@
 }
 
 #main ul.sidebar {
+    width: 100vw;
     position: static;
     margin-bottom: 1.2em;
 }
