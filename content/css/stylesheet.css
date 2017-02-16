@@ -170,10 +170,8 @@ ul.nav li a.currentLink {
     line-height: 2em;
 }
 
-.full-width img {
-    width: 100vw;
-    position: relative;
-    margin: 0 -30vw;
+#main .post {
+    margin-top: -5em;
 }
 
 #profile-pic img {
@@ -186,4 +184,13 @@ ul.nav li a.currentLink {
     color: #1e00ee;
     font-size: 0.8em;
     margin-top: 2em;
+}
+
+.banner-image {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 40em;
+    margin: 0 -30vw 2em;
 }

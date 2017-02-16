@@ -1,5 +1,6 @@
 <% render '/default.html' do %>
   <div class='post'>
+    <div class='banner-image' style='background-image: url(<%= item[:image] %>)'></div>
     <h1><%= item[:title] %></h1>
     <hr>
     <p class='description'><%= item[:description] %></p>

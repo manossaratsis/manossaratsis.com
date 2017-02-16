@@ -41,7 +41,8 @@ ul.nav.responsive li a {
     margin-right: 0;
 }
 
-.full-width img {
+.banner-image {
+    max-height: 30em;
     margin-left: -4vw;
     margin-right: -4vw;
 }
