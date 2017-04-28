@@ -151,7 +151,6 @@ ul.nav li a.currentLink {
 
 #main ul.sidebar {
     position: fixed;
-    margin-top: 2.5em;
     left: 0;
     width: 25vw;
     text-align: right;
