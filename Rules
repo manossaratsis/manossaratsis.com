@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 compile '/**/*.md' do
-    filter :kramdown, toc_levels: 2...6
+    filter :kramdown, toc_levels: 2..2
     if @item.identifier =~ '/index.*'
         layout '/home.html'
     elsif @item.identifier.to_s.include? 'posts'

@@ -73,11 +73,13 @@ ul.nav li a.currentLink {
 }
 
 #main {
-    left: 30vw;
+    left: 28vw;
     top: 2.5em;
     margin-top: 2.5em;
+    margin-bottom: 5em;
     position: relative;
-    width: 32em;
+    width: 45em;
+    line-height: 1.7em;
 }
 
 #main a:link, #main a:visited {
@@ -107,19 +109,12 @@ ul.nav li a.currentLink {
 
 #main p {
     margin-top: 1.25em;
-    font-size: 0.94em;
     font-weight: 300;
-    line-height: 1.5em;
 }
 
 #main ul:not(#markdown-toc) {
     margin: 1.2em;
     list-style-type: square;
-}
-
-#main li {
-    font-size: 0.94em;
-    line-height: 1.5em;
 }
 
 #main hr {
@@ -133,7 +128,6 @@ ul.nav li a.currentLink {
 }
 
 #main em {
-    font-size: 0.94em;
     font-weight: 300i;
     line-height: 1.5em;
 }
@@ -152,13 +146,14 @@ ul.nav li a.currentLink {
 #main ul.sidebar {
     position: fixed;
     left: 0;
-    width: 25vw;
+    width: 24vw;
     text-align: right;
     list-style-type: none;
 }
 
 #main .sidebar a:link, #main .sidebar a:visited {
-    color: #b1b1b1;
+    color: #aaa;
+    cursor: pointer;
 }
 
 #main .sidebar a:hover, #main .sidebar a:visited:hover {
