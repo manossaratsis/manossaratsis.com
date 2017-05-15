@@ -25,7 +25,7 @@ The optimization potential of floor-plan typologies in early design energy model
 
 Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building 
 <br/>**Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
-<br/>[Read](design.html)
+<br/>[Read](towards-an-energy-simulation-informed-design-process.html)
 
 Lessons learnt from a simulation-based approach to teaching building science to designers 
 <br/>**Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**

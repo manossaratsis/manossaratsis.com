@@ -86,6 +86,10 @@ ul.nav li a.currentLink {
     color: #1e00ee;
 }
 
+#main a:link:hover, #main a:visited:hover {
+    text-decoration: underline;
+}
+
 #main h1 {
     color: #fff;
     font-size: 2.9em;
@@ -188,4 +192,26 @@ ul.nav li a.currentLink {
     background-size: cover;
     height: 40em;
     margin: 0 -30vw 2em;
+}
+
+.sub {
+    margin-left: 0.1em;
+    position: relative;
+    top: 0.3em;
+    font-size: 60%;
+}
+
+.sup {
+    margin-left: 0.1em;
+    position: relative;
+    bottom: 0.8em;
+    font-size: 60%;
+}
+
+blockquote {
+    color: #aaa;
+    font-size: 2em;
+    line-height: 1.3em;
+    padding-left: 1em;
+    border-left: 4px solid rgba(235, 235, 235, 0.9);
 }
