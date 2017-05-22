@@ -112,7 +112,7 @@ ul.nav li a.currentLink {
 }
 
 #main p {
-    margin-top: 1.25em;
+    margin-top: 1.75em;
     font-weight: 300;
 }
 
@@ -132,7 +132,7 @@ ul.nav li a.currentLink {
 }
 
 #main em {
-    font-weight: 300i;
+    color: #888;
     line-height: 1.5em;
 }
 
@@ -214,4 +214,10 @@ blockquote {
     line-height: 1.3em;
     padding-left: 1em;
     border-left: 4px solid rgba(235, 235, 235, 0.9);
+}
+
+#main img {
+    margin-top: 1.75em;
+    max-width: 100%;
+    border-radius: 2px;
 }
