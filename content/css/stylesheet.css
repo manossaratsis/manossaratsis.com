@@ -132,7 +132,7 @@ ul.nav li a.currentLink {
 }
 
 #main em {
-    color: #888;
+    color: #999;
     line-height: 1.5em;
 }
 
@@ -143,12 +143,13 @@ ul.nav li a.currentLink {
 }
 
 #main .description {
-    color: #888;
+    color: #999;
     font-weight: 300;
 }
 
 #main ul.sidebar {
     position: fixed;
+    top: 5em;
     left: 0;
     width: 24vw;
     text-align: right;
@@ -156,7 +157,7 @@ ul.nav li a.currentLink {
 }
 
 #main .sidebar a:link, #main .sidebar a:visited {
-    color: #aaa;
+    color: #999;
     cursor: pointer;
 }
 
@@ -173,7 +174,7 @@ ul.nav li a.currentLink {
     margin-top: -5em;
 }
 
-#profile-pic img {
+img.profile-pic {
     height: 12em;
     border-radius: 50%;
 }
@@ -216,7 +217,7 @@ blockquote {
     border-left: 4px solid rgba(235, 235, 235, 0.9);
 }
 
-#main img {
+img.figure {
     margin-top: 1.75em;
     max-width: 100%;
     border-radius: 2px;
