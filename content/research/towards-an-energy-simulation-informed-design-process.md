@@ -166,7 +166,7 @@ The authors would like to thank Transsolar Energietechnik GmbH Munich and the Al
 * AIA. 2012. The AIA Energy Modeling Practice Guide. Retrieved March 2015. [https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli](https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli)
 * ANSI/ASHRAE/IESNA Standard 90.1-2013 Appendix G
 * Cordes, S., & Holzkamm, I. (2007). Forschungs-zentren und Laborgebäude: Organisation, bauliche Konzeption und Ressourcenplanung für Forschungsgebäude der Biowissenschaften, Chemie und Nanotechnologie. HIS.
-* DOE, 2012. EnergyPlus Energy Simulation Software, V.7, [http://apps1.eere.energy.gov/buildings/energyplus](http://apps1.eere.energy.gov/buildings/energyplus)
+* DOE, 2012. EnergyPlus Energy Simulation Software, V.7, [https://energyplus.net/](https://energyplus.net/)
 * Dogan, T., Reinhart, C., & Michalatos, P. (2015). Autozoner: an algorithm for automatic thermal zoning of buildings with unknown interior space definitions. Journal of Building Performance Simulation, (ahead-of-print), 1-14.
 * Dogan, T., Reinhart, C., & Michalatos, P. (2012). Urban daylight simulation calculating the daylit area of urban designs. Proceedings of SimBuild.
 * Dogan, T. (2013). Archsim Energy Modeling Software. Retrieved November 2013. [http://www.archsim.com](http://www.archsim.com)

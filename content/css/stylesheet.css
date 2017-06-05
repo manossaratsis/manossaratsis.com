@@ -9,7 +9,6 @@ body {
     background: #ddd;
     color: rgba(30, 30, 30, 1.0);
     font-weight: 300;
-    overflow-x: hidden;
 }
 
 a {
@@ -75,11 +74,12 @@ ul.nav li a.currentLink {
 #main {
     left: 28vw;
     top: 2.5em;
+    position: relative;
     margin-top: 2.5em;
     margin-bottom: 5em;
-    position: relative;
     width: 45em;
     line-height: 1.7em;
+    overflow-x: hidden;
 }
 
 #main a:link, #main a:visited {
