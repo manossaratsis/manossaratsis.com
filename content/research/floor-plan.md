@@ -8,7 +8,7 @@ title: Floor Plan Aware BEM
 # The optimization potential of floor-plan typologies in early design energy modeling
 ---
 
-[Full paper](http://web.mit.edu/sustainabledesignlab/publications/BS2015_FloorPlanOptimisation.pdf)
+[Full paper](http://www.ibpsa.org/proceedings/BS2015/p2455.pdf)
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 
