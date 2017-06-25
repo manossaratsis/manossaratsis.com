@@ -21,7 +21,7 @@ Simulation-based daylighting analysis procedure for developing urban zoning rule
 
 The optimization potential of floor-plan typologies in early design energy modeling 
 <br/>**Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
-<br/>[Read](floor-plan.html)
+<br/>[Read](the-optimization-potential-of-floor-plan-typologies.html)
 
 Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building 
 <br/>**Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
