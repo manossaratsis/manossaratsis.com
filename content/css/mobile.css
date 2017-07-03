@@ -2,19 +2,19 @@
     -webkit-text-size-adjust: 100%;
 }
 
-#main {
+main {
     position: static;
     margin: 5em auto;
     width: 92vw;
 }
 
-#main ul.sidebar {
+main ul.sidebar {
     width: 100vw;
     position: static;
     margin-bottom: 1.2em;
 }
 
-#main ul.sidebar li a {
+main ul.sidebar li a {
     display: block;
     text-align: left;
 }
