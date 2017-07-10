@@ -224,7 +224,21 @@ img.figure {
 }
 
 table {
+    table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
     margin-top: 1em;
+}
+
+table tr {
+    height: 2.5em;
+}
+
+table th,
+table td {
+    padding-left: 0.5em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
 }
