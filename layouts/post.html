@@ -1,12 +1,24 @@
-<% render '/default.html' do %>
-  <div class='post'>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <%=render '/partials/head.html' %>
+  </head>
+  <body>
+    <div>
+      <%=render '/partials/navbar.html' %>
+    </div>
     <div class='banner-image' style='background-image: url(<%= item[:image] %>)'></div>
-    <h1><%= item[:title] %></h1>
-    <hr>
-    <p class='description'><%= item[:description] %></p>
-    <aside>Posted at: <%= item[:created_at] %></aside>
-    <article>
-      <%= yield %>
-    </article>
-  </div>
-<% end %>
+    <main>
+      <div class='post'>
+        <h1><%= item[:title] %></h1>
+        <hr>
+        <p class='description'><%= item[:description] %></p>
+        <aside>Posted at: <%= item[:created_at] %></aside>
+        <article>
+          <%= yield %>
+        </article>
+      </div>
+    </main>
+    <%= render '/partials/scripts.html' %>
+  </body>
+</html>

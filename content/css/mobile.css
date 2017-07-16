@@ -3,15 +3,15 @@
 }
 
 main {
-    position: static;
     margin: 5em auto;
+    position: static;
     width: 92vw;
 }
 
 main ul.sidebar {
-    width: 100vw;
-    position: static;
     margin-bottom: 1.2em;
+    position: static;
+    width: 100vw;
 }
 
 main ul.sidebar li a {
@@ -30,19 +30,17 @@ ul.nav.responsive {
 }
 
 ul.nav.responsive li {
-    float: none;
     display: inline;
+    float: none;
 }
 
 ul.nav li a,
 ul.nav.responsive li a {
     display: block;
-    text-align: left;
     margin-right: 0;
+    text-align: left;
 }
 
 .banner-image {
     max-height: 30em;
-    margin-left: -4vw;
-    margin-right: -4vw;
 }
