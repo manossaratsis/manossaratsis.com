@@ -62,7 +62,7 @@ ul.nav li.icon {
 ul.nav a.logo {
     background-color: #1e00ee;
     color: #fff;
-    margin-right: calc(30vw - 5em);
+    margin-right: calc(((100vw - 40em) / 2) - 5em);
 }
 
 ul.nav li a:not(.logo):not(.currentLink):hover {
@@ -74,14 +74,15 @@ ul.nav li a.currentLink {
 }
 
 main {
-    left: 28vw;
-    line-height: 1.7em;
+    font-size: 19px;
+    left: calc((100vw - 40em) / 2);
+    line-height: 1.9em;
     margin-bottom: 5em;
     margin-top: 2.5em;
     overflow-x: hidden;
     position: relative;
     top: 2.5em;
-    width: 45em;
+    width: 40em;
 }
 
 main a:link, main a:visited {
@@ -124,7 +125,7 @@ main ul:not(#markdown-toc) {
 }
 
 main hr {
-    border: 1px #fff solid;
+    border: 2px #fff solid;
     margin-bottom: 2em;
     margin-top: 4em;
 }
@@ -134,7 +135,7 @@ main strong {
 }
 
 main em {
-    color: #999;
+    color: #ababab;
     line-height: 1.5em;
 }
 
@@ -145,7 +146,7 @@ main .short-post {
 }
 
 main .description {
-    color: #999;
+    color: #ababab;
     font-weight: 300;
 }
 
@@ -155,11 +156,11 @@ main ul.sidebar {
     position: fixed;
     text-align: right;
     top: 5em;
-    width: 24vw;
+    width: calc(((100vw - 40em) / 2) - 2em);
 }
 
 main .sidebar a:link, main .sidebar a:visited {
-    color: #999;
+    color: #ababab;
     cursor: pointer;
 }
 
