@@ -9,25 +9,15 @@ main {
     width: 92vw;
 }
 
-main ul.sidebar {
-    margin-bottom: 1.2em;
-    position: static;
-    width: 100vw;
-}
-
-main ul.sidebar li a {
-    display: block;
-    text-align: left;
+ul.nav,
+ul.nav.responsive {
+    cursor: pointer;
+    height: initial;
+    position: fixed;
 }
 
 ul.nav li:not(:first-child) {
     display: none;
-}
-
-ul.nav,
-ul.nav.responsive {
-    height: initial;
-    position: fixed;
 }
 
 ul.nav.responsive li {
@@ -35,7 +25,6 @@ ul.nav.responsive li {
     float: none;
 }
 
-ul.nav li a,
 ul.nav.responsive li a {
     display: block;
     margin-right: 0;

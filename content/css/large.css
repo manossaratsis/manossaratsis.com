@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300, 300i, 400');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #1e00ee;
+}
+
+a:link:hover,
+a:visited:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+aside {
+    color: #1e00ee;
+    font-size: 0.8em;
+    margin-top: 2em;
+    text-transform: lowercase;
+}
+
+blockquote {
+    border-left: 4px solid rgba(235, 235, 235, 0.9);
+    color: #aaa;
+    font-size: 2em;
+    line-height: 1.3em;
+    padding-left: 1em;
+}
+
+body {
+    background: #ddd;
+    color: rgba(30, 30, 30, 1.0);
+    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+}
+
+em {
+    color: #ababab;
+    line-height: 1.5em;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.9em;
+    font-weight: 300;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1)
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: -2em;
+    padding-top: 4em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: -2em;
+    padding-top: 4em;
+}
+
+hr {
+    border: 2px #fff solid;
+    margin-bottom: 2em;
+    margin-top: 4em;
+    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+}
+
+main {
+    font-size: 19px;
+    left: calc((100vw - 42em) / 2);
+    line-height: 1.9em;
+    margin-bottom: 5em;
+    margin-top: 2.5em;
+    overflow-x: hidden;
+    position: relative;
+    top: 2.5em;
+    width: 42em;
+}
+
+main ul:not(#markdown-toc) {
+    list-style-type: square;
+    margin: 1.2em;
+}
+
+img.figure {
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.2);
+    margin-top: 1.75em;
+    max-width: 100%;
+}
+
+img.profile-pic {
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.2);
+    height: 12em;
+}
+
+p {
+    font-weight: 300;
+    margin-top: 1.75em;
+}
+
+strong {
+    font-weight: 400;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table td,
+table th {
+    padding-left: 0.5em;
+}
+
+table tr {
+    height: 2.5em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+
+ul.nav {
+    background-color: rgba(235, 235, 235, 0.9);
+    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+    -webkit-box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+    height: 3em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    color: #1e00ee;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    padding: 1.3em;
+    text-transform: uppercase;
+}
+
+ul.nav li.icon {
+    display: none;
+}
+
+ul.nav a.logo {
+    background-color: #1e00ee;
+    color: #fff;
+}
+
+ul.nav li a.currentLink {
+    background-color: #fff;
+}
+
+ul.nav li a:not(.logo):not(.currentLink):hover {
+    background-color: #f4f4f4;
+}
+
+ul.sidebar {
+    left: 0;
+    list-style-type: none;
+    position: fixed;
+    text-align: right;
+    top: 5em;
+    width: calc(((100vw - 42em) / 2) - 2em);
+}
+
+
+.short-post {
+    border-left: 4px solid rgba(235, 235, 235, 0.9);
+    margin-top: 1.6em;
+    padding-left: 1em;
+}
+
+.banner-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 10px rgba(20, 20, 20, 0.3);
+    height: 60vh;
+    width: 100vw;
+}
+
+.description {
+    color: #ababab;
+    font-weight: 300;
+}
+
+.post article {
+    font-family: 'Roboto Slab', serif;
+}
+
+.sidebar a:link,
+.sidebar a:visited {
+    color: #ababab;
+}
+
+.sidebar a:hover,
+.sidebar a:visited:hover {
+    color: #1e00ee;
+}
+
+.sidebar li {
+    font-size: 0.94em;
+    line-height: 2em;
+}
+
+.sub {
+    font-size: 60%;
+    margin-left: 0.1em;
+    position: relative;
+    top: 0.3em;
+}
+
+.sup {
+    bottom: 0.8em;
+    font-size: 60%;
+    margin-left: 0.1em;
+    position: relative;
+}

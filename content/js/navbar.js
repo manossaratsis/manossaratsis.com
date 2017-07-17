@@ -9,7 +9,7 @@ function openNav() {
 
 var highlightCurrentLink = function() {
 	var navLinks = document.querySelectorAll(".nav li a:not(.logo)");
-    var navPath = window.location.origin + "/" + 
+    var navPath = window.location.origin + "/" +
                   window.location.pathname.split("/")[1];
     if (!navPath.endsWith("/")) {
         navPath += "/";
