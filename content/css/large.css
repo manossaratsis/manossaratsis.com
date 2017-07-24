@@ -63,7 +63,7 @@ blockquote {
     padding-left: 1em;
 }
 
-em {
+em.caption {
     color: #ababab;
     line-height: 1.5em;
 }
