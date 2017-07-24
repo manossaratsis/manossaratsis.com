@@ -1,6 +1,6 @@
 ---
 title: Home
-image: /img/home.png
+image: /img/home.jpg
 ---
 
 # Computational design, environmental performance & geospatial analytics enthusiast.
