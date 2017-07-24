@@ -3,7 +3,7 @@ title: "Hello world (at last)"
 created_at: 2017-07-23
 kind: article
 description: Why I am -finally- attempting to build my own personal website
-image: pic.jpg
+image: hello-world.jpg
 ---
 
 The truth is I always wanted my very own personal website. The notion of communicating my research as an architect and building scientist to the outside world has always been of interest to me. Procrastination, shifting priorities, lack of will-power all contributed to my work just sitting in my hard drive.
