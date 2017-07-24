@@ -1,10 +1,22 @@
-<% render '/default.html' do %>
-  <%= yield %>
-  <% sorted_articles.each do |post| %>
-    <div class='short-post'>
-      <p><%= link_to post[:title], post.path %></p>
-      <p class='description'><%= post[:description] %></p>
-      <aside>Posted at: <%= post[:created_at] %></aside>
-    </div>
-  <% end %>
-<% end %>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <%=render '/partials/head.html' %>
+  </head>
+  <body class="home" style='background-image: url(<%= item[:image] %>)'
+      <div>
+        <%=render '/partials/navbar.html' %>
+      </div>
+      <main>
+        <%= yield %>
+        <% sorted_articles.each do |post| %>
+        <section class='post-card'>
+          <p><%= link_to post[:title], post.path %></p>
+          <p class='description'><%= post[:description] %></p>
+          <aside>Posted at: <%= post[:created_at] %></aside>
+        </section>
+        <% end %>
+      </main>
+    <%= render '/partials/scripts.html' %>
+  </body>
+</html>

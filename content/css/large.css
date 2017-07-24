@@ -81,9 +81,9 @@ main {
     font-size: 18px;
     left: calc((100vw - 42em) / 2);
     line-height: 1.9em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     margin-top: 2.5em;
-    overflow-x: hidden;
+    overflow: visible;
     position: relative;
     top: 2.5em;
     width: 42em;
@@ -191,14 +191,22 @@ ul.sidebar {
     width: calc(((100vw - 42em) / 2) - 2em);
 }
 
-
-.short-post {
-    border-left: 4px solid rgba(235, 235, 235, 0.9);
-    margin-top: 1.6em;
-    padding-left: 1em;
+.post-card > * {
+    margin: 0;
+    padding: 0;
 }
 
-.banner-image {
+.post-card {
+    background-color: rgba(235, 235, 235, 0.8);
+    border-radius: 4px;
+    border-left: 3px solid #1e00ee;
+    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+    line-height: 2em;
+    margin-top: 1.6em;
+    padding: 1em 3em;
+}
+
+.banner {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,6 +218,13 @@ ul.sidebar {
 .description {
     color: #ababab;
     font-weight: 300;
+}
+
+.home {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .post article {

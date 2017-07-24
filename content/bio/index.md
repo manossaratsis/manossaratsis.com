@@ -9,7 +9,7 @@ title: Bio
 
 ---
 
-![profile-pic](profile-pic.jpg){: .profile-pic}
+![profile-pic](/img/profile-pic.jpg){: .profile-pic}
 
 ## Who I am
 
@@ -28,4 +28,4 @@ I am an environmental design professional with a background in computational des
 
 * [New models for climate-based daylighting performance computing in cities](http://www.architectmagazine.com/technology/this-week-in-tech-the-worlds-tallest-elevator-test-tower_o)<br/>*Hallie Busta, The Journal of the American Institute of Architects, 03.13.16** [MIT students imagine MIT reaching net-zero emissions](https://mitei.mit.edu/news/class-envisions-mit-reaching-net-zero-emissions-growth)<br/>*Kathryn O’Neill, MIT Energy Initiative, 12.15.14*
 
-
+
