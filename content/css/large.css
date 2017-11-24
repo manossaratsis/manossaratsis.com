@@ -139,8 +139,7 @@ tbody tr:nth-child(odd) {
     background-color: #eee;
 }
 
-
-ul.nav {
+ul.nav-menu {
     background-color: rgba(235, 235, 235, 0.9);
     box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
     -webkit-box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
@@ -154,11 +153,11 @@ ul.nav {
     z-index: 1;
 }
 
-ul.nav li {
+ul.nav-menu li {
     float: left;
 }
 
-ul.nav li a {
+ul.nav-menu li a {
     color: #1e00ee;
     display: inline-block;
     font-weight: 400;
@@ -168,20 +167,20 @@ ul.nav li a {
     text-transform: uppercase;
 }
 
-ul.nav li.icon {
+ul.nav-menu li.icon {
     display: none;
 }
 
-ul.nav a.logo {
+ul.nav-menu a.logo {
     background-color: #1e00ee;
     color: #fff;
 }
 
-ul.nav li a.currentLink {
+ul.nav-menu li a.currentLink {
     background-color: #fff;
 }
 
-ul.nav li a:not(.logo):not(.currentLink):hover {
+ul.nav-menu li a:not(.logo):not(.currentLink):hover {
     background-color: #f4f4f4;
 }
 
@@ -261,4 +260,9 @@ ul.sidebar {
     font-size: 60%;
     margin-left: 0.1em;
     position: relative;
+}
+
+.nav-button {
+    display: none;
+    outline: none;
 }

@@ -4,9 +4,7 @@
     <%=render '/partials/head.html' %>
   </head>
   <body class="home" style='background-image: url(<%= item[:image] %>)'
-      <div>
-        <%=render '/partials/navbar.html' %>
-      </div>
+      <%=render '/partials/navbar.html' %>
       <main>
         <%= yield %>
         <% sorted_articles.each do |post| %>

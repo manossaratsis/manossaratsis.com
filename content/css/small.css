@@ -13,7 +13,6 @@ main {
 
 ul.nav,
 ul.nav.responsive {
-    cursor: pointer;
     height: initial;
     position: fixed;
 }
@@ -35,4 +34,14 @@ ul.nav.responsive li a {
 
 .banner-image {
     max-height: 30em;
+}
+
+#navButton {
+    cursor: pointer;
+    display: block;
+    height: 1.8em;
+    position: fixed;
+    right: 1em;
+    top: 0.5em;
+    z-index: 1000;
 }
