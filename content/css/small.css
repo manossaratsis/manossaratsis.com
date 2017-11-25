@@ -11,22 +11,22 @@ main {
     width: 92vw;
 }
 
-ul.nav,
-ul.nav.responsive {
+ul.nav-menu,
+ul.nav-menu.responsive {
     height: initial;
     position: fixed;
 }
 
-ul.nav li:not(:first-child) {
+ul.nav-menu li:not(:first-child) {
     display: none;
 }
 
-ul.nav.responsive li {
+ul.nav-menu.responsive li {
     display: inline;
     float: none;
 }
 
-ul.nav.responsive li a {
+ul.nav-menu.responsive li a {
     display: block;
     margin-right: 0;
     text-align: left;
@@ -36,7 +36,11 @@ ul.nav.responsive li a {
     max-height: 30em;
 }
 
-#navButton {
+.home {
+  height: auto;
+}
+
+.nav-button {
     cursor: pointer;
     display: block;
     height: 1.8em;
