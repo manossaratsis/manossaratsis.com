@@ -38,6 +38,7 @@ ul.nav-menu.responsive li a {
 
 .home {
     height: auto;
+    min-height: 100vh;
 }
 
 .nav-button {
