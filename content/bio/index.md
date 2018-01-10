@@ -12,7 +12,7 @@ title: Bio
 ![profile-pic](/img/profile-pic.jpg){: .profile-pic}
 
 ## Who I am
-I am a software engineer with a background in energy modeling and geospatial analytics. I design and develop software systems to evaluate the impact of distributed energy technologies on buildings, cities, and the electrical grid. I received a Master of Science in Urbanism and Building Technology while conducting research at the MIT Sustainable Design Lab. I have published numerous papers on energy modeling and its implications for urban planning and design. My current position is Software Product Manager at [Station A](http://www.stationa.com), NRG's Innovation Implementation group.
+I am a software engineer with a background in energy modeling and geospatial analytics. I design and develop software systems to evaluate the impact of distributed energy technologies on buildings, cities, and the electrical grid. I received a Master of Science in Urbanism and Building Technology while conducting research at the MIT Sustainable Design Lab. I have published numerous papers on energy modeling and its implications for urban planning and design. My current position is Head of Product at [Station A](http://www.stationa.com), the [NRG](http://www.nrg.com) Innovation Implementation group.
 
 ## Media
 
