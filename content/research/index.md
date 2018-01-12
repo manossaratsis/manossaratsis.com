@@ -29,7 +29,7 @@ Towards an energy simulation-informed design process: A 3-phase approach for a p
 
 Lessons learnt from a simulation-based approach to teaching building science to designers
 <br/>**Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
-<br/>[Read](sim-game/index.html)
+<br/>[Read](lessons-learnt-from-a-simulation-based-approach-to-teaching/index.html)
 
 A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
 <br/>**Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
