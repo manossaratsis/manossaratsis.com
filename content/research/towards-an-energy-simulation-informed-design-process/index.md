@@ -177,7 +177,7 @@ The authors would like to thank Transsolar Energietechnik GmbH Munich and the Al
 
 ## References
 
-* AIA. 2012. The AIA Energy Modeling Practice Guide. Retrieved March 2015. [https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli](https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli)
+* AIA (2012). The AIA Energy Modeling Practice Guide. Retrieved March 2015. [https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli](https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli)
 * Cordes, S., & Holzkamm, I. (2007). Forschungs-zentren und Laborgebäude: Organisation, bauliche Konzeption und Ressourcenplanung für Forschungsgebäude der Biowissenschaften, Chemie und Nanotechnologie. HIS.
 
 * de Wilde, P., Augenbroe, G., & van der Voorden, M. (2002). Design Analysis Integration: Supporting the Selection of Energy Saving Building Components. Building and environment 37 (8–9): 807–816.

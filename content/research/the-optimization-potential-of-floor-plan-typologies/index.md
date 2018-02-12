@@ -143,7 +143,7 @@ The authors would like to thank Transsolar Energietechnik GmbH Munich and the Al
 
 ## References
 
-* AIA. 2012. The AIA Energy Modeling Practice Guide. Retrieved March 2015. [https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli](https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli)
+* AIA (2012). The AIA Energy Modeling Practice Guide. Retrieved March 2015. [https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli](https://www.aia.org/resources/8056-architects-guide-to-integrating-energy-modeli)
 
 * ANSI/ASHRAE/IESNA Standard 90.1-2013 Appendix G
 
