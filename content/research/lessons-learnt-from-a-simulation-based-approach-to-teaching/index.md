@@ -47,7 +47,16 @@ All simulation exercises are based on the Rhinoceros 3d (Rhino) [[McNeel, 2012]]
 
 A series of interlinked simulation exercises were developed, tested and refined over several years by the authors while teaching an NAAB required introductory, 14-week course to undergraduate and graduate students at MIT. The exercises presented in the following correspond to the Fall 2014 version of MIT 4.401 Architectural Building Systems. The class enrolment consisted of 12 undergraduate and 6 graduate architecture students. The undergraduate students were all in their first semester of architecture studies and also enrolled in a class that taught them advanced modelling concepts in Rhino. The graduate students were already familiar with Rhino at the beginning of the class. The very basic Grasshopper skills required for the ArchSim exercises were covered during weekly lab sessions. Table 1 shows an overview of the class and exercises. The complete syllabus is available from the authors’ web site.
 
-![table-1](tab1.jpg){: .figure}
+
+| Lecture 1 | Lecture 2 | Lab/Exercise |
+| :-- | :-- | :-- |
+| | Energy Use in Society | Essay |
+| Energy Use in Buildings | Understanding Climate I | Shading Study (DIVA) |
+| Understanding Climate II | Thermal Comfort | Psychrometric Chart || Thermal Mass & Heat Flow | Insulation Materials | Insulation Study ArchSim || Active & Passive Solar | Radiation Maps | PV Design (DIVA/ArchSim) || Window Technologies | Internal Gains & Infiltration | Envelope Game (ArchSim) || Load Calc (manual) | Load Calc (digital) | |
+| Static Shading Design | Simulation Game | Simulation Game (ArchSim) || HVAC I | HVAC II | |
+| Daylight & Photometry | Daylighting Rules of Thumb| Daylit Area, HDR Photography || Daylight Simulations | El. Lighting & Controls | Daylit Area Calc (Daysim) |
+| Natural Ventilation I | Natural Ventilation II | || Case Studies I | Case Studies II | || | Final Presentations | |
+
 *Table 1: Weekly course syllabus*{: .caption}
 
 A brief description of each exercise is presented below with an emphasis on the ones with a simulation component.
@@ -134,6 +143,8 @@ As students conduct all simulations themselves, a single instructor plus a well-
 One of the key elements that are still missing for the game is the explicit development of a simulation strategy to identify best sustainable design practices for a given program plus climate. The first author had sporadically mentioned useful strategies through the biweekly lectures but a more deliberate description of such a strategy seems necessary.
 
 Where do these observations leave the sustainable design profession and its mandate to improve the resource efficiency of buildings? While it is unrealistic to assume that a single introductory class will change the way buildings are being designed, the underlying premise of evidence-based design and a self- understanding that an architect can conduct some of the required analysis him or herself contributes to a paradigm-shift in the way the profession integrates sustainable concepts earlier in the design process. This seems a positive development for all those involved in building design, including energy consultants. The more architects know about energy modelling, the more they are aware of their own limitations in the process, potentially leading to more productive and engaging collaborations across disciplines.
+
+> The more architects know about energy modelling, the more they are aware of their own limitations in the process.
 
 ## Conclusion
 
