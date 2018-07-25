@@ -1,56 +1,56 @@
 * {
-    -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 main {
-    font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5em;
-    position: static;
-    width: 92vw;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  position: static;
+  width: 92vw;
 }
 
 ul.nav-menu,
 ul.nav-menu.responsive {
-    height: initial;
-    position: fixed;
+  height: initial;
+  position: fixed;
 }
 
 ul.nav-menu li:not(:first-child) {
-    display: none;
+  display: none;
 }
 
 ul.nav-menu.responsive li {
-    display: inline;
-    float: none;
+  display: inline;
+  float: none;
 }
 
 ul.nav-menu.responsive li a {
-    display: block;
-    margin-right: 0;
-    text-align: left;
+  display: block;
+  margin-right: 0;
+  text-align: left;
 }
 
 .banner-image {
-    max-height: 30em;
+  max-height: 30em;
 }
 
 .home {
-    height: auto;
-    min-height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 .nav-button {
-    cursor: pointer;
-    display: block;
-    height: 1.8em;
-    position: fixed;
-    right: 1em;
-    top: 0.6em;
-    z-index: 1000;
+  cursor: pointer;
+  display: block;
+  height: 1.8em;
+  position: fixed;
+  right: 1em;
+  top: 0.6em;
+  z-index: 1000;
 }
 
 .card {
-    padding: 1em 1.2em;
+  padding: 1em 1.2em;
 }
