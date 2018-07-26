@@ -18,7 +18,7 @@ Hyderabad, India, December 2015 <br/>
 pp. 1126-1133*
 
 ## Abstract
-This manuscript describes lessons learnt over the course of several years of teaching building performance simulation to architectural students as part of an introductory building science class. Over the course of a term, students are exposed to a design analysis workflow that links architectural massing models in Rhinoceros 3D to Radiance/Daysim and EnergyPlus. Starting with direct shading and window- to-wall ratio studies, the students tackle increasingly complex tasks which culminate in a 90-min simulation game. For the game students compete in pairs to design a 3000m<span class="sup">2</span> office building with the lowest greenhouse gas emissions per floor area in Phoenix, AZ. Playing the game with a class of 18 undergraduate and graduate students during the fall of 2014, eight teams managed to prepare and run between 9 and 53 design variants with final emissions varying between 37 and 64 kgCO<span class="sub">2</span>/m<span class="sup">2</span>. The act of learning while playing proved to be an effective way to intellectually engage the students and help them to discover best sustainable design practices for the investigated building type and climate by themselves.
+This manuscript describes lessons learnt over the course of several years of teaching building performance simulation to architectural students as part of an introductory building science class. Over the course of a term, students are exposed to a design analysis workflow that links architectural massing models in Rhinoceros 3D to Radiance/Daysim and EnergyPlus. Starting with shading and window-to-wall ratio studies, the students tackle increasingly complex tasks which culminate in a 90-min simulation game. For the game students compete in pairs to design a 3000m<span class="sup">2</span> office building with the lowest greenhouse gas emissions per floor area in Phoenix, AZ. Playing the game with a class of 18 undergraduate and graduate students during the fall of 2014, eight teams managed to prepare and run between 9 and 53 design variants with final emissions varying between 37 and 64kgCO<span class="sub">2</span>/m<span class="sup">2</span>. The act of learning while playing proved to be an effective way to intellectually engage the students and help them to discover best sustainable design practices for the investigated building type and climate by themselves.
 
 > The act of learning while playing proved to be an effective way to intellectually engage the students and help them to discover best sustainable design practices for the investigated building type and climate by themselves.
 
@@ -63,7 +63,7 @@ A brief description of each exercise is presented below with an emphasis on the 
 
 * **Exercise 1** was an exploratory, 500 word essay asking students to imagine their lives a decade from today *'if everything goes well'* and how their lifestyle choices will relate to concepts of sustainable living.
 
-* **Exercise 2** was a DIVA-based exercise in which students had to model an existing three-dimensional object in Rhino and compare photographs of the object taken at two times in the day under clear sky conditions to DIVA/Radiance visualization of the same conditions.
+* **Exercise 2** was a DIVA-based *Shading Study* in which students had to model an existing three-dimensional object in Rhino and compare photographs of the object taken at two times in the day under clear sky conditions to DIVA/Radiance visualization of the same conditions.
 
 ![figure-1](fig1.jpg){: .figure}*Figure 1: Rhino viewport on the left with GH canvas and ArchSim on the right*{: .caption}
 
@@ -71,18 +71,42 @@ A brief description of each exercise is presented below with an emphasis on the 
 
 * **Exercise 4** consisted of modelling a 10m x10m x 3m, conditioned but unoccupied space with different insulation thicknesses and window configurations in Rhino and exporting it to EnergyPlus via ArchSim. Goal of the assignment was to introduce the students to the simulation workflow while also teaching them the impact of construction assemblies and window layout on the energy required to condition a space.
 
-* **Exercise 5** was concerned with designing a 2.5kW PV system on a building located within a given urban context in Boston. System performance indicators were annual radiation maps and self-shading studies in DIVA/Radiance as well as monthly electricity yields in ArchSim/EnergyPlus.
+* **Exercise 5** was a *PV Design* exercise for a 2.5kW PV system on a building located within a given urban context in Boston. System performance indicators were annual radiation maps and self-shading studies in DIVA/Radiance as well as monthly electricity yields in ArchSim/EnergyPlus.
 
-For the remaining game-based exercises 6 and 7 a simplified ArchSim GUI was developed along with a results visualizer and archiver. The simplified GUI is mainly geared towards educational purposes and allows users to modify a controlled number of construction properties. Following each simulation, the visualizer automatically adds a new result to a bar graph along with a history of previous simulation results. Same as for the full ArchSim version, geometric parameters can be changed in the Rhino canvas whereas construction parameters are modified via pulldown menus in Grasshopper/ArchSim [Figure 2].
+For the remaining game-based exercises 6 and 7 a simplified ArchSim GUI was developed along with a results visualizer and archiver. The simplified GUI is mainly geared towards educational purposes and allows users to modify a controlled number of construction properties. Following each simulation, the visualizer automatically adds a new result to a bar graph along with a history of previous simulation results. Same as for the full ArchSim version, geometric parameters can be changed in the Rhino canvas whereas construction parameters are modified via pulldown menus in Grasshopper/ArchSim. Figure 2 shows a snapshot of the user interface.
+
+* **Exercise 6** was an *Envelope Game* for which students had to design a very small (100m<span class="sup">2</span>) single story office building. The goal was to design the building with the lowest EUI by modifying building orientation, floor plan, insulation levels, glazing type and static shading design. All other design choices in Table 2 remained fixed to their defaults for this exercise. The game started during weekly lab time and lasted for an hour during which students were working in pairs. They were allowed to take the simulation exercise home and submit their results a day later. This was a key exercise to have students understand the relationship between solar gains, different glazing technologies, shading and resulting heating and cooling energy loads.
 
 ![figure-2](fig2.jpg){: .figure}
-*Figure 2: Envelope Game: The automated results display shows annual fuel uses for heating, cooling, lighting and equipment for each variant tested (left); the ArchSim file allows to change design setting for wall insulation and glazing type (right)*{: .caption}
+*Figure 2: Envelope Game (exercise 6) - The automated results display shows annual fuel uses for heating, cooling, lighting and equipment for each variant tested (left); the ArchSim file allows to change design setting for wall insulation and glazing type (right)*{: .caption}
 
-* **Exercise 6** was an *Envelope Optimization Game* for which students had to design a very small (100m<span class="sup">2</span>) single story office building. The goal was to design the building with the lowest EUI by modifying building orientation, floor plan, insulation levels, glazing type and static shading design. All other design choices in Table 2 remained fixed to their defaults for this exercise. The game started during weekly lab time and lasted for an hour during which students were working in pairs. They were allowed to take the simulation exercise home and submit their results a day later. This was a key exercise to have students understand the relationship between solar gains, different glazing technologies, shading and resulting heating and cooling energy loads.
+* **Exercise 7** was the main 90-min in-class midterm exercise. Students formed pairs and were asked to design a 3000m<span class="sup">2</span> office building in Phoenix with the lowest greenhouse gas (GHG) emissions per floor area. The original game had used EUI as the deciding metric, mainly because these values are widely published. To sidestep the problem that EUIs for buildings with different fuel types (such as gas and electricity) somewhat mix *'apples and oranges'*, the decision in the original game had been to go with electric-only heating and cooling systems. For the new version, the authors decided to allow students to select between HAVC systems with different fuel types which triggered the choice to use GHG emissions as the driving metric. Same as for the original game, most baseline cases in Table 2 were chosen according to the ASHRAE 90.1-2007 Appendix G modelling protocol [[ASHRAE, 2007]](#references). To avoid complications associated with modelling heat flows between the building and the ground, exterior floor surfaces were modelled as adiabatic.
 
-* **Exercise 7** was the main 90-min in-class midterm exercise. Students formed pairs and were asked to design a 3000m<span class="sup">2</span> office building in Phoenix with the lowest greenhouse gas (GHG) emissions per floor area. The original game had used EUI as the deciding metric, mainly because these values are widely published. To sidestep the problem that EUIs for buildings with different fuel types (such as gas and electricity) somewhat mix *'apples and oranges'*, the decision in the original game had been to go with electric-only heating and cooling systems. For the new version, the authors decided to allow students to select between HAVC systems with different fuel types [Table 2] which triggered the choice to use GHG emissions as the driving metric. Same as for the original game, most baseline cases in Table 2 were chosen according to the ASHRAE 90.1-2007 Appendix G modelling protocol [[ASHRAE, 2007]](#references). To avoid complications associated with modelling heat flows between the building and the ground, exterior floor surfaces were modelled as adiabatic.
+| Description | Properties | Cost Premium |
+| :-- | :-- | :-- |
+| **Roof Insulation** | | |
+| R-value R20 (base) | U-value 0.284W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> |
+| R-value R30 | U-value 0.187W/m<span class="sup">2</span>K | $.005/m<span class="sup">2</span> || R-value R40 | U-value 0.131W/m<span class="sup">2</span>K | $.01/m<span class="sup">2</span> |
+| R-value R60 | U-value 0.091W/m<span class="sup">2</span>K | $.02/m<span class="sup">2</span> |
+| **Exterior Wall Insulation** | | |
+| R-value R13 (base) | U-value 0.434W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> || R-value R19.5 | U-value 0.346W/m<span class="sup">2</span>K | $.003/m<span class="sup">2</span> || R-value R28.5 | U-value 0.193W/m<span class="sup">2</span>K | $.008/m<span class="sup">2</span> |
+| **Wall-To-Window Ratio (WWR)** | | |
+| Punched Openings | WWR 0.2 | linked to glazing type || Punched Openings | WWR 0.4 | linked to glazing type || Punched Openings | WWR 0.6 | linked to glazing type || Curtain Wall | WWR80 | linked to glazing type |
+| **Glazing Type** | | |
+Dbl., no coat.,<br/>Argon (base) | U-value 2.53W/m<span class="sup">2</span>K | $.009/m<span class="sup">2</span> || Dbl., Low-e coat. #2,<br/>Argon | U-value 1.30W/m<span class="sup">2</span>K | $.024/m<span class="sup">2</span> || Dbl., Low-e coat. #2,<br/>Argon, Solar Control | U-value 1.35W/m<span class="sup">2</span>K | $.036/m<span class="sup">2</span> |
+| **Exterior Shading** | | || None (base) | N/A | N/A || Shallow Overhang | Depth 0.5m | $4 || Medium Overhang | Depth 1.0m | $8 || Deep Overhang | Depth 1.5m | $12 |
+| **Lighting Power Density** | | |
+| Base | 11W/m<span class="sup">2</span> (business hours) | $0 |
+| Low | 9W/m<span class="sup">2</span> (business hours) | $3.5 |
+| **Daylight Sensors** | | |
+| None | N/A | N/A |
+| Installed | Perimeter zone 45m<br/>Target level 300lux | $5 |
+| **Occupancy Sensors** | | |
+| None | N/A | N/A |
+| Installed | N/A | $5 |
+| **HVAC System** | | |
+| Gas Boiler,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $0 || Elec. Radiant Heating,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $5 || Ground Source Heat Pump | Heating COP 3.1<br/>Cooling COP 3.93 | $10 |
 
-![table-2](tab2.jpg){: .figure}
 *Table 2: List of design choices*{: .caption}
 
 In order to better introduce cost considerations into the game, different upgrades in Table 2 were assigned different *MIT$* cost premiums. The magnitudes of the individual costs were meant to facilitate a comparative analysis between different technologies. Their absolute value was normalized so that for a *typical* design proposal with all upgrades activated the cost premium would be around *MIT$100*. The admissible costs for a valid design submission for the game was *MIT$50* or less. This cost cap was imposed to encourage players to explore trade-offs and paybacks of different choices. To ensure students’ undivided attention throughout the game, the winning team was awarded 10 extra percentage credits towards their final course grade.
@@ -100,27 +124,48 @@ Following the game, each student team was asked to present the logic that lead t
 While most of the result analysis focuses on the game exercises, it should be highlighted that exercises 2 and 5 ideally set the stage for familiarizing students with performance simulations due to the direct visual feedback that they offer between simulations andreality. Figure 3 shows an example submission for exercise 2, which demonstrated to the simulation newcomers that – if used correctly – BPS tools truthfully mimic reality. At the same time, this exercise provided an opportunity to review questions such as daylight savings time and model orientation which, if not correctly accounted for, lead to wrong simulation results.
 
 ![figure-3](fig3.jpg){: .figure}
-*Figure 3: Direct shading study (exercise 2) on September 8, 3:45pm Photo (left) and DIVA/Radiance (right)*{: .caption}
+*Figure 3: Shading Study (exercise 2) on September 8 at 3:45pm - Photo (left) and DIVA/Radiance (right)*{: .caption}
 
-Exercise 4 initiated a transition from what can be visually experience to the invisible world of building energy use. The exercise helped students to digest energy usage data since the only two variables considered were wall insulation and window placements. The students generally discovered that adequately sized windows may provide some energy savings and that additional energy savings quickly fall once insulation thicknesses are increased beyond a certain threshold level. It is worthwhile noting that – apart from running these simple simulations – the main emphasis of simulation-based assignments should be for students to analyse and comment on their results.
+Exercise 4 initiated a transition from what can be visually experience to the invisible world of building energy use. The exercise helped students to digest energy usage data since the only two variables considered were wall insulation and window placements. The students generally discovered that adequately sized windows may provide some energy savings and that additional energy savings quickly fall once insulation thicknesses are increased beyond a certain threshold level. It is worthwhile noting that –apart from running these simple simulations- the main emphasis of simulation-based assignments should be for students to analyse and comment on their results.
 
 ![figure-4](fig4.jpg){: .figure}
-*Figure 4: PV system design: Radiation map (left), direct shading study on Dec 21 at noon (middle) and monthly electricity gains (right)*{: .caption}
+*Figure 4: PV Design (exercise 5) - Radiation map (left), shading study on Dec 21 at noon (middle) and monthly electricity gains (right)*{: .caption}
 
-Designing a PV system is an exercise that is part visual and part number crunching. Figure 4 shows the three required outputs for a PV system design namely an annual radiation map to demonstrate annual radiation shining on individual panels, a shading study on Dec 21 at noon to ensure that the panels remain unshaded throughout the year as well as an EnergyPlus prediction of monthly electricity gains from the system. Exercise 6 was a continuation of the exercise 4 but with a more complex parametric design space that allowed for many geometric variations especially regarding facade layout and static shading. The results visualizer allowed students to systematically explore a large parametric space and to learn while designing [Figure 5]. Many students ended up formulating their own lessons learnt from the exercise such as *'south facing windows are great'*.
+Designing a PV system is an exercise that is part visual and part number crunching. Figure 4 shows the three required outputs for a PV system design namely an annual radiation map to demonstrate annual radiation shining on individual panels, a shading study on Dec 21 at noon to ensure that the panels remain unshaded throughout the year as well as an EnergyPlus prediction of monthly electricity gains from the system. Exercise 6 was a continuation of the exercise 4 but with a more complex parametric design space that allowed for many geometric variations especially regarding facade layout and static shading. Figure 5 shows how students used the results visualizer to systematically explore a large parametric space and learn while designing. Many students ended up formulating their own lessons learnt from the exercise such as *'south facing windows are great'*.
 
 ![figure-5](fig5.jpg){: .figure}
 *Figure 5: Student submission for Exercise 6 by Baily Zuniga and Irmak Turan*{: .caption}
 
-At the point when the students played exercise 7, the 90-min simulation game, most of them seemed ready to intellectually take on a larger simulation project without feeling overwhelmed. Indeed, for 8 out of 9 groups the simulations went smoothly throughout the process. The 9th group had failed to install a working version of Rhinoceros on their laptops and had been struggling with hardware problems throughout the term. The remaining groups explored between 9 and 53 design variants each. The final submissions are documented in Table 3 and exhibit a considerable variety of form and technology solutions. Given that Arizona is a cooling dominated climate, the entries with the lowest GHG emissions tend to exhibit a combination of narrow floor plans, low WWRs in the 20% to 40% range, low-e coated double glazings with low solar heat gain coefficients, lighting loads reduced through efficient systems combined with occupancy and dimming controls as well as a ground source heat pump. Overall this combination closely matches what one might consider best sustainable design practice for that climate zone.
-
-![table-3](tab3.jpg){: .figure}
-*Table 3: Final design submissions for Exercise 7 (Simulation Game)*{: .caption}
-
-Figure 6 shows the development of GHG emissions over time for select design variants for each group. The students clearly managed to generate, run and analyse their simulation results and identify less carbon–intensive design proposals over the course of 90 minutes. The figure also shows a comparison of simulation results assuming a single zone for each building as opposed to the more proper way of modelling buildings as multi-zones. The difference between single and multi-zone models varies up to 23% with errors increasing for more complex building shapes, suggesting that using the Autozoner for massing studies is advisable and relevant. More importantly, in several instances using the single zone approach lead to wrong or misleading design feedback, for example for Team A [A08 to A12], Team E [E12 to E13], Team F [F13 to F31] and Team H [H01 and H06].
+At the point when the students played exercise 7, the 90-min simulation game, most of them seemed ready to intellectually take on a larger simulation project without feeling overwhelmed. Indeed, for 8 out of 9 groups the simulations went smoothly throughout the process. The 9th group had failed to install a working version of Rhinoceros on their laptops and had been struggling with hardware problems throughout the term. The remaining groups explored between 9 and 53 design variants each. The final submissions are documented in Figure 6 and Table 3 and exhibit a considerable variety of form and technology solutions. Given that Arizona is a cooling-dominated climate, the entries with the lowest GHG emissions tend to exhibit a combination of narrow floor plans, low WWRs in the 0.2 to 0.4 range, low-e coated double glazings with low solar heat gain coefficients, lighting loads reduced through efficient systems combined with occupancy and dimming controls as well as a ground source heat pump. Overall this combination closely matches what one might consider best sustainable design practice for that climate zone.
 
 ![figure-6](fig6.jpg){: .figure}
-*Figure 6: Develop GHG emissions for different designs for the eight student groups. Blue and while graphs compare simulation results assuming single or multi-zone thermal models. (student modelling error in Single Zone model d – dimming off)*{: .caption}
+*Figure 6: Final design submissions for Simulation Game (exercise 7)*{: .caption}
+
+| Upgrades | GHG | Cost |
+| :-- | :-- | :-- |
+| **Team A** | | |
+| Roof R20<br/>Wall R13<br/>WWR 0.2<br/>Low-e Argon<br/>Occupancy<br/>Dimming<br/>Low LPD<br/>GSHP | 37kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $46 |
+| **Team B** | | |
+| Roof R20<br/>Wall R28.5<br/>WWR 0.2<br/>Low-e Argon<br/>Occupancy<br/>Dimming<br/>Low LPD<br/>GSHP | 39kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $60 |
+| **Team C** | | |
+| Roof R30<br/>Wall R13<br/>WWR 0.4<br/>Low-e Argon<br/>Occupancy<br/>Dimming<br/>Low LPD<br/>GSHP | 40kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $45 |
+| **Team D** | | |
+| Roof R30<br/>Wall R28.5<br/>WWR 0.4<br/>Argon<br/>Shading 2m<br/>Occupancy<br/>Dimming<br/>Low LPD<br/>GSHP | 41kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $48 |
+| **Team E** | | |
+| Roof R20<br/>Wall R13<br/>WWR 0.2<br/>Low-e Argon<br/>Shading 1.5m<br/>Dimming<br/>Low LPD<br/>GSHP | 39kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $44 |
+| **Team F** | | |
+| Roof R30<br/>Wall R13<br/>WWR 0.4<br/>Low-e Argon<br/>Shading 0.5m | 59kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $35 |
+| **Team G** | | |
+| Roof R30<br/>Wall R28.5<br/>WWR 0.2<br/>Low-e Argon<br/>Shading 1.5m | 64kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $43 |
+| **Team H** | | |
+| Roof R30<br/>Wall R28.5<br/>WWR 0.2<br/>Low-e Argon<br/>Shading 1.5m | 59kgCO<span class="sub">2</span>/m<span class="sup">2</span> | $9 |
+
+*Table 3: Upgrades, GHG and cost for each of the final designs*{: .caption}
+
+Figure 7 shows the development of GHG emissions over time for select design variants for each group. The students clearly managed to generate, run and analyse their simulation results and identify less carbon–intensive design proposals over the course of 90 minutes. The figure also shows a comparison of simulation results assuming a single zone for each building as opposed to the more proper way of modelling buildings as multi-zones. The difference between single and multi-zone models varies up to 23% with errors increasing for more complex building shapes, suggesting that using the Autozoner for massing studies is advisable and relevant. More importantly, in several instances using the single zone approach lead to wrong or misleading design feedback, for example for Team A (A08 to A12), Team E (E12 to E13), Team F (F13 to F31) and Team H (H01 and H06).
+
+![figure-7](fig7.jpg){: .figure}
+*Figure 7: Develop GHG emissions for different designs for the eight student groups. Blue and while graphs compare simulation results assuming single or multi-zone thermal models. (student modelling error in Single Zone model d – dimming off)*{: .caption}
 
 ### Group strategies
 
@@ -142,7 +187,7 @@ As students conduct all simulations themselves, a single instructor plus a well-
 
 One of the key elements that are still missing for the game is the explicit development of a simulation strategy to identify best sustainable design practices for a given program plus climate. The first author had sporadically mentioned useful strategies through the biweekly lectures but a more deliberate description of such a strategy seems necessary.
 
-Where do these observations leave the sustainable design profession and its mandate to improve the resource efficiency of buildings? While it is unrealistic to assume that a single introductory class will change the way buildings are being designed, the underlying premise of evidence-based design and a self- understanding that an architect can conduct some of the required analysis him or herself contributes to a paradigm-shift in the way the profession integrates sustainable concepts earlier in the design process. This seems a positive development for all those involved in building design, including energy consultants. The more architects know about energy modelling, the more they are aware of their own limitations in the process, potentially leading to more productive and engaging collaborations across disciplines.
+Where do these observations leave the sustainable design profession and its mandate to improve the resource efficiency of buildings? While it is unrealistic to assume that a single introductory class will change the way buildings are being designed, the underlying premise of evidence-based design and a self-understanding that an architect can conduct some of the required analysis him or herself contributes to a paradigm shift in the way the profession integrates sustainable concepts earlier in the design process. This seems a positive development for all those involved in building design, including energy consultants. The more architects know about energy modelling, the more they are aware of their own limitations in the process, potentially leading to more productive and engaging collaborations across disciplines.
 
 > The more architects know about energy modelling, the more they are aware of their own limitations in the process.
 

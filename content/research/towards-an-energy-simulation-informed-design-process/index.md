@@ -187,7 +187,7 @@ The authors would like to thank Transsolar Energietechnik GmbH Munich and the Al
 
 * Dogan, T., Reinhart, C.F., & Michalatos, P. (2015). Autozoner: an algorithm for automatic thermal zoning of buildings with unknown interior space definitions. Journal of Building Performance Simulation, (ahead-of-print): 1-14.
 * Jakubiec, J. A., & Reinhart, C.F. (2011). DIVA 2.0: Integrating daylight and thermal simulations using Rhinoceros 3D, Daysim and EnergyPlus. Proceedings of Building Simulation 2012: 12th Conference of the International Building Performance Association.* Lagios, K., Niemasz, J., & Reinhart, C.F. (2010). Animated building performance simulation (abps)-linking rhinoceros/grasshopper with radiance/daysim. Proceedings of SimBuild.
-* McNeel, R. (2012). Grasshopper - Generative Modeling with Rhino, McNeel North America, Seattle, USA. [http://www.grasshopper3d.com](http://www.grasshopper3d.com)
+* McNeel, R. (2012). Grasshopper - Generative Modeling with Rhino, McNeel North America, Seattle, WA, USA. [http://www.grasshopper3d.com](http://www.grasshopper3d.com)
 * McNeel, R. (2012). Rhinoceros - NURBS Modeling for Windows (version 5.0), McNeel North America, Seattle, WA, USA. [http://www.rhino3d.com](http://www.rhino3d.com)
 * Morbitzer, C., Strachan, P.A., Webster, J., Spires, B., & Cafferty, D. (2001). Integration of building simulation into the design process of an architectural practice. Proceedings of Building Simulation 207: 7th Conference of the International Building Performance Association.
 

@@ -34,7 +34,7 @@ Towards an energy simulation-informed design process: A 3-phase approach for a p
 
 <section class="card" markdown="1">
 Lessons learnt from a simulation-based approach to teaching building science to designers
-<br/>**Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
+<br/>**Reinhart, C.F., Geisinger, F., Dogan, T., & Saratsis, E.**
 <br/>[Read](lessons-learnt-from-a-simulation-based-approach-to-teaching/index.html)
 </section>
 
