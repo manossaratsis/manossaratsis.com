@@ -195,7 +195,7 @@ Where do these observations leave the sustainable design profession and its mand
 
 A simulation-based course curriculum for an introductory building science class for architects was introduced. The outcomes of several interrelated simulation exercises were discussed showing that architectural students with no background in either building science or modelling managed to run a series of sophisticated energy and daylight simulations after less than a term of instructions. The authors feel that a version of the simulation game presented in this manuscript is worth adopting more widely in architectural colloquia. This will require instructors of such courses to become familiar with BPS tools going forward, in order to actively engage with students in hands-on, active learning experiments.
 
-## Acknowledgement
+## Acknowledgements
 
 This work was made possible with support from the Department of Architecture at MIT, the Masdar Institute of Science and Technology and Transsolar Climate Engineering.
 
