@@ -1,5 +1,5 @@
 ---
-title: Thesis
+title: Simulation-based daylighting analysis procedure
 ---
 * TOC
 {:toc}

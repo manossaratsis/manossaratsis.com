@@ -12,13 +12,14 @@ compile '/**/*.md' do
     filter :relativize_paths, type: :html
 end
 
-compile '/**/*.css' do
-    filter :relativize_paths, type: :css
-    write @item.identifier.without_ext + '.css'
+compile '/**/*.scss' do
+  filter :erb
+  filter :sass, syntax: :scss
+  write asset_path(item.identifier.without_ext + '.css')
 end
 
 compile '/**/*.{ico,jpg,js,png,svg}' do
-    write @item.identifier.to_s
+    write asset_path(item.identifier.to_s)
 end
 
 route '/**/*.{html,md}' do
