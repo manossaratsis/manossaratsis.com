@@ -9,7 +9,7 @@
         <%= yield %>
         <% sorted_articles.each do |post| %>
         <section class='card'>
-          <p><%= link_to post[:title], post.path %></p>
+          <p><%= link_to post[:title], post.identifier.without_ext %></p>
           <p class='description'><%= post[:description] %></p>
           <aside>Posted at: <%= post[:created_at] %></aside>
         </section>
