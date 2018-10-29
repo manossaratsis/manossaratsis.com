@@ -1,4 +1,5 @@
 .DS_Store
+.sass-cache/
 output/
-tmp
+tmp/
 crash.log
