@@ -1,13 +1,14 @@
 #!/usr/bin/env ruby
 
 compile '/**/*.md' do
+    filter :erb
     filter :kramdown, toc_levels: 2..2
     if @item.identifier =~ '/index.*'
-        layout '/home.html'
+        layout '/home.*'
     elsif @item.identifier.to_s.include? 'posts'
-        layout '/post.html'
+        layout '/post.*'
     else
-        layout '/default.html'
+        layout '/default.*'
     end
     filter :relativize_paths, type: :html
 end
@@ -18,16 +19,21 @@ compile '/**/*.scss' do
   write asset_path(item.identifier.without_ext + '.css')
 end
 
-compile '/**/*.{ico,jpg,js,png,svg}' do
-    write asset_path(item.identifier.to_s)
-end
-
 route '/**/*.{html,md}' do
   if @item.identifier =~ '/index.*'
     '/index.html'
   else
     @item.identifier.without_ext + '.html'
   end
+end
+
+compile '/**/*.{ico,jpg,js,png,svg}' do
+  write asset_path(item.identifier.to_s)
+end
+
+compile '/**/*.erb' do
+  filter :erb
+  write item.identifier.without_ext.to_s
 end
 
 layout '/**/*', :erb

@@ -1,0 +1,31 @@
+<title>Manos Saratsis | <%= @item[:title] %></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<!-- OpenGraph markup for FB + LI -->
+<% if @item[:kind] == 'article' %>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="<%= @item[:created_at] %>"/>
+<% else %>
+<meta property="og:type" content="website"/>
+<% end %>
+<meta property="og:site_name" content="Manos Saratsis Personal Website"/>
+<% if @item.identifier.to_s == '/index.erb' %>
+<meta property="og:url" content="<%= $site %>"/>
+<% else %>
+<meta property="og:url" content="<%= $site %><%= @item.identifier.without_ext %>"/>
+<% end %>
+<meta property="og:title" content="<%= @item[:title] %>"/>
+<meta property="og:description" content="<%= @item[:description] %>"/>
+<% if @item[:image] %>
+<meta property="og:image" content="<%= "#{$site}#{asset_path(@item[:image])}" %>"/>
+<% end %>
+<!-- Twitter card markup -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="<%= @item[:title] %>"/>
+<meta name="twitter:description" content="<%= @item[:description] %>"/>
+<% if @item[:image] %>
+<meta name="twitter:image" content="<%= "#{$site}#{asset_path(@item[:image])}" %>"/>
+<% end %>
+<meta name="twitter:site" content="@sarstis"/>
+<link rel="shortcut icon" href="/favicon.png" />
+<link rel="stylesheet" href="/css/stylesheet.css" />

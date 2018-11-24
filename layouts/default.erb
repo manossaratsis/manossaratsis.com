@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <%=render '/partials/head.erb' %>
+  </head>
+  <body>
+    <%=render '/partials/navbar.erb' %>
+    <main>
+      <%= yield %>
+    </main>
+    <%= render '/partials/scripts.erb' %>
+  </body>
+</html>

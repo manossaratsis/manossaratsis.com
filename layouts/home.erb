@@ -1,20 +1,20 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <%=render '/partials/head.html' %>
+    <%=render '/partials/head.erb' %>
   </head>
-  <body class="home" style='background-image: url(<%= item[:image] %>)'
-      <%=render '/partials/navbar.html' %>
+  <body class="home" style="background-image: url(<%= asset_path(@item[:image]) %>)"
+      <%=render '/partials/navbar.erb' %>
       <main>
         <%= yield %>
         <% sorted_articles.each do |post| %>
-        <section class='card'>
+        <section class="card">
           <p><%= link_to post[:title], post.identifier.without_ext %></p>
-          <p class='description'><%= post[:description] %></p>
+          <p class="description"><%= post[:description] %></p>
           <aside>Posted at: <%= post[:created_at] %></aside>
         </section>
         <% end %>
       </main>
-    <%= render '/partials/scripts.html' %>
+    <%= render '/partials/scripts.erb' %>
   </body>
 </html>
