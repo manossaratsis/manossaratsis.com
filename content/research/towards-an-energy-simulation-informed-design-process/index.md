@@ -1,5 +1,7 @@
 ---
 title: Towards an energy simulation-informed design process
+description: This manuscript describes a case study on integrating environmental performance analysis workflows into design practice.
+image: /research/towards-an-energy-simulation-informed-design-process/cover.jpg
 ---
 * TOC
 {:toc}
@@ -9,7 +11,7 @@ title: Towards an energy simulation-informed design process
 # Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building
 ---
 
-[Full paper](http://www.ibpsa.org/proceedings/BS2015/p2265.pdf)
+[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2265.pdf)
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 
@@ -21,7 +23,7 @@ pp. 1419-1425*
 
 ## Abstract
 
-This paper describes a case study on integrating environmental performance analysis workflows into design practice. Through the proliferation of visual geometric scripting environments such as Rhinoceros 3D’s Grasshopper, architects increasingly formulate design proposals parametrically. A recently developed multi-zone EnergyPlus plug-in for Grasshopper called Archsim enables users with limited building energy modeling (BEM) experience to run dynamic energy simulations. While previous limitations that were critical to enabling a fluid and interactive design process such as the effort and time required to set up simulation models have largely been overcome, the usefulness and applicability of energy simulations in such decision-making processes remains under-explored. In an effort to bridge this divide, the authors present an environmental performance-driven design approach for a 15,000m<span class="sup">2</span> laboratory building in Turkey. The study is unique in that the first author is the energy modeler and the architect in charge for the project. The design approach has been discretized into three main phases and questions raised throughout the process are translated into concrete, digestible precedents that may be useful for designers who want to implement energy modeling in their workflows.
+This manuscript describes a case study on integrating environmental performance analysis workflows into design practice. Through the proliferation of visual geometric scripting environments such as Rhinoceros 3D’s Grasshopper, architects increasingly formulate design proposals parametrically. A recently developed multi-zone EnergyPlus plug-in for Grasshopper called Archsim enables users with limited building energy modeling (BEM) experience to run dynamic energy simulations. While previous limitations that were critical to enabling a fluid and interactive design process such as the effort and time required to set up simulation models have largely been overcome, the usefulness and applicability of energy simulations in such decision-making processes remains under-explored. In an effort to bridge this divide, the authors present an environmental performance-driven design approach for a 15,000m<span class="sup">2</span> laboratory building in Turkey. The study is unique in that the first author is the energy modeler and the architect in charge for the project. The design approach has been discretized into three main phases and questions raised throughout the process are translated into concrete, digestible precedents that may be useful for designers who want to implement energy modeling in their workflows.
 
 > The usefulness and applicability of energy simulations in design decision-making processes remains under-explored.
 

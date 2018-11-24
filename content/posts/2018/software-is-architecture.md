@@ -3,7 +3,7 @@ title: "Architectural thinking in software development"
 created_at: 2018-11-02
 kind: article
 description: The surprising number of similarities between two seemingly disparate fields
-image: software-is-architecture.jpg
+image: /posts/2018/software-is-architecture.jpg
 ---
 
 The truth is I always wanted my very own personal website. The notion of communicating my research as an architect and building scientist to the outside world has always been of interest to me. Procrastination, shifting priorities, and lack of willpower all contributed to my work just sitting in my hard drive.

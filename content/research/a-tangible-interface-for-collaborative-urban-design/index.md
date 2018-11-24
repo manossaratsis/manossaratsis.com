@@ -1,5 +1,7 @@
 ---
 title: A tangible interface for collaborative urban design
+description: This manuscript presents a tool providing performance feedback for a neighborhood’s operational energy costs, daylight availability, and walkability.
+image: /research/a-tangible-interface-for-collaborative-urban-design/cover.jpg
 ---
 * TOC
 {:toc}
@@ -9,7 +11,7 @@ title: A tangible interface for collaborative urban design
 # A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
 ---
 
-[Full paper](http://www.ibpsa.org/proceedings/BS2015/p2296.pdf)
+[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2296.pdf)
 
 **Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 
@@ -21,7 +23,7 @@ pp. 2691-2698*
 ## Abstract
 
 An increasingly urbanizing human population presents new challenges for urban planners and designers. While the applicability of urban design tools for simulation experts is constantly improving, urban development scenarios require the input of multiple stakeholders, each with different outlooks, expertise, requirements, and preconceptions, and good urban design requires communication and compromise as much as it requires effective use of tools. The best tools will facilitate this communication while remaining evidence-based, allowing diverse planning teams to develop high quality, healthy, sustainable urban proposals.
-Presented in this paper is a new such tool, implemented as a tangible user interface, that allows varied stakeholders to quickly collaborate on creation and exploration of new urban design solutions. The tool provides performance feedback for a neighborhood’s operational energy costs, daylight availability, and walkability. Fast interaction is attained through a novel precalculation method that is also presented and validated. Details of the tool’s deployment as part of a case study that was conducted with members of the planning commission of Riyadh, SA, in March 2015 are given.
+Presented in this manuscript is a new such tool, implemented as a tangible user interface, that allows varied stakeholders to quickly collaborate on creation and exploration of new urban design solutions. The tool provides performance feedback for a neighborhood’s operational energy costs, daylight availability, and walkability. Fast interaction is attained through a novel precalculation method that is also presented and validated. Details of the tool’s deployment as part of a case study that was conducted with members of the planning commission of Riyadh, SA, in March 2015 are given.
 
 ## Introduction
 
@@ -38,7 +40,7 @@ Some of these tools are usable by urban designers and architects, but the neighb
 
 One possible approach is the use of a tangible user interface (TUI) [[Ullmer and Ishii, 2000]](#references), which is a system marrying representation and control, allowing novice users to perform urban design and see the results of their design in real time without any modeling training. Such physical design interfaces have previously found success in architectural and urban design and analysis [[Huang et al., 2003; Piper et al., 2002; Seichter and Schnabel, 2005; Strzalka et al., 2011; Underkoffler and Ishii, 1999]](#references).
 
-This document presents a new such collaborative design tool that uses Lego blocks to allow novices to design a neighborhood. A camera and projection system colorize the blocks to present the neighborhood’s performance to the users in real-time. The simulated performance metrics are operational building energy cost, annual daylight availability in buildings, and neighborhood walkability. Real-time interactivity is achieved with a novel simulation approximation method that was validated against more detailed, traditional simulation approaches. The overall system was deployed as a *game* in a case study at the planning commission of Riyadh, Saudi Arabia, and the results of that case study are given and discussed.
+This manuscript presents a new such collaborative design tool that uses Lego blocks to allow novices to design a neighborhood. A camera and projection system colorize the blocks to present the neighborhood’s performance to the users in real-time. The simulated performance metrics are operational building energy cost, annual daylight availability in buildings, and neighborhood walkability. Real-time interactivity is achieved with a novel simulation approximation method that was validated against more detailed, traditional simulation approaches. The overall system was deployed as a *game* in a case study at the planning commission of Riyadh, Saudi Arabia, and the results of that case study are given and discussed.
 
 ## Neighborhood performance
 
@@ -143,7 +145,7 @@ No examination of walkability approximation accuracy was performed, because ther
 
 The gameplay results demonstrate that the described table interface can be an effective assistant for collaborative, simulation-guided neighborhood design by simulation novices. However, several avenues for improvement suggest themselves.The first relates to the table’s ineffectiveness at daylighting optimization assistance. This can likely be explained by the game’s relative lack of responsiveness in this domain. A block’s energy score, while relatively unaffected by blocks around it, was substantially affected by the choice of a the block itself, and so players could identify *good* blocks to design with. A block’s walkability score, in contrast, was obviously and substantially affected by blocks arround it, so players could improve walkability scores by adding parks and dense commercial areas. Daylighting, however, had neither of these benefits; most blocks spent most of their time as some shade of dark orange. As a result, players could not learn how to improve their designs on either a local or global level, which they remarked was frustrating. Future iterations of the game should avoid this by ensuring that each performance metric is sufficiently responsive to player input. This might be achieved by a more sophisticated presimulation obstruction model, careful block design and testing, provision of parametric control to users during gameplay, or some other method.Players spent little time even trying to optimize for daylighting. This may be due to a cultural disregard for that building performance feature that stems from the way buildings are operated in Saudi Arabia (this was mentioned explicitly more than once by players). Future games should therefore carefully select culturally relevant metrics; in this case, water consumption or parking would have been better choices.
 
-> The gameplay results demonstrate that the described table interface can be an effective assistant for collaborative, simulation-guided neighborhood design by simulation novices. 
+> The gameplay results demonstrate that the described table interface can be an effective assistant for collaborative, simulation-guided neighborhood design by simulation novices.
 
 It has been shown that the novel lookup table-based simulation approximation method works very well for the investigated climate and buildings, especially for the collaborative, early planning tasks intended, and it was fast enough for interactive use. However, its errors still deserve investigation. The fact that each block type demonstrated consistent errors for both energy and daylighting suggests that the errors stem from particular inadequacies in the relationships between the underlying simulation engines and the defined block geometries rather than a fundamental methodological problem. These relationships must therefore be comprehensively explored beforehand to ensure that the approximation works. That daylighting approximations were more error prone than energy approximation is unsurprising, as energy simulations in a cooling-dominated climate mainly depend on total annual solar radiation levels incident on a building whereas for daylight the temporal availability of light is more important. One improvement might have been to calculate the sky view factor at multiple points for each building, rather than just one.The approximation method itself relies on the very strong assumption that energy consumption varies mainly with insolation. This needs to be tested in climates other than Riyadh where electric lighting dimming, and more importantly, heating, are relevant. A mixed climate (e.g. Boston) or a cold climate (e.g. Anchorage) would be good candidates.
 

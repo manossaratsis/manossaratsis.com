@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: I currently live in the Bay Area and am always open to collaboration opportunities on research or software development.
 ---
 
 # Get in touch.

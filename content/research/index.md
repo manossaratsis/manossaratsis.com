@@ -1,5 +1,6 @@
 ---
 title: Research
+description: The first step to making our buildings and cities more sustainable is being able to quantify what does and doesn't work about them.
 ---
 * TOC
 {:toc}
@@ -9,14 +10,6 @@ title: Research
 ---
 
 If you can't measure it, you can't manage it. The first step to making our buildings and cities more sustainable is being able to quantify what does and doesn't work about them. My research focuses on building- and urban-scale environmental performance metrics for operational energy, daylighting, microclimatic conditions and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
-
-##Journal Publications
-
-<section class="card research" markdown="1">
-Simulation-based daylighting analysis procedure for developing urban zoning rules
-<br/>**Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)**
-<br/>[Read](simulation-based-daylighting-analysis-procedure)
-</section>
 
 ##Conference Proceedings
 
@@ -42,4 +35,12 @@ Lessons learnt from a simulation-based approach to teaching building science to 
 A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
 <br/>**Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 <br/>[Read](a-tangible-interface-for-collaborative-urban-design)
+</section>
+
+##Journal Publications
+
+<section class="card research" markdown="1">
+Simulation-based daylighting analysis procedure for developing urban zoning rules
+<br/>**Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)**
+<br/>[Read](simulation-based-daylighting-analysis-procedure)
 </section>

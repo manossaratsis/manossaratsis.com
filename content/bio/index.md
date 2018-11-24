@@ -1,5 +1,7 @@
 ---
 title: Bio
+description: I am a software engineer with a background in energy modeling and geospatial analytics.
+image: /img/profile-pic.jpg
 ---
 * TOC
 {:toc}
