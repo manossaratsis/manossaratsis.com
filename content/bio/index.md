@@ -13,8 +13,31 @@ image: /img/profile-pic.jpg
 
 ![profile-pic](/img/profile-pic.jpg){: .profile-pic}
 
-## Who I am
+## About me
 I am a software engineer with a background in energy modeling and geospatial analytics. I design and develop software systems to evaluate the impact of distributed energy technologies on buildings, cities, and the electrical grid. I received a Master of Science in Urbanism and Building Technology while conducting research at the MIT Sustainable Design Lab. I have published numerous papers on energy modeling and its implications for urban planning and design. I am currently the Head of Product at [Station A](https://stationa.com), a Bay Area software company automating the development of clean energy.
+
+## Experience
+
+### Head of Product, [Station A](https://stationa.com) (July 2018 - Today)
+
+* Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/platform)
+* Working across engineering, analytics, and marketing to expand [Station A's user network](https://stationa.com/#who-uses-it) and scale Station A's business
+
+### Product Manager: Geospatial Analytics, [NRG Energy](https://www.nrg.com) (August 2016 - June 2018)
+
+* Managed development of NRG's internal software products focused on clean energy analytics and customer acquisition
+* Designed, developed, and maintained systems for data extraction, data processing, data access (APIs), as well as interactive web apps
+
+### Lead Environmental Designer, [NRG Energy](https://www.nrg.com) (July 2015 - July 2016)
+
+* Led development of [SpaceTag](https://www.greentechmedia.com/articles/read/NRG-Energy-Has-a-Secretive-Distributed-Energy-Optimization-Platform), a set of proprietary software tools to automatically identify ideal customers for clean energy sales
+* Led customer acquisition and market analysis across 8 major electric utility projects across the United States and Canada
+* Applied energy modeling and geospatial analytics expertise to design and develop integrated software workflows (back-end data architecture, data processing, data visualization, UI design, UX design)
+
+### Research Assistant, [MIT Sustainable Design Lab](https://web.mit.edu/sustainabledesignlab) (March 2014 - June 2015)
+
+* Developed [UMI Dashboard](http://web.mit.edu/sustainabledesignlab/projects/Umi_D/index.html), an energy simulation results visualization web app (UI design, UX design, GeoJSON data processing and visualization)
+* Developed parametric design workflows for urban network & real estate potential analysis (algorithm design, data visualization)
 
 ## Media
 
