@@ -41,6 +41,8 @@ I am a software engineer with a background in energy modeling and geospatial ana
 
 ## Media
 
+* [Solar and Storage Support California's Grid: Building-by-building analysis towards California's grid reliability goals](https://blog.stationa.com/2019/solar-and-storage-support-californias-grid)<br/>*Sam Steyer, Station A Blog, 03.22.2019*
+
 * [First Round Closed: We are very excited to have our first round of funding secured](https://blog.stationa.com/2018/first-round-closed)<br/>*Kevin Berkemeyer, Station A Blog, 12.14.2018*
 
 * [The Future of the Grid is Geospatial: Decarbonizing modern life will require a location-sensitive approach](https://blog.stationa.com/2018/the-future-of-the-grid-is-geospatial)<br/>*Manos Saratsis, Station A Blog, 10.15.2018*
