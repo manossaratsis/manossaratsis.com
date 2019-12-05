@@ -41,6 +41,10 @@ I am a software engineer with a background in energy modeling and geospatial ana
 
 ## Media
 
+* [Why we built the Station A Card: Using context to unlock the clean energy market](https://blog.stationa.com/2019/why-we-built-the-stationa-card)<br/>*Manos Saratsis, Station A Blog, 12.03.2019*
+
+* [Clean Energy can be a Solution for High-Fire Threat Districts: An alternative to PG&E's planned blackout strategy](https://blog.stationa.com/2019/clean-energy-can-be-a-solution-for-high-fire-threat-districts)<br/>*Kevin Berkemeyer, Station A Blog, 10.16.2019*
+
 * [Solar and Storage Support California's Grid: Building-by-building analysis towards California's grid reliability goals](https://blog.stationa.com/2019/solar-and-storage-support-californias-grid)<br/>*Sam Steyer, Station A Blog, 03.22.2019*
 
 * [First Round Closed: We are very excited to have our first round of funding secured](https://blog.stationa.com/2018/first-round-closed)<br/>*Kevin Berkemeyer, Station A Blog, 12.14.2018*
