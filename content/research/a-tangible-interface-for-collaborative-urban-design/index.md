@@ -11,7 +11,7 @@ image: /research/a-tangible-interface-for-collaborative-urban-design/cover.jpg
 # A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
 ---
 
-[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2296.pdf)
+[Download full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2296.pdf)
 
 **Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 

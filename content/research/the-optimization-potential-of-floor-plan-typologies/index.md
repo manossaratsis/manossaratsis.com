@@ -11,7 +11,7 @@ image: /research/the-optimization-potential-of-floor-plan-typologies/cover.jpg
 # The optimization potential of floor-plan typologies in early design energy modeling
 ---
 
-[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2455.pdf)
+[Download full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2455.pdf)
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 

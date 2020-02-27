@@ -10,7 +10,7 @@ image: /research/lessons-learnt-from-a-simulation-based-approach-to-teaching/cov
 # Lessons learnt from a simulation-based approach to teaching building science to designers
 ---
 
-[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2468.pdf)
+[Download full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2468.pdf)
 
 **Reinhart, C.F., Geisinger, F., Dogan, T., & Saratsis, E. (2015)**
 

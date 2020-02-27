@@ -11,7 +11,7 @@ image: /research/towards-an-energy-simulation-informed-design-process/cover.jpg
 # Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building
 ---
 
-[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2265.pdf)
+[Download full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2265.pdf)
 
 **Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)**
 
