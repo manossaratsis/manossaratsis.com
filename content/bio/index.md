@@ -20,24 +20,34 @@ I am a software engineer with a background in energy modeling and geospatial ana
 
 ### Head of Product, [Station A](https://stationa.com) (July 2018 - Today)
 
-* Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/platform)
-* Working across engineering, analytics, and marketing to expand [Station A's user network](https://stationa.com/#who-uses-it) and scale Station A's business
+* Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/platform).
+* Working across engineering, analytics, and marketing to expand [Station A's user network](https://stationa.com/#who-uses-it) and scale Station A's business.
 
 ### Product Manager: Geospatial Analytics, [NRG Energy](https://www.nrg.com) (August 2016 - June 2018)
 
-* Managed development of NRG's internal software products focused on clean energy analytics and customer acquisition
-* Designed, developed, and maintained systems for data extraction, data processing, data access (APIs), as well as interactive web apps
+* Managed development of NRG's internal software products focused on clean energy analytics and customer acquisition.
+* Designed, developed, and maintained systems for data extraction, data processing, data access (APIs), as well as interactive web apps.
 
 ### Lead Environmental Designer, [NRG Energy](https://www.nrg.com) (July 2015 - July 2016)
 
-* Led development of [SpaceTag](https://www.greentechmedia.com/articles/read/NRG-Energy-Has-a-Secretive-Distributed-Energy-Optimization-Platform), a set of proprietary software tools to automatically identify ideal customers for clean energy sales
-* Led customer acquisition and market analysis across 8 major electric utility projects across the United States and Canada
-* Applied energy modeling and geospatial analytics expertise to design and develop integrated software workflows (back-end data architecture, data processing, data visualization, UI design, UX design)
+* Led development of [SpaceTag](https://www.greentechmedia.com/articles/read/NRG-Energy-Has-a-Secretive-Distributed-Energy-Optimization-Platform), a set of proprietary software tools to automatically identify ideal customers for clean energy sales.
+* Led customer acquisition and market analysis across 8 major electric utility projects across the United States and Canada.
+* Applied energy modeling and geospatial analytics expertise to design and develop integrated software workflows (back-end data architecture, data processing, data visualization, UI design, UX design).
 
 ### Research Assistant, [MIT Sustainable Design Lab](https://web.mit.edu/sustainabledesignlab) (March 2014 - June 2015)
 
-* Developed [UMI Dashboard](http://web.mit.edu/sustainabledesignlab/projects/Umi_D/index.html), an energy simulation results visualization web app (UI design, UX design, GeoJSON data processing and visualization)
-* Developed parametric design workflows for urban network & real estate potential analysis (algorithm design, data visualization)
+* Developed [UMI Dashboard](http://web.mit.edu/sustainabledesignlab/projects/Umi_D/index.html), an energy simulation results visualization web app (UI design, UX design, GeoJSON data processing and visualization).
+* Developed parametric design workflows for urban network & real estate potential analysis (algorithm design, data visualization).
+
+## Academia
+
+### Project Advisor, [MIT Sloan School of Management](https://mitsloan.mit.edu/) (March 2019 - June 2019)
+
+Consulted for a research project run by MBA candidates at the MIT Sloan School of Management. The project was sponsored by [Station A](https://stationa.com) as part of the [Laboratory for Sustainable Business (S-Lab)](https://mitsloan.mit.edu/action-learning/s-lab) class.
+
+### Guest Lecturer, [Cornell AAP](https://aap.cornell.edu/) (March 2019)
+
+Lectured at the [Environmental Systems II: Building Dynamics](https://es.aap.cornell.edu/) class for BArch candidates taught by professor Dogan. The lecture introduced the audience to the emerging fields of geospatial analytics and distributed energy modeling, and discussed the applicability of design skills beyond the architecture industry.
 
 ## Media
 
