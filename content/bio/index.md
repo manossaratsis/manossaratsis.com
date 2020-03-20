@@ -51,6 +51,8 @@ Lectured at the [Environmental Systems II: Building Dynamics](https://es.aap.cor
 
 ## Media
 
+* [Energy Storage for Everyone: Using Station A to connect the dots on SGIP](https://blog.stationa.com/2020/energy-storage-for-everyone)<br/>*Kevin Berkemeyer, Station A Blog, 03.20.2020*
+
 * [Why we built the Station A Card: Using context to unlock the clean energy market](https://blog.stationa.com/2019/why-we-built-the-stationa-card)<br/>*Manos Saratsis, Station A Blog, 12.03.2019*
 
 * [Clean Energy can be a Solution for High-Fire Threat Districts: An alternative to PG&E's planned blackout strategy](https://blog.stationa.com/2019/clean-energy-can-be-a-solution-for-high-fire-threat-districts)<br/>*Kevin Berkemeyer, Station A Blog, 10.16.2019*
