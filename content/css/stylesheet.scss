@@ -1,30 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300, 300i, 400');
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300, 300i, 400");
 
 * {
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust: 100%;
 }
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 body {
   background: #ddd;
-  color: rgba(30, 30, 30, 1.0);
+  color: rgba(30, 30, 30, 1);
   font-weight: 300;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   main {
     font-size: 18px;
     left: calc((100vw - 42em) / 2);
     line-height: 1.9em;
     margin-bottom: 3em;
     margin-top: 5em;
+    min-height: calc(100vh - (2em + 5em) - (0.8em + 2 * 3em));
     position: relative;
     width: 42em;
     ul:not(#markdown-toc) {
       list-style-type: square;
       margin: 1.2em;
+    }
+  }
+  footer {
+    color: #666;
+    font-size: 0.8em;
+    padding: 3em 0;
+    position: relative;
+    text-align: center;
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: #666;
+      text-decoration: underline;
     }
   }
   &.home {
@@ -35,10 +51,12 @@ body {
   }
   a {
     text-decoration: none;
-    &:link, &:visited {
+    &:link,
+    &:visited {
       color: #1e00ee;
     }
-    &:link:hover, &:visited:hover {
+    &:link:hover,
+    &:visited:hover {
       cursor: pointer;
       text-decoration: underline;
     }
@@ -65,7 +83,7 @@ body {
     font-size: 2.9em;
     font-weight: 300;
     line-height: 1.2em;
-    text-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1)
+    text-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
   }
   h2 {
     font-size: 1.2em;
@@ -110,7 +128,8 @@ body {
     margin-top: 1em;
     table-layout: fixed;
     width: 100%;
-    td, th {
+    td,
+    th {
       padding-left: 0.5em;
     }
     tr {
@@ -172,7 +191,7 @@ body {
     line-height: 2em;
     margin-top: 1.2em;
     padding: 1em 2em;
-    &>* {
+    & > * {
       margin: 0;
       padding: 0;
     }
@@ -191,7 +210,7 @@ body {
   }
   .post {
     article {
-      font-family: 'Roboto Slab', serif;
+      font-family: "Roboto Slab", serif;
     }
   }
   ul.sidebar {
@@ -201,10 +220,12 @@ body {
     text-align: right;
     top: 5em;
     width: calc(((100vw - 42em) / 2) - 2em);
-    a:link, a:visited {
+    a:link,
+    a:visited {
       color: #ababab;
     }
-    a:hover, a:visited:hover {
+    a:hover,
+    a:visited:hover {
       color: #1e00ee;
     }
     li {
