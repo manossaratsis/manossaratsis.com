@@ -8,7 +8,7 @@ image: /posts/2019/building-software.jpg
 
 4 years ago, right around the end of the 1st year of graduate school, I made a conscious career decision: to transition from **architecture** to **building science** and **software engineering**.
 
-Over the course of these 4 years, I have been involved in **all stages** of the software development process, from hacking together one-off scripts to process data, to helping stand-up distributed compute infrastructure, to designing and implementing data warehousing systems, APIs, and web applications. It wouldn't have been possible without the **mentorship and guidance** of [Jeremy Lucas](https://jerluc.com) and [Sam Steyer](https://samsteyer.com) who I have the pleasure to work with every day at [Station A](https://stationa.com).
+Over the course of these 4 years, I have been involved in **all stages** of the software development process, from hacking together one-off scripts to process data, to helping stand-up distributed compute infrastructure, to designing and implementing data warehousing systems, APIs, and web applications. It wouldn't have been possible without the **mentorship and guidance** of [Jeremy Lucas](https://linkedin.com/in/jerluc) and [Sam Steyer](https://linkedin.com/in/sam-steyer) who I have the pleasure to work with every day at [Station A](https://stationa.com).
 
 As an architect-turned-software engineer, I sometimes ask myself: *'What are the lessons I learned in architecture school that would be translatable to my career in software?'*. When I think of building a software product **as a process**, it shares a remarkable number of similarities with the process of designing physical space.
 
