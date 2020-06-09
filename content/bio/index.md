@@ -31,7 +31,6 @@ I am a software engineer with a background in energy modeling and geospatial ana
 ### Lead Environmental Designer, [NRG Energy](https://www.nrg.com) (July 2015 - July 2016)
 
 * Led development of [SpaceTag](https://www.greentechmedia.com/articles/read/NRG-Energy-Has-a-Secretive-Distributed-Energy-Optimization-Platform), a set of proprietary software tools to automatically identify ideal customers for clean energy sales.
-* Led customer acquisition and market analysis across 8 major electric utility projects across the United States and Canada.
 * Applied energy modeling and geospatial analytics expertise to design and develop integrated software workflows (back-end data architecture, data processing, data visualization, UI design, UX design).
 
 ### Research Assistant, [MIT Sustainable Design Lab](https://web.mit.edu/sustainabledesignlab) (March 2014 - June 2015)
