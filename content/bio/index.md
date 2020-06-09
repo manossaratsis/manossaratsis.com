@@ -20,8 +20,8 @@ I am a software engineer with a background in energy modeling and geospatial ana
 
 ### Head of Product, [Station A](https://stationa.com) (July 2018 - Today)
 
-* Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/platform).
-* Working across engineering, analytics, and marketing to expand [Station A's user network](https://stationa.com/#who-uses-it) and scale Station A's business.
+* Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/how-it-works).
+* Working across engineering, analytics, and marketing to expand [Station A's Provider Network](https://stationa.com/providers#network) and scale Station A's business.
 
 ### Product Manager: Geospatial Analytics, [NRG Energy](https://www.nrg.com) (August 2016 - June 2018)
 
