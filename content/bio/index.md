@@ -13,7 +13,7 @@ image: /img/profile-pic.jpg
 
 ![profile-pic](/img/profile-pic.jpg){: .profile-pic}
 
-## About me
+## About Me
 I am a software engineer with a background in energy modeling and geospatial analytics. I design and develop software systems to evaluate the impact of distributed energy technologies on buildings, cities, and the electrical grid. I received a Master of Science in Urbanism and Building Technology while conducting research at the MIT Sustainable Design Lab. I have published numerous papers on energy modeling and its implications for urban planning and design. I am currently the Head of Product at [Station A](https://stationa.com), a Bay Area software company automating the development of clean energy.
 
 ## Experience
@@ -47,6 +47,12 @@ Consulted for a research project run by MBA candidates at the MIT Sloan School o
 ### Guest Lecturer, [Cornell AAP](https://aap.cornell.edu/) (March 2019)
 
 Lectured at the [Environmental Systems II: Building Dynamics](https://es.aap.cornell.edu/) class for BArch candidates taught by professor Dogan. The lecture introduced the audience to the emerging fields of geospatial analytics and distributed energy modeling, and discussed the applicability of design skills beyond the architecture industry.
+
+## Patents
+
+### Method and System for Determining Energy Management Strategies, [US20180260920A1](https://patents.google.com/patent/US20180260920A1) (June 2020)
+
+Granted patent for inventing a method to identify customers and markets for clean energy products. The method forecasts a customer's energy usage and determines a customized set of clean energy product offerings to satisfy their needs. The patent also describes a method to select and locate clean energy products to fulfill the requirements of a utility or power provider.
 
 ## Media
 
