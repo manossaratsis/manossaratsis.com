@@ -9,9 +9,9 @@ description: The first step to making our buildings and cities more sustainable 
 # Measuring the performance of our built environment.
 ---
 
-You can't measure what you can't manage. The first step to making our buildings and cities more sustainable is being able to quantify what does and doesn't work about them. My research focuses on building-scale and urban-scale environmental performance metrics for operational energy, daylighting, microclimatic conditions and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
+You can't manage what you can't measure. The first step to making our buildings and cities more sustainable is being able to quantify what does and doesn't work about them. My research focuses on building-scale and urban-scale environmental performance metrics for operational energy, daylighting, microclimatic conditions and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
 
-##Conference Proceedings
+## Conference Proceedings
 
 <section class="card" markdown="1">
 The optimization potential of floor-plan typologies in early design energy modeling
@@ -37,7 +37,7 @@ A tangible interface for collaborative urban design for energy efficiency, dayli
 <br/>[Read](a-tangible-interface-for-collaborative-urban-design)
 </section>
 
-##Journal Publications
+## Journal Publications
 
 <section class="card research" markdown="1">
 Simulation-based daylighting analysis procedure for developing urban zoning rules
