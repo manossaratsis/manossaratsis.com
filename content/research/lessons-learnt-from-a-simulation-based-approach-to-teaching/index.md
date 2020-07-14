@@ -1,6 +1,6 @@
 ---
 title: Lessons learnt from a simulation-based approach to teaching
-description: This manuscript describes lessons learnt over the course of several years of teaching building performance simulation to architectural students as part of an introductory building science class.
+description: Notes on teaching building performance simulation to architecture students in an introductory class.
 image: /research/lessons-learnt-from-a-simulation-based-approach-to-teaching/cover.jpg
 ---
 * TOC
@@ -10,7 +10,7 @@ image: /research/lessons-learnt-from-a-simulation-based-approach-to-teaching/cov
 # Lessons learnt from a simulation-based approach to teaching building science to designers
 ---
 
-[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2468.pdf)
+[Download full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2468.pdf)
 
 **Reinhart, C.F., Geisinger, F., Dogan, T., & Saratsis, E. (2015)**
 
@@ -20,7 +20,8 @@ Hyderabad, India, December 2015 <br/>
 pp. 1126-1133*
 
 ## Abstract
-This manuscript describes lessons learnt over the course of several years of teaching building performance simulation to architectural students as part of an introductory building science class. Over the course of a term, students are exposed to a design analysis workflow that links architectural massing models in Rhinoceros 3D to Radiance/Daysim and EnergyPlus. Starting with shading and window-to-wall ratio studies, the students tackle increasingly complex tasks which culminate in a 90-min simulation game. For the game students compete in pairs to design a 3000m<span class="sup">2</span> office building with the lowest greenhouse gas emissions per floor area in Phoenix, AZ. Playing the game with a class of 18 undergraduate and graduate students during the fall of 2014, eight teams managed to prepare and run between 9 and 53 design variants with final emissions varying between 37 and 64kgCO<span class="sub">2</span>/m<span class="sup">2</span>. The act of learning while playing proved to be an effective way to intellectually engage the students and help them to discover best sustainable design practices for the investigated building type and climate by themselves.
+
+This manuscript describes lessons learnt over the course of several years of teaching building performance simulation to architectural students as part of an introductory building science class. Over the course of a term, students are exposed to a design analysis workflow that links architectural massing models in Rhinoceros 3D to Radiance/Daysim and EnergyPlus. Starting with shading and window-to-wall ratio studies, the students tackle increasingly complex tasks which culminate in a 90-min simulation game. For the game students compete in pairs to design a 3000m<span class="sup">2</span> office building with the lowest greenhouse gas emissions per floor area in Phoenix, AZ. Playing the game with a class of 18 undergraduate and graduate students during the fall of 2014, eight teams managed to prepare and run between 9 and 53 design variants with final emissions varying between 37 and 64kgCO<span class="sub">2</span>/m<span class="sup">2</span>. The act of learning while playing proved to be an effective way to intellectually engage the students and help them to discover best sustainable design practices for the investigated building type and climate by themselves.
 
 > The act of learning while playing proved to be an effective way to intellectually engage the students and help them to discover best sustainable design practices for the investigated building type and climate by themselves.
 
@@ -54,10 +55,18 @@ A series of interlinked simulation exercises were developed, tested and refined 
 | :-- | :-- | :-- |
 | | Energy Use in Society | Essay |
 | Energy Use in Buildings | Understanding Climate I | Shading Study (DIVA) |
-| Understanding Climate II | Thermal Comfort | Psychrometric Chart || Thermal Mass & Heat Flow | Insulation Materials | Insulation Study ArchSim || Active & Passive Solar | Radiation Maps | PV Design (DIVA/ArchSim) || Window Technologies | Internal Gains & Infiltration | Envelope Game (ArchSim) || Load Calc (manual) | Load Calc (digital) | |
-| Static Shading Design | Simulation Game | Simulation Game (ArchSim) || HVAC I | HVAC II | |
-| Daylight & Photometry | Daylighting Rules of Thumb| Daylit Area, HDR Photography || Daylight Simulations | El. Lighting & Controls | Daylit Area Calc (Daysim) |
-| Natural Ventilation I | Natural Ventilation II | || Case Studies I | Case Studies II | || | Final Presentations | |
+| Understanding Climate II | Thermal Comfort | Psychrometric Chart |
+| Thermal Mass & Heat Flow | Insulation Materials | Insulation Study ArchSim |
+| Active & Passive Solar | Radiation Maps | PV Design (DIVA/ArchSim) |
+| Window Technologies | Internal Gains & Infiltration | Envelope Game (ArchSim) |
+| Load Calc (manual) | Load Calc (digital) | |
+| Static Shading Design | Simulation Game | Simulation Game (ArchSim) |
+| HVAC I | HVAC II | |
+| Daylight & Photometry | Daylighting Rules of Thumb| Daylit Area, HDR Photography |
+| Daylight Simulations | El. Lighting & Controls | Daylit Area Calc (Daysim) |
+| Natural Ventilation I | Natural Ventilation II | |
+| Case Studies I | Case Studies II | |
+| | Final Presentations | |
 
 *Table 1: Weekly course syllabus*{: .caption}
 
@@ -67,7 +76,8 @@ A brief description of each exercise is presented below with an emphasis on the 
 
 * **Exercise 2** was a DIVA-based *Shading Study* in which students had to model an existing three-dimensional object in Rhino and compare photographs of the object taken at two times in the day under clear sky conditions to DIVA/Radiance visualization of the same conditions.
 
-![figure-1](fig1.jpg){: .figure}*Figure 1: Rhino viewport on the left with GH canvas and ArchSim on the right*{: .caption}
+![figure-1](fig1.jpg){: .figure}
+*Figure 1: Rhino viewport on the left with GH canvas and ArchSim on the right*{: .caption}
 
 * **Exercise 3** required students to carry a data logger measuring temperature and relative humidity along with them for a week and to practice mapping *'their life'* on a psychrometric chart.
 
@@ -88,15 +98,27 @@ For the remaining game-based exercises 6 and 7 a simplified ArchSim GUI was deve
 | :-- | :-- | :-- |
 | **Roof Insulation** | | |
 | R-value R20 (base) | U-value 0.284W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> |
-| R-value R30 | U-value 0.187W/m<span class="sup">2</span>K | $.005/m<span class="sup">2</span> || R-value R40 | U-value 0.131W/m<span class="sup">2</span>K | $.01/m<span class="sup">2</span> |
+| R-value R30 | U-value 0.187W/m<span class="sup">2</span>K | $.005/m<span class="sup">2</span> |
+| R-value R40 | U-value 0.131W/m<span class="sup">2</span>K | $.01/m<span class="sup">2</span> |
 | R-value R60 | U-value 0.091W/m<span class="sup">2</span>K | $.02/m<span class="sup">2</span> |
 | **Exterior Wall Insulation** | | |
-| R-value R13 (base) | U-value 0.434W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> || R-value R19.5 | U-value 0.346W/m<span class="sup">2</span>K | $.003/m<span class="sup">2</span> || R-value R28.5 | U-value 0.193W/m<span class="sup">2</span>K | $.008/m<span class="sup">2</span> |
+| R-value R13 (base) | U-value 0.434W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> |
+| R-value R19.5 | U-value 0.346W/m<span class="sup">2</span>K | $.003/m<span class="sup">2</span> |
+| R-value R28.5 | U-value 0.193W/m<span class="sup">2</span>K | $.008/m<span class="sup">2</span> |
 | **Wall-To-Window Ratio (WWR)** | | |
-| Punched Openings | WWR 0.2 | linked to glazing type || Punched Openings | WWR 0.4 | linked to glazing type || Punched Openings | WWR 0.6 | linked to glazing type || Curtain Wall | WWR80 | linked to glazing type |
+| Punched Openings | WWR 0.2 | linked to glazing type |
+| Punched Openings | WWR 0.4 | linked to glazing type |
+| Punched Openings | WWR 0.6 | linked to glazing type |
+| Curtain Wall | WWR80 | linked to glazing type |
 | **Glazing Type** | | |
-Dbl., no coat.,<br/>Argon (base) | U-value 2.53W/m<span class="sup">2</span>K | $.009/m<span class="sup">2</span> || Dbl., Low-e coat. #2,<br/>Argon | U-value 1.30W/m<span class="sup">2</span>K | $.024/m<span class="sup">2</span> || Dbl., Low-e coat. #2,<br/>Argon, Solar Control | U-value 1.35W/m<span class="sup">2</span>K | $.036/m<span class="sup">2</span> |
-| **Exterior Shading** | | || None (base) | N/A | N/A || Shallow Overhang | Depth 0.5m | $4 || Medium Overhang | Depth 1.0m | $8 || Deep Overhang | Depth 1.5m | $12 |
+Dbl., no coat.,<br/>Argon (base) | U-value 2.53W/m<span class="sup">2</span>K | $.009/m<span class="sup">2</span> |
+| Dbl., Low-e coat. #2,<br/>Argon | U-value 1.30W/m<span class="sup">2</span>K | $.024/m<span class="sup">2</span> |
+| Dbl., Low-e coat. #2,<br/>Argon, Solar Control | U-value 1.35W/m<span class="sup">2</span>K | $.036/m<span class="sup">2</span> |
+| **Exterior Shading** | | |
+| None (base) | N/A | N/A |
+| Shallow Overhang | Depth 0.5m | $4 |
+| Medium Overhang | Depth 1.0m | $8 |
+| Deep Overhang | Depth 1.5m | $12 |
 | **Lighting Power Density** | | |
 | Base | 11W/m<span class="sup">2</span> (business hours) | $0 |
 | Low | 9W/m<span class="sup">2</span> (business hours) | $3.5 |
@@ -107,7 +129,9 @@ Dbl., no coat.,<br/>Argon (base) | U-value 2.53W/m<span class="sup">2</span>K | 
 | None | N/A | N/A |
 | Installed | N/A | $5 |
 | **HVAC System** | | |
-| Gas Boiler,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $0 || Elec. Radiant Heating,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $5 || Ground Source Heat Pump | Heating COP 3.1<br/>Cooling COP 3.93 | $10 |
+| Gas Boiler,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $0 |
+| Elec. Radiant Heating,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $5 |
+| Ground Source Heat Pump | Heating COP 3.1<br/>Cooling COP 3.93 | $10 |
 
 *Table 2: List of design choices*{: .caption}
 
@@ -220,7 +244,8 @@ This work was made possible with support from the Department of Architecture at 
 * Lagios, K., Niemasz, J., & Reinhart, C.F. (2010). Animated building performance simulation (abps)-linking rhinoceros/grasshopper with radiance/daysim. Proceedings of SimBuild.
 
 * McNeel, R. (2012). Grasshopper - Generative Modeling with Rhino, McNeel North America, Seattle, USA. [http://www.grasshopper3d.com](http://www.grasshopper3d.com)
-* McNeel, R. (2012). Rhinoceros - NURBS Modeling for Windows (version 5.0), McNeel North America, Seattle, WA, USA. [http://www.rhino3d.com](http://www.rhino3d.com)
+
+* McNeel, R. (2012). Rhinoceros - NURBS Modeling for Windows (version 5.0), McNeel North America, Seattle, WA, USA. [http://www.rhino3d.com](http://www.rhino3d.com)
 
 * NAAB (2015). NAAB 2015 Procedures for Accreditation. The National Architectural Accrediting Board
 

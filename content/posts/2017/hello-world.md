@@ -2,7 +2,7 @@
 title: "Hello world (at last)"
 created_at: 2017-07-23
 kind: article
-description: Why I am -finally- attempting to build my own personal website
+description: Why I am -finally- attempting to build my own personal website.
 image: /posts/2017/hello-world.jpg
 ---
 

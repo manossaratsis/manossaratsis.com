@@ -2,7 +2,7 @@
 title: "Building software products like building physical spaces"
 created_at: 2019-02-07
 kind: article
-description: Some parallels between architecture and software as a process
+description: Some parallels between architecture and software as a process.
 image: /posts/2019/building-software.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: A tangible interface for collaborative urban design
-description: This manuscript presents a tool providing performance feedback for a neighborhood’s operational energy costs, daylight availability, and walkability.
+description: A tool to provide real-time feedback for a neighborhood’s environmental performance.
 image: /research/a-tangible-interface-for-collaborative-urban-design/cover.jpg
 ---
 * TOC
@@ -11,7 +11,7 @@ image: /research/a-tangible-interface-for-collaborative-urban-design/cover.jpg
 # A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability
 ---
 
-[Full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2296.pdf)
+[Download full manuscript](http://www.ibpsa.org/proceedings/BS2015/p2296.pdf)
 
 **Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)**
 
@@ -23,17 +23,20 @@ pp. 2691-2698*
 ## Abstract
 
 An increasingly urbanizing human population presents new challenges for urban planners and designers. While the applicability of urban design tools for simulation experts is constantly improving, urban development scenarios require the input of multiple stakeholders, each with different outlooks, expertise, requirements, and preconceptions, and good urban design requires communication and compromise as much as it requires effective use of tools. The best tools will facilitate this communication while remaining evidence-based, allowing diverse planning teams to develop high quality, healthy, sustainable urban proposals.
-Presented in this manuscript is a new such tool, implemented as a tangible user interface, that allows varied stakeholders to quickly collaborate on creation and exploration of new urban design solutions. The tool provides performance feedback for a neighborhood’s operational energy costs, daylight availability, and walkability. Fast interaction is attained through a novel precalculation method that is also presented and validated. Details of the tool’s deployment as part of a case study that was conducted with members of the planning commission of Riyadh, SA, in March 2015 are given.
+
+Presented in this manuscript is a new such tool, implemented as a tangible user interface, that allows varied stakeholders to quickly collaborate on creation and exploration of new urban design solutions. The tool provides performance feedback for a neighborhood’s operational energy costs, daylight availability, and walkability. Fast interaction is attained through a novel precalculation method that is also presented and validated. Details of the tool’s deployment as part of a case study that was conducted with members of the planning commission of Riyadh, SA, in March 2015 are given.
 
 ## Introduction
 
 Cities across the planet are growing at an unprecedented speed: The United Nations predicts two million additional city dwellers per week until 2030 [[United Nations, 2014]](#references). To accommodate this massive growth, cities must both expand and densify, but the quality and efficiency of new and existing neighborhoods must not therefore suffer. They should instead be designed for resource-efficiency, with quality indoor and outdoor spaces that support communities and favor human-powered modes of transportation such as walking and biking. In recent years, the building performance simulation community has made significant progress towards developing planning tools that predict various measures of urban sustainability, from operational [[Nouvel et al., 2013; Reinhart et al., 2013; Robinson et al., 2009]](#references) and embodied building energy use [[Davila and Reinhart, 2013]](#references) to daylight [[Dogan et al., 2012]](#references) and walkability [[Rakha and Reinhart, 2012]](#references).
 
 Some of these tools are usable by urban designers and architects, but the neighborhood design process generally involves many more stakeholders, including city governments, citizens, developers, financiers, and others, and is far more complicated than simple selection of the *best* solution as identified by a computer program. Diverse interest groups prioritize different urban attributes, so maximal satisfaction requires compromise.
-Unfortunately, with stakeholders’ varied interests come varied preconceptions and assumptions. In order to make multi-stakeholder urban planning discussions more evidence-based and productive, design proposals must be evaluated based on meaningful urban performance metrics so that tradeoffs can be better understood. Indeed, using urban planning tools, a design team can nowadays prepare design variants before a stakeholder meeting to guide a discussion, but consideration of new ideas during the meeting itself is impractical due to model input and execution time. Consequently, the shared creative wisdom of all involved stakeholders is underutilized, and a lack of participant *ownership* over prepared solutions hinders buy-in. In the worst cases, this disengagement causes discussants to revert to conversations grounded in their individual preconceptions, dismissing (implicitly or otherwise) the evidence-based proposals presented entirely.
+
+Unfortunately, with stakeholders’ varied interests come varied preconceptions and assumptions. In order to make multi-stakeholder urban planning discussions more evidence-based and productive, design proposals must be evaluated based on meaningful urban performance metrics so that tradeoffs can be better understood. Indeed, using urban planning tools, a design team can nowadays prepare design variants before a stakeholder meeting to guide a discussion, but consideration of new ideas during the meeting itself is impractical due to model input and execution time. Consequently, the shared creative wisdom of all involved stakeholders is underutilized, and a lack of participant *ownership* over prepared solutions hinders buy-in. In the worst cases, this disengagement causes discussants to revert to conversations grounded in their individual preconceptions, dismissing (implicitly or otherwise) the evidence-based proposals presented entirely.
 
 >  In order to make multi-stakeholder urban planning discussions more evidence-based and productive, design proposals must be evaluated based on meaningful urban performance metrics so that tradeoffs can be better understood.
-What is needed is a collaborative design tool that:
+
+What is needed is a collaborative design tool that:
 
 * allows non-expert stakeholders to actively contribute their ideas during a planning session
 * provides real-time analysis feedback on emerging design ideas in order to quickly advance the design process, and help participants identify acceptable solutions
@@ -60,8 +63,11 @@ One benefit of urban density is that residents may walk or bike instead of relyi
 
 The system’s physical interface consists of a plexiglass tabletop with a grid upon which users can place pre-assembled Lego blocks, each representing an 80-meter by 80-meter city area, to build a neighborhood. There are sixteen block types to choose from: One represents a park space, and each other represents one or more commercial, residential, or mixed-use buildings. Each of these buildings has all of its design characteristics predefined, including construction assemblies, occupancy, internal gains, and window-to-wall ratios. Each block type is represented by an alphanumeric code such as *C2* or *ST3* and has, on its base, a color code indicating its type, which is read by a camera mounted underneath the table. Figure 1 shows each of the sixteen block types. Whenever a change to the block configuration is made, the camera sends the new configuration to a computer, which calculates performance scores for all three neighborhood metrics and uses these scores to colorize the blocks on the table via a projector mounted above it. Figure 2 shows a diagram of the system’s component interactions, which are an impelementation of the MIT Media Lab’s CityScope technology [[Winder, 2015]](#references).
 
-![figure-1](fig1.jpg){: .figure}*Figure 1: The sixteen available block types*{: .caption}
-Performance scores are calculated for each block as a value between 0 and 1, which is then mapped to a color on a spectrum from red (for *bad* blocks) through yellow to green (for *good* blocks). At any point, only one of the three metrics is used to colorize the table blocks, and users can change this *active* metric at will, allowing them to focus on a particular neighborhood performance aspect. In addition to block-level scores, a neighborhood-level score is calculated for each metric and displayed on a large monitor behind the table along with a colorized, 3D rendering of the designed neighborhood.Figure 3 shows a photograph of the operational interface.
+![figure-1](fig1.jpg){: .figure}
+*Figure 1: The sixteen available block types*{: .caption}
+
+Performance scores are calculated for each block as a value between 0 and 1, which is then mapped to a color on a spectrum from red (for *bad* blocks) through yellow to green (for *good* blocks). At any point, only one of the three metrics is used to colorize the table blocks, and users can change this *active* metric at will, allowing them to focus on a particular neighborhood performance aspect. In addition to block-level scores, a neighborhood-level score is calculated for each metric and displayed on a large monitor behind the table along with a colorized, 3D rendering of the designed neighborhood.
+Figure 3 shows a photograph of the operational interface.
 
 ![figure-2](fig2.jpg){: .figure}
 *Figure 2: The system’s component interactions*{: .caption}
@@ -71,7 +77,9 @@ Performance scores are calculated for each block as a value between 0 and 1, whi
 ### Energy
 
 The need for building energy consumption calculations to be sufficiently fast for interactive use of the table proscribes not only the direct use of detailed simulation engines such as EnergyPlus [[DOE, 2013]](#references) but any programs or algorithms that invoke such an engine, even in a simplified way, such as Dogan and Reinhart’s Shoeboxer algorithm [[Dogan and Reinhart, 2013]](#references). The design system instead approximates energy consumption using presimulated energy performance data for buildings modeled on the site in question. This means that each instance of the design game is custom-tailored for a specific site; in our case study, this was a neighborhood in Riyadh, Saudi Arabia. Presimulation relies on the fact that each available building is fully specified in every way except geometric position, so users cannot modify any thermal performance factors of buildings they place.
-The assumption driving the presimulation approach is that with all of a building’s properties except positioning held constant, its energy consumption according to EnergyPlus varies only with incident solar radiation, which varies with the proximity and type of neighboring structures. This assumption is reasonable in Saudi Arabia, as heating loads are essentially nonexistent, and blinds are generally kept closed, eliminating electric lighting being dimmed.Building simulation parameters such as construction assemblies, glazing properties, internal loads, and occupancy schedules were selected based on surveys of Kuwaiti building stock [[Al-Mumin et al., 2003; Assam and Al-Ragom, 2009; Cerezo et al., 2015]](#references), the Kuwati energy code [[MEW, 2010]](#references), and the ASHRAE 90.1 standard for international climate zone 1. Each building on each block was presimulated using the Riyadh Typical Meteorological Year (TMY) under a variety of shading conditions. For each shading condition, the sky view factor [[Hopkinson et al., 1966]](#references) of the building centroid’s projection to the ground was calculated using the Radiance [[Ward, 2014]](#references) backward raytracer, and its energy consumption was simulated using the Shoeboxer. (The Shoeboxer was used instead of a detailed EnergyPlus simulation in order to expedite post-gameplay comparison of approximated results to simulated ones.) The shading conditions were generated by surrounding each building’s block by an open box of gradually increasing height, as demonstrated in Figure 4. Figure 5 shows an example presimulation curve for one of the game buildings.
+
+The assumption driving the presimulation approach is that with all of a building’s properties except positioning held constant, its energy consumption according to EnergyPlus varies only with incident solar radiation, which varies with the proximity and type of neighboring structures. This assumption is reasonable in Saudi Arabia, as heating loads are essentially nonexistent, and blinds are generally kept closed, eliminating electric lighting being dimmed.
+Building simulation parameters such as construction assemblies, glazing properties, internal loads, and occupancy schedules were selected based on surveys of Kuwaiti building stock [[Al-Mumin et al., 2003; Assam and Al-Ragom, 2009; Cerezo et al., 2015]](#references), the Kuwati energy code [[MEW, 2010]](#references), and the ASHRAE 90.1 standard for international climate zone 1. Each building on each block was presimulated using the Riyadh Typical Meteorological Year (TMY) under a variety of shading conditions. For each shading condition, the sky view factor [[Hopkinson et al., 1966]](#references) of the building centroid’s projection to the ground was calculated using the Radiance [[Ward, 2014]](#references) backward raytracer, and its energy consumption was simulated using the Shoeboxer. (The Shoeboxer was used instead of a detailed EnergyPlus simulation in order to expedite post-gameplay comparison of approximated results to simulated ones.) The shading conditions were generated by surrounding each building’s block by an open box of gradually increasing height, as demonstrated in Figure 4. Figure 5 shows an example presimulation curve for one of the game buildings.
 
 ![figure-3](fig3.jpg){: .figure}
 *Figure 3: The operational system*{: .caption}
@@ -97,7 +105,8 @@ As with operational energy, neither a detailed simulation itself (e.g. using DAY
 ### Walkability
 
 Neighborhood walkability calculations are based on a modified version of the Walk Score algorithm, originally published in 2011 [[Walk Score, 2011]](#references), adapted to the Saudi context. This algorithm assigns walkability scores to residential locations based on the proximity and quantity of local amenities, which are predefined properties of blocks with commercial buildings on them. To score, trips from a building to the closest amenities are first generated and scored according to their distance, with a maximum score at zero meters decaying to a zero score at 250 meters according to a particular fifth-order polynomial function. The maximum trip length of 250 meters was chosen based on surveys distributed to Saudi residents asking them about their walking preferences. 70% of a building’s walkability score is the average of the scores of the shortest 24 trips to commercial amenities, and the remaining 30% is the score of the trip to the closest park.
-The original 2011 Walk Score algorithm relied on an explicitly defined pedestrian travel network, and its navigation is the most time-consuming step of the calculation. As the presented interface has no means of defining such a street network, the assumption is made that all Manhattan (orthogonal) pedestrian travel is possible, but no diagonal travel is.
+
+The original 2011 Walk Score algorithm relied on an explicitly defined pedestrian travel network, and its navigation is the most time-consuming step of the calculation. As the presented interface has no means of defining such a street network, the assumption is made that all Manhattan (orthogonal) pedestrian travel is possible, but no diagonal travel is.
 
 ![figure-7](fig7.jpg){: .figure}
 *Figure 7: Presimulated daylighting performance of the commercial building on ST2 blocks*{: .caption}
@@ -131,7 +140,8 @@ The accuracy of the presimulation method employed to approximate energy and dayl
 *Figure 11: Group 4’s neighborhood’s performance over time with respect to all three metrics*{: .caption}
 
 Figure 12 compares approximated block energy scores to energy scores generated by post-facto simulation. Most approximations are quite good, and the more substantial errors are closely clustered by block type. One source of errors is R3 blocks, which is a block type containing two long, narrow buildings. Two instances of *R3* blocks demonstrated little error, and these instances were uses of the blocks in the same orientation as they were during presimulation, while the others were rotated 90 degrees. The other two error clusters were of *M2* and *M4* blocks, both mixed-used blocks containing relatively complex building geometry.
-Figure 13 shows an analogous comparison of daylighting scores. The approximation method fared worse than it did for energy performance, although still acceptably, and blocks within a type still tended to demonstrate consistent errors.
+
+Figure 13 shows an analogous comparison of daylighting scores. The approximation method fared worse than it did for energy performance, although still acceptably, and blocks within a type still tended to demonstrate consistent errors.
 
 No examination of walkability approximation accuracy was performed, because there was no formal way to undo the simplification (the inference of an accommodating pedestrian travel network) applied.
 
@@ -143,15 +153,23 @@ No examination of walkability approximation accuracy was performed, because ther
 
 ## Discussion
 
-The gameplay results demonstrate that the described table interface can be an effective assistant for collaborative, simulation-guided neighborhood design by simulation novices. However, several avenues for improvement suggest themselves.The first relates to the table’s ineffectiveness at daylighting optimization assistance. This can likely be explained by the game’s relative lack of responsiveness in this domain. A block’s energy score, while relatively unaffected by blocks around it, was substantially affected by the choice of a the block itself, and so players could identify *good* blocks to design with. A block’s walkability score, in contrast, was obviously and substantially affected by blocks arround it, so players could improve walkability scores by adding parks and dense commercial areas. Daylighting, however, had neither of these benefits; most blocks spent most of their time as some shade of dark orange. As a result, players could not learn how to improve their designs on either a local or global level, which they remarked was frustrating. Future iterations of the game should avoid this by ensuring that each performance metric is sufficiently responsive to player input. This might be achieved by a more sophisticated presimulation obstruction model, careful block design and testing, provision of parametric control to users during gameplay, or some other method.Players spent little time even trying to optimize for daylighting. This may be due to a cultural disregard for that building performance feature that stems from the way buildings are operated in Saudi Arabia (this was mentioned explicitly more than once by players). Future games should therefore carefully select culturally relevant metrics; in this case, water consumption or parking would have been better choices.
+The gameplay results demonstrate that the described table interface can be an effective assistant for collaborative, simulation-guided neighborhood design by simulation novices. However, several avenues for improvement suggest themselves.
+
+The first relates to the table’s ineffectiveness at daylighting optimization assistance. This can likely be explained by the game’s relative lack of responsiveness in this domain. A block’s energy score, while relatively unaffected by blocks around it, was substantially affected by the choice of a the block itself, and so players could identify *good* blocks to design with. A block’s walkability score, in contrast, was obviously and substantially affected by blocks arround it, so players could improve walkability scores by adding parks and dense commercial areas. Daylighting, however, had neither of these benefits; most blocks spent most of their time as some shade of dark orange. As a result, players could not learn how to improve their designs on either a local or global level, which they remarked was frustrating. Future iterations of the game should avoid this by ensuring that each performance metric is sufficiently responsive to player input. This might be achieved by a more sophisticated presimulation obstruction model, careful block design and testing, provision of parametric control to users during gameplay, or some other method.
+
+Players spent little time even trying to optimize for daylighting. This may be due to a cultural disregard for that building performance feature that stems from the way buildings are operated in Saudi Arabia (this was mentioned explicitly more than once by players). Future games should therefore carefully select culturally relevant metrics; in this case, water consumption or parking would have been better choices.
 
 > The gameplay results demonstrate that the described table interface can be an effective assistant for collaborative, simulation-guided neighborhood design by simulation novices.
 
-It has been shown that the novel lookup table-based simulation approximation method works very well for the investigated climate and buildings, especially for the collaborative, early planning tasks intended, and it was fast enough for interactive use. However, its errors still deserve investigation. The fact that each block type demonstrated consistent errors for both energy and daylighting suggests that the errors stem from particular inadequacies in the relationships between the underlying simulation engines and the defined block geometries rather than a fundamental methodological problem. These relationships must therefore be comprehensively explored beforehand to ensure that the approximation works. That daylighting approximations were more error prone than energy approximation is unsurprising, as energy simulations in a cooling-dominated climate mainly depend on total annual solar radiation levels incident on a building whereas for daylight the temporal availability of light is more important. One improvement might have been to calculate the sky view factor at multiple points for each building, rather than just one.The approximation method itself relies on the very strong assumption that energy consumption varies mainly with insolation. This needs to be tested in climates other than Riyadh where electric lighting dimming, and more importantly, heating, are relevant. A mixed climate (e.g. Boston) or a cold climate (e.g. Anchorage) would be good candidates.
+It has been shown that the novel lookup table-based simulation approximation method works very well for the investigated climate and buildings, especially for the collaborative, early planning tasks intended, and it was fast enough for interactive use. However, its errors still deserve investigation. The fact that each block type demonstrated consistent errors for both energy and daylighting suggests that the errors stem from particular inadequacies in the relationships between the underlying simulation engines and the defined block geometries rather than a fundamental methodological problem. These relationships must therefore be comprehensively explored beforehand to ensure that the approximation works. That daylighting approximations were more error prone than energy approximation is unsurprising, as energy simulations in a cooling-dominated climate mainly depend on total annual solar radiation levels incident on a building whereas for daylight the temporal availability of light is more important. One improvement might have been to calculate the sky view factor at multiple points for each building, rather than just one.
+
+The approximation method itself relies on the very strong assumption that energy consumption varies mainly with insolation. This needs to be tested in climates other than Riyadh where electric lighting dimming, and more importantly, heating, are relevant. A mixed climate (e.g. Boston) or a cold climate (e.g. Anchorage) would be good candidates.
 
 Purely logistical improvements to gameplay are available. The simplest is the extension of design periods: Every group worked right up to the 30 minute limit, and seemed fully ready to take advantage of additional time. Longer session lengths, such as 45 or 60 minutes, might be more useful. Additionally, the physical apparatus itself was quite susceptible to bumping, which caused incorrect reports to users until the the scanning camera was re-calibrated. Although this process is fast, the interruption to player focus is unsatisfactory, as is the possibility of users spending substantial time designing before the error is even corrected (as with the first group in the case study).
-Finally, the block library should be well-curated. Of the sixteen available block types, four found little to no use during gameplay. This can be partially explained by these blocks performing strictly worse than other, similar blocks, but not entirely, as other blocks with this characteristic, specifically low density residential blocks, found heavy use. What is more likely is that players found no obvious urban role for the neglected blocks. The block library should be designed from the perspective of specific roles from the outset in order to minimize neglected block types. An incidental benefit of is this approach is that these roles can be directly presented to users to more clearly explain how the game works.
-This problem calls attention to another that fortunately did not materialize. The use of low-density residential blocks, in spite of their poor performance, indicated that players were using the tool to truly design a neighborhood, rather than simply solve an optimization problem. They adapted the game to their needs, using its quantitative feedback to guide their qualitiative analysis but not replace it.
+
+Finally, the block library should be well-curated. Of the sixteen available block types, four found little to no use during gameplay. This can be partially explained by these blocks performing strictly worse than other, similar blocks, but not entirely, as other blocks with this characteristic, specifically low density residential blocks, found heavy use. What is more likely is that players found no obvious urban role for the neglected blocks. The block library should be designed from the perspective of specific roles from the outset in order to minimize neglected block types. An incidental benefit of is this approach is that these roles can be directly presented to users to more clearly explain how the game works.
+
+This problem calls attention to another that fortunately did not materialize. The use of low-density residential blocks, in spite of their poor performance, indicated that players were using the tool to truly design a neighborhood, rather than simply solve an optimization problem. They adapted the game to their needs, using its quantitative feedback to guide their qualitiative analysis but not replace it.
 
 ## Conclusion
 
@@ -164,27 +182,50 @@ This work was made possible by the Center for Complex Engineering Systems at the
 ## References
 
 * Al-Mumin, A., Khattab, O., & Sridhar, G. (2003). Occupants’ behavior and activity patterns influencing the energy consumption in the Kuwaiti residences. Energy Build. 35, 549–559.
-* Assam, E.O., & Al-Ragom, F. (2009). The effect of reinforced concrete frames on the thermal performance of residential villas in hot climates. International Journal of Energy Technology and Policy 7, 46–62.
-* Cerezo, C., Sokol, J., Reinhart, C., & Al Mumin, A. (2015). Comparison of three methods for the characterization of building archetypes in urban energy simulation. Proceedings of Building Simulation 2015: 15th Conference of the International Building Performance Association.
-* Davila, C.C., & Reinhart, C. (2013). Urban energy lifecycle: An analytical framework to evaluate the embodied energy use of urban developments. Proceedings of Building Simulation 2013: 13th Conference of the International Building Performance Association.
+
+* Assam, E.O., & Al-Ragom, F. (2009). The effect of reinforced concrete frames on the thermal performance of residential villas in hot climates. International Journal of Energy Technology and Policy 7, 46–62.
+
+* Cerezo, C., Sokol, J., Reinhart, C., & Al Mumin, A. (2015). Comparison of three methods for the characterization of building archetypes in urban energy simulation. Proceedings of Building Simulation 2015: 15th Conference of the International Building Performance Association.
+
+* Davila, C.C., & Reinhart, C. (2013). Urban energy lifecycle: An analytical framework to evaluate the embodied energy use of urban developments. Proceedings of Building Simulation 2013: 13th Conference of the International Building Performance Association.
 
 * DOE (2012). EnergyPlus Energy Simulation Software, V.7, [https://energyplus.net](https://energyplus.net)
-* Dogan, T., & Reinhart, C.F. (2013). Automated conversion of architectural massing models into thermal 'shoebox' models. Proceedings of Building Simulation 2013: 13th Conference of the International Building Performance Association.
+
+* Dogan, T., & Reinhart, C.F. (2013). Automated conversion of architectural massing models into thermal 'shoebox' models. Proceedings of Building Simulation 2013: 13th Conference of the International Building Performance Association.
 
 * Dogan, T., Reinhart, C.F., & Michalatos, P. (2012). Urban daylight simulation calculating the daylit area of urban designs. Proceedings of SimBuild.
-* Hopkinson, R.G., Petherbridge, P., & Longmore, J. (1966). Daylighting. Heinemann.* Huang, C.-J., Yi-Luen Do, E., & Gross, D. (2003). MouseHaus Table: a Physical Interface for Urban Design. Proceedings of the 16th Annual ACM Symposium on User Interface Software and Technology.
-* IESNA (2012). LM-83-12 IES Spatial Daylight Autonomy (sDA) and Annual Sunlight Exposure (ASE). IESNA Lighting Measurement, New York, NY, USA.
-* MEW (2010). Energy conservation program. Code of Practice MEW/R-6/2010. Ministry of Energy and Water. Kuwait City, Kuwait.
-* Nouvel, R., Schulte, C., Eicker, U., Pietruschka, D., & Coors, V. (2013). CityGML-based 3D city model for energy diagnostics and urban energy policy support. Proceedings of Building Simulation 2013: 13th Conference of the International Building Performance Association.
-* Piper, B., Ratti, C., & Ishii, H. (2002). Illuminating clay: a 3-D tangible interface for landscape analysis. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
-* Pucher, J., Buehler, R., Bassett, D.R., & Dannenberg, A.L. (2010). Walking and cycling to health: a comparative analysis of city, state, and international data. Am. J. Public Health 100, 1986–1992.
-* Rakha, T., & Reinhart, C. (2012). Generative urban modeling: A design work flow for walkability-optimized cities. Proceedings of SimBuild 2012.
-* Reinhart, C.F., Dogan, T., Jakubiec, J.A., Rakha, T., & Sang, A. (2013). Umi-an urban simulation environment for building energy use, daylighting and walkability. Proceedings of Building Simulation 2013: 13th Conference of International Building Performance Simulation Association.
-* Robinson, D., Haldi, F., Kämpf, J., Leroux, P., Perez, D., Rasheed, A., & Wilke, U. (2009). CitySim: Comprehensive micro-simulation of resource flows for sustainable urban planning. Proceedings of Building Simulation 2011: 11th Conference of International Building Performance Simulation Association.
-* Seichter, H., & Schnabel, M.A. (2005). Digital and Tangible Sensation: An Augmented Reality Urban Design Studio, in: 10th International Conference on Computer Aided Architectural Design Research in Asia, CAADRIA, New Delhi, India. pp. 193–202.
-* Strzalka, A., Bogdahn, J., Coors, V., & Eicker, U. (2011). 3D city modeling for urban scale heating energy demand forecasting. HVACR Res. 17, 526–539.Ullmer, B., Ishii, H., 2000. Emerging frameworks for tangible user interfaces. IBM Syst. J. 39, 915–931.
-* Underkoffler, J., & Ishii, H. (1999). Urp: a luminous-tangible workbench for urban planning and design, in: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, pp. 386–393. doi 10.1145/302979.303114
-* United Nations (2014). World Urbanization Prospects: The 2014 Revision, Highlights. U.N. Department of Economic and Social Affairs, Population Division, New York, USA.
-* WalkScore (2014). WalkScore. Retrieved November 2014. [http://www.walkscore.com](http://www.walkscore.com)
-* Ward, G. (2014). Radiance. Retrieved November 2014. [http://radsite.lbl.gov/](http://radsite.lbl.gov/)
-* Winder, J.I. (2015). System for Real-time Digital Reconstruction and 3D Projection-Mapping of Arbitrarily Many Tagged Physical Objects (Technology Description). Massachusetts Institute of Technology.
+
+* Hopkinson, R.G., Petherbridge, P., & Longmore, J. (1966). Daylighting. Heinemann.
+
+* Huang, C.-J., Yi-Luen Do, E., & Gross, D. (2003). MouseHaus Table: a Physical Interface for Urban Design. Proceedings of the 16th Annual ACM Symposium on User Interface Software and Technology.
+
+* IESNA (2012). LM-83-12 IES Spatial Daylight Autonomy (sDA) and Annual Sunlight Exposure (ASE). IESNA Lighting Measurement, New York, NY, USA.
+
+* MEW (2010). Energy conservation program. Code of Practice MEW/R-6/2010. Ministry of Energy and Water. Kuwait City, Kuwait.
+
+* Nouvel, R., Schulte, C., Eicker, U., Pietruschka, D., & Coors, V. (2013). CityGML-based 3D city model for energy diagnostics and urban energy policy support. Proceedings of Building Simulation 2013: 13th Conference of the International Building Performance Association.
+
+* Piper, B., Ratti, C., & Ishii, H. (2002). Illuminating clay: a 3-D tangible interface for landscape analysis. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems.
+
+* Pucher, J., Buehler, R., Bassett, D.R., & Dannenberg, A.L. (2010). Walking and cycling to health: a comparative analysis of city, state, and international data. Am. J. Public Health 100, 1986–1992.
+
+* Rakha, T., & Reinhart, C. (2012). Generative urban modeling: A design work flow for walkability-optimized cities. Proceedings of SimBuild 2012.
+
+* Reinhart, C.F., Dogan, T., Jakubiec, J.A., Rakha, T., & Sang, A. (2013). Umi-an urban simulation environment for building energy use, daylighting and walkability. Proceedings of Building Simulation 2013: 13th Conference of International Building Performance Simulation Association.
+
+* Robinson, D., Haldi, F., Kämpf, J., Leroux, P., Perez, D., Rasheed, A., & Wilke, U. (2009). CitySim: Comprehensive micro-simulation of resource flows for sustainable urban planning. Proceedings of Building Simulation 2011: 11th Conference of International Building Performance Simulation Association.
+
+* Seichter, H., & Schnabel, M.A. (2005). Digital and Tangible Sensation: An Augmented Reality Urban Design Studio, in: 10th International Conference on Computer Aided Architectural Design Research in Asia, CAADRIA, New Delhi, India. pp. 193–202.
+
+* Strzalka, A., Bogdahn, J., Coors, V., & Eicker, U. (2011). 3D city modeling for urban scale heating energy demand forecasting. HVACR Res. 17, 526–539.
+Ullmer, B., Ishii, H., 2000. Emerging frameworks for tangible user interfaces. IBM Syst. J. 39, 915–931.
+
+* Underkoffler, J., & Ishii, H. (1999). Urp: a luminous-tangible workbench for urban planning and design, in: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. ACM, New York, NY, USA, pp. 386–393. doi 10.1145/302979.303114
+
+* United Nations (2014). World Urbanization Prospects: The 2014 Revision, Highlights. U.N. Department of Economic and Social Affairs, Population Division, New York, USA.
+
+* WalkScore (2014). WalkScore. Retrieved November 2014. [http://www.walkscore.com](http://www.walkscore.com)
+
+* Ward, G. (2014). Radiance. Retrieved November 2014. [http://radsite.lbl.gov/](http://radsite.lbl.gov/)
+
+* Winder, J.I. (2015). System for Real-time Digital Reconstruction and 3D Projection-Mapping of Arbitrarily Many Tagged Physical Objects (Technology Description). Massachusetts Institute of Technology.
