@@ -56,6 +56,8 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
+* [Seed Round Closed: Embarking on the next chapter of Station A](https://blog.stationa.com/2020/seed-round-closed)<br/>*The Station A Team, Station A Blog, 2020-07-22*
+
 * [The Climate and COVID-19: A convergence of crises](https://www.weforum.org/agenda/2020/04/coronavirus-and-the-climate-a-convergence-of-crises/)<br/>*Emily Kirsch, World Economic Forum, 2020-04-28*
 
 * [Energy Storage for Everyone: Using Station A to connect the dots on SGIP](https://blog.stationa.com/2020/energy-storage-for-everyone)<br/>*Kevin Berkemeyer, Station A Blog, 2020-03-20*
@@ -66,7 +68,7 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 * [Solar and Storage Support California's Grid: Building-by-building analysis towards California's grid reliability goals](https://blog.stationa.com/2019/solar-and-storage-support-californias-grid)<br/>*Sam Steyer, Station A Blog, 2019-03-22*
 
-* [First Round Closed: We are very excited to have our first round of funding secured](https://blog.stationa.com/2018/first-round-closed)<br/>*Kevin Berkemeyer, Station A Blog, 2018-12-14*
+* [First Round Closed: We are very excited to have our first round of funding secured](https://blog.stationa.com/2018/first-round-closed)<br/>*The Station A Team, Station A Blog, 2018-12-14*
 
 * [The Future of the Grid is Geospatial: Decarbonizing modern life will require a location-sensitive approach](https://blog.stationa.com/2018/the-future-of-the-grid-is-geospatial)<br/>*Manos Saratsis, Station A Blog, 2018-10-15*
 
