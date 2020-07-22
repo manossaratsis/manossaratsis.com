@@ -56,6 +56,8 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
+* [NRG spinout Station A raises $3M to expand clean energy marketplace for commercial buildings](https://www.greentechmedia.com/articles/read/station-a-raises-3m-to-expand-solar-and-storage-marketplace-for-commercial-buildings)<br/>*Jeff St. John, Greentech Media, 2020-07-22*
+
 * [Seed Round Closed: Embarking on the next chapter of Station A](https://blog.stationa.com/2020/seed-round-closed)<br/>*The Station A Team, Station A Blog, 2020-07-22*
 
 * [The Climate and COVID-19: A convergence of crises](https://www.weforum.org/agenda/2020/04/coronavirus-and-the-climate-a-convergence-of-crises/)<br/>*Emily Kirsch, World Economic Forum, 2020-04-28*
