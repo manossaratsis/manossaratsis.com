@@ -56,6 +56,8 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
+* [U.S. Commercial Solar Presents Massive Opportunity](https://www.forbes.com/sites/woodmackenzie/2020/08/04/us-commercial-solar-presents-massive-opportunity)<br/>*Michelle Davis, Forbes, 2020-08-04*
+
 * [Creating a Clean Energy Marketplace: Why Powerhouse Ventures invested in Station A](https://www.linkedin.com/pulse/creating-clean-energy-marketplace-why-powerhouse-ventures-kirsch)<br/>*Emily Kirsch, Powerhouse LinkedIn, 2020-07-22*
 
 * [NRG spinout Station A raises funding to expand clean energy marketplace for commercial buildings](https://www.greentechmedia.com/articles/read/station-a-raises-3m-to-expand-solar-and-storage-marketplace-for-commercial-buildings)<br/>*Jeff St. John, Greentech Media, 2020-07-22*
