@@ -56,6 +56,8 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
+* [Powering Schneider Electric's Clean Energy Recommendations](https://blog.stationa.com/2020/powering-schneider-electrics-clean-energy-recommendations)<br/>*The Station A Team, Station A Blog, 2020-12-03*
+
 * [U.S. Sitting on 145 GW of Unused Commercial Solar Potential](https://www.greentechmedia.com/articles/read/the-us-has-145-gigawatts-of-untapped-commercial-solar-potential)<br/>*Michelle Davis, Greentech Media, 2020-08-10*
 
 * [U.S. Commercial Solar Presents Massive Opportunity](https://www.forbes.com/sites/woodmackenzie/2020/08/04/us-commercial-solar-presents-massive-opportunity)<br/>*Michelle Davis, Forbes, 2020-08-04*
