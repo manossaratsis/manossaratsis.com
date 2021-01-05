@@ -11,7 +11,7 @@
         <section class="card">
           <p class="title"><%= link_to post[:title], post.identifier.without_ext %></p>
           <p class="description"><%= post[:description] %></p>
-          <aside>Posted at: <%= post[:created_at] %></aside>
+          <aside>Created at <%= post[:created_at] %></aside>
         </section>
         <% end %>
       </main>

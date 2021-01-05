@@ -13,34 +13,20 @@ You can't manage what you can't measure. The first step to making our buildings 
 
 ## Journal Publications
 
-<section class="card research" markdown="1">
-<p class="title">Simulation-based daylighting analysis procedure for developing urban zoning rules</p>
-<p class="description">Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)</p>
-[Read](simulation-based-daylighting-analysis-procedure)
+<% journal_papers.each do |paper| %>
+<section class="card">
+  <p class="title"><%= link_to paper[:title], paper.identifier.without_ext %></p>
+  <p class="description"><%= paper[:description] %></p>
+  <aside>Authored by <%= paper[:authored_by] %></aside>
 </section>
+<% end %>
 
 ## Conference Proceedings
 
-<section class="card" markdown="1">
-<p class="title">The optimization potential of floor-plan typologies in early design energy modeling</p>
-<p class="description">Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)</p>
-[Read](the-optimization-potential-of-floor-plan-typologies)
+<% conference_papers.each do |paper| %>
+<section class="card">
+  <p class="title"><%= link_to paper[:title], paper.identifier.without_ext %></p>
+  <p class="description"><%= paper[:description] %></p>
+  <aside>Authored by <%= paper[:authored_by] %></aside>
 </section>
-
-<section class="card" markdown="1">
-<p class="title">Towards an energy simulation-informed design process: A 3-phase approach for a performative interdisciplinary laboratory building</p>
-<p class="description">Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)</p>
-[Read](towards-an-energy-simulation-informed-design-process)
-</section>
-
-<section class="card" markdown="1">
-<p class="title">Lessons learnt from a simulation-based approach to teaching building science to designers</p>
-<p class="description">Reinhart, C.F., Geisinger, F., Dogan, T., & Saratsis, E. (2015)</p>
-[Read](lessons-learnt-from-a-simulation-based-approach-to-teaching)
-</section>
-
-<section class="card" markdown="1">
-<p class="title">A tangible interface for collaborative urban design for energy efficiency, daylighting and walkability</p>
-<p class="description">Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)</p>
-[Read](a-tangible-interface-for-collaborative-urban-design)
-</section>
+<% end %>

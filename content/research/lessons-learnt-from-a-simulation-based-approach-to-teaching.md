@@ -2,6 +2,8 @@
 title: Lessons learnt from a simulation-based approach to teaching
 description: Notes on teaching building performance simulation to architecture students in an introductory class.
 image: /research/lessons-learnt-from-a-simulation-based-approach-to-teaching/cover.jpg
+authored_by: Reinhart, C.F., Geisinger, F., Dogan, T., & Saratsis, E. (2015)
+kind: conference_paper
 ---
 * TOC
 {:toc}

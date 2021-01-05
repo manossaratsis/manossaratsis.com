@@ -2,6 +2,8 @@
 title: Simulation-based daylighting analysis procedure
 description: A procedure to help planners formulate nuanced zoning rules, and designers develop better-performing massings.
 image: /research/simulation-based-daylighting-analysis-procedure/cover.jpg
+authored_by: Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)
+kind: journal_paper
 ---
 * TOC
 {:toc}
