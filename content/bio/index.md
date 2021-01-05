@@ -1,13 +1,12 @@
 ---
 title: Bio
-description: I am a software engineer with a background in energy modeling and geospatial analytics.
-image: /img/profile-pic.jpg
+description: I am currently the Head of Product at Station A, a Bay Area software company automating the development of clean energy.
 ---
 * TOC
 {:toc}
 {:.sidebar}
 
-# In my own words.
+# Learn more about my journey
 
 ---
 
