@@ -47,6 +47,19 @@ Consulted for a research project run by MBA candidates at the MIT Sloan School o
 
 Lectured at the [Environmental Systems II: Building Dynamics](https://es.aap.cornell.edu/) class for BArch candidates taught by professor Dogan. The lecture introduced the audience to the emerging fields of geospatial analytics and distributed energy modeling, and discussed the applicability of design skills beyond the architecture industry.
 
+## Education
+
+### Master of Science in Architecture Studies, [Massachusetts Institute of Technology](https://architecture.mit.edu) (September 2013 - June 2015)
+
+* Received Arthur Rotch Special Prize from the Massachusetts Institute of Technology for highest academic achievement as a graduating student.
+* Granted Full-Tuition Scholarship from the Massachusetts Institute of Technology for graduate academic accomplishments as a continuing student.
+* Granted Merit-Based Scholarship from the Alexander S. Onassis Public Benefit Foundation for academic excellence.
+
+### Diploma in Architectural Engineering, [National Technical University of Athens](https://www.ntua.gr/en/) (September 2006 - June 2012)
+
+* Received Greek Architectural Talent distinction for thesis project.
+* Ranked First in the Nationwide University Examinations among 5,200 architecture school candidates (23,534 points out of 24,000).
+
 ## Patents
 
 ### Method and System for Determining Energy Management Strategies, [US20180260920A1](https://patents.google.com/patent/US20180260920A1) (June 2020)
