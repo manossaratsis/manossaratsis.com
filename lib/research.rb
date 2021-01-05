@@ -1,11 +1,13 @@
 module ResearchHelper
 
   def journal_papers
-    @items.select { |item| item[:kind] == 'journal_paper' }
+    jps = @items.select { |item| item[:kind] == 'journal_paper' }
+    jps.sort_by { |jp| jp[:title] }
   end
 
   def conference_papers
-    @items.select { |item| item[:kind] == 'conference_paper' }
+    cps = @items.select { |item| item[:kind] == 'conference_paper' }
+    cps.sort_by { |cp| cp[:title] }
   end
 end
 

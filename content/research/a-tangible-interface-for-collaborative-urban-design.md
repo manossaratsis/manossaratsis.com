@@ -2,7 +2,7 @@
 title: A tangible interface for collaborative urban design
 description: A tool to provide real-time feedback for a neighborhood’s environmental performance.
 image: /research/a-tangible-interface-for-collaborative-urban-design/cover.jpg
-authored_by: Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F. (2015)
+authored_by: Rose, C., Saratsis, E., Aldawood, S., Dogan, T., & Reinhart, C.F.
 kind: conference_paper
 ---
 * TOC

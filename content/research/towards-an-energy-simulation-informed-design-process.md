@@ -2,7 +2,7 @@
 title: Towards an energy simulation-informed design process
 description: A case study on integrating environmental performance simulation workflows into design practice.
 image: /research/towards-an-energy-simulation-informed-design-process/cover.jpg
-authored_by: Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)
+authored_by: Dogan, T., Saratsis, E., & Reinhart, C.F.
 kind: conference_paper
 ---
 * TOC

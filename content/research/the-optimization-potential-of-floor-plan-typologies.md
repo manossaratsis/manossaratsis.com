@@ -2,7 +2,7 @@
 title: The optimization potential of floor-plan typologies
 description: Quantifying the significance of interior subdivisions on building performance simulation results.
 image: /research/the-optimization-potential-of-floor-plan-typologies/cover.jpg
-authored_by: Dogan, T., Saratsis, E., & Reinhart, C.F. (2015)
+authored_by: Dogan, T., Saratsis, E., & Reinhart, C.F.
 kind: conference_paper
 ---
 * TOC
