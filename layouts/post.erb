@@ -11,7 +11,7 @@
         <h1><%= @item[:title] %></h1>
         <hr>
         <p class="description"><%= @item[:description] %></p>
-        <aside>Posted at: <%= @item[:created_at] %></aside>
+        <aside>Created at <%= @item[:created_at] %></aside>
         <article>
           <%= yield %>
         </article>
