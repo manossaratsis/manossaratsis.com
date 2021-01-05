@@ -78,7 +78,7 @@ A brief description of each exercise is presented below with an emphasis on the 
 
 * **Exercise 2** was a DIVA-based *Shading Study* in which students had to model an existing three-dimensional object in Rhino and compare photographs of the object taken at two times in the day under clear sky conditions to DIVA/Radiance visualization of the same conditions.
 
-![figure-1](fig1.jpg){: .figure}
+![figure-1](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig1.jpg){: .figure}
 *Figure 1: Rhino viewport on the left with GH canvas and ArchSim on the right*{: .caption}
 
 * **Exercise 3** required students to carry a data logger measuring temperature and relative humidity along with them for a week and to practice mapping *'their life'* on a psychrometric chart.
@@ -91,7 +91,7 @@ For the remaining game-based exercises 6 and 7 a simplified ArchSim GUI was deve
 
 * **Exercise 6** was an *Envelope Game* for which students had to design a very small (100m<span class="sup">2</span>) single story office building. The goal was to design the building with the lowest EUI by modifying building orientation, floor plan, insulation levels, glazing type and static shading design. All other design choices in Table 2 remained fixed to their defaults for this exercise. The game started during weekly lab time and lasted for an hour during which students were working in pairs. They were allowed to take the simulation exercise home and submit their results a day later. This was a key exercise to have students understand the relationship between solar gains, different glazing technologies, shading and resulting heating and cooling energy loads.
 
-![figure-2](fig2.jpg){: .figure}
+![figure-2](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig2.jpg){: .figure}
 *Figure 2: Envelope Game (exercise 6) - The automated results display shows annual fuel uses for heating, cooling, lighting and equipment for each variant tested (left); the ArchSim file allows to change design setting for wall insulation and glazing type (right)*{: .caption}
 
 * **Exercise 7** was the main 90-min in-class midterm exercise. Students formed pairs and were asked to design a 3000m<span class="sup">2</span> office building in Phoenix with the lowest greenhouse gas (GHG) emissions per floor area. The original game had used EUI as the deciding metric, mainly because these values are widely published. To sidestep the problem that EUIs for buildings with different fuel types (such as gas and electricity) somewhat mix *'apples and oranges'*, the decision in the original game had been to go with electric-only heating and cooling systems. For the new version, the authors decided to allow students to select between HAVC systems with different fuel types which triggered the choice to use GHG emissions as the driving metric. Same as for the original game, most baseline cases in Table 2 were chosen according to the ASHRAE 90.1-2007 Appendix G modelling protocol [[ASHRAE, 2007]](#references). To avoid complications associated with modelling heat flows between the building and the ground, exterior floor surfaces were modelled as adiabatic.
@@ -151,22 +151,22 @@ Following the game, each student team was asked to present the logic that lead t
 
 While most of the result analysis focuses on the game exercises, it should be highlighted that exercises 2 and 5 ideally set the stage for familiarizing students with performance simulations due to the direct visual feedback that they offer between simulations andreality. Figure 3 shows an example submission for exercise 2, which demonstrated to the simulation newcomers that – if used correctly – BPS tools truthfully mimic reality. At the same time, this exercise provided an opportunity to review questions such as daylight savings time and model orientation which, if not correctly accounted for, lead to wrong simulation results.
 
-![figure-3](fig3.jpg){: .figure}
+![figure-3](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig3.jpg){: .figure}
 *Figure 3: Shading Study (exercise 2) on September 8 at 3:45pm - Photo (left) and DIVA/Radiance (right)*{: .caption}
 
 Exercise 4 initiated a transition from what can be visually experience to the invisible world of building energy use. The exercise helped students to digest energy usage data since the only two variables considered were wall insulation and window placements. The students generally discovered that adequately sized windows may provide some energy savings and that additional energy savings quickly fall once insulation thicknesses are increased beyond a certain threshold level. It is worthwhile noting that –apart from running these simple simulations- the main emphasis of simulation-based assignments should be for students to analyse and comment on their results.
 
-![figure-4](fig4.jpg){: .figure}
+![figure-4](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig4.jpg){: .figure}
 *Figure 4: PV Design (exercise 5) - Radiation map (left), shading study on Dec 21 at noon (middle) and monthly electricity gains (right)*{: .caption}
 
 Designing a PV system is an exercise that is part visual and part number crunching. Figure 4 shows the three required outputs for a PV system design namely an annual radiation map to demonstrate annual radiation shining on individual panels, a shading study on Dec 21 at noon to ensure that the panels remain unshaded throughout the year as well as an EnergyPlus prediction of monthly electricity gains from the system. Exercise 6 was a continuation of the exercise 4 but with a more complex parametric design space that allowed for many geometric variations especially regarding facade layout and static shading. Figure 5 shows how students used the results visualizer to systematically explore a large parametric space and learn while designing. Many students ended up formulating their own lessons learnt from the exercise such as *'south facing windows are great'*.
 
-![figure-5](fig5.jpg){: .figure}
+![figure-5](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig5.jpg){: .figure}
 *Figure 5: Student submission for Exercise 6 by Baily Zuniga and Irmak Turan*{: .caption}
 
 At the point when the students played exercise 7, the 90-min simulation game, most of them seemed ready to intellectually take on a larger simulation project without feeling overwhelmed. Indeed, for 8 out of 9 groups the simulations went smoothly throughout the process. The 9th group had failed to install a working version of Rhinoceros on their laptops and had been struggling with hardware problems throughout the term. The remaining groups explored between 9 and 53 design variants each. The final submissions are documented in Figure 6 and Table 3 and exhibit a considerable variety of form and technology solutions. Given that Arizona is a cooling-dominated climate, the entries with the lowest GHG emissions tend to exhibit a combination of narrow floor plans, low WWRs in the 0.2 to 0.4 range, low-e coated double glazings with low solar heat gain coefficients, lighting loads reduced through efficient systems combined with occupancy and dimming controls as well as a ground source heat pump. Overall this combination closely matches what one might consider best sustainable design practice for that climate zone.
 
-![figure-6](fig6.jpg){: .figure}
+![figure-6](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig6.jpg){: .figure}
 *Figure 6: Final design submissions for Simulation Game (exercise 7)*{: .caption}
 
 | Upgrades | GHG | Cost |
@@ -192,7 +192,7 @@ At the point when the students played exercise 7, the 90-min simulation game, mo
 
 Figure 7 shows the development of GHG emissions over time for select design variants for each group. The students clearly managed to generate, run and analyse their simulation results and identify less carbon–intensive design proposals over the course of 90 minutes. The figure also shows a comparison of simulation results assuming a single zone for each building as opposed to the more proper way of modelling buildings as multi-zones. The difference between single and multi-zone models varies up to 23% with errors increasing for more complex building shapes, suggesting that using the Autozoner for massing studies is advisable and relevant. More importantly, in several instances using the single zone approach lead to wrong or misleading design feedback, for example for Team A (A08 to A12), Team E (E12 to E13), Team F (F13 to F31) and Team H (H01 and H06).
 
-![figure-7](fig7.jpg){: .figure}
+![figure-7](lessons-learnt-from-a-simulation-based-approach-to-teaching/fig7.jpg){: .figure}
 *Figure 7: Develop GHG emissions for different designs for the eight student groups. Blue and while graphs compare simulation results assuming single or multi-zone thermal models. (student modelling error in Single Zone model d – dimming off)*{: .caption}
 
 ### Group strategies

@@ -96,7 +96,7 @@ Block dimensions were 140m (450’) by 60m (200’) in line with typical dimensi
 
 *Table 1: Geometric parameter values*{: .caption}
 
-![figure-1](fig1.jpg){: .figure}
+![figure-1](simulation-based-daylighting-analysis-procedure/fig1.jpg){: .figure}
 
 *Figure 1: Block typology diagram*{: .caption}
 
@@ -107,7 +107,7 @@ Five specific block typologies, which are frequently found throughout the city, 
 
 In order to work within a larger urban context, it was assumed that the investigated block would repeat itself across a neighborhood, meaning that the block typology under investigation was assumed to be surrounded by identical blocks leading to 3 by 3 block sized urban simulation models. The simulation context is shown in Figure 2. The choice to surround each block with its own kind was made to avoid an ‘export of problems’ outside of the simulated area of interest e.g. by building sets of high rises in a low-rise context. The street width was set to 20m (65’). Block orientation reflects New York City’s condition, with the short dimension aligned with the north-south axis.
 
-![figure-2](fig2.jpg){: .figure}
+![figure-2](simulation-based-daylighting-analysis-procedure/fig2.jpg){: .figure}
 
 *Figure 2: Simulation context diagram*{: .caption}
 
@@ -115,7 +115,7 @@ A growing scheme was then developed to produce a variety of densities for each t
 
 In order to emulate a realistic growing scenario there is a distinction between the base layer and the towers layer, each altered separately, as described in Table 1. This is a frequently observed scenario in New York City, where the base layer is usually made of a continuous array of buildings fronting the street with a consistent height of 3-6 levels, while the towers rise as slender volumes at different heights.
 
-![figure-3](fig3.jpg){: .figure}
+![figure-3](simulation-based-daylighting-analysis-procedure/fig3.jpg){: .figure}
 
 *Figure 3: Block typology evolution matrix*{: .caption}
 
@@ -142,14 +142,14 @@ The daylight performance potential of the previously described 5*10 cases in the
 
 Figure 4 presents a visualization matrix showing urban block density evolution with individual floor plates false-colored based on daylight availability levels. Predictably, the figure reveals a steady decline in daylight availability for the lower floors of the typologies as the density increases. Another common characteristic are good daylighting levels at the top floors of the towers across all typologies. The different color patterns for each block solution reflect the unique geometric features of each case.
 
-![figure-4](fig4.jpg){: .figure}
+![figure-4](simulation-based-daylighting-analysis-procedure/fig4.jpg){: .figure}
 
 *Figure 4: Block typology evolution matrix with daylight availability mapped on floor plates*{:
 .caption}
 
 Figure 5 shows overall sDA<span class="sub">(300lux)(50%)</span> values as a function of FAR for all typologies. Different variations of the same typology are connected with colored curves. For further reference, the maximum allowable current FAR is plotted along with the LEED-v4 daylighting credit requirement. The latter is an approximation since it assumes that all areas across all floor plates are regularly occupied spaces which might not be true since the floor plates will necessarily include core and circulation spaces.  As mentioned above, the use of blinds is also being neglected. Working with these assumptions, only Typology A meets the LEED-v4 requirement for FARs up to 12.0.
 
-![figure-5](fig5.jpg){: .figure}
+![figure-5](simulation-based-daylighting-analysis-procedure/fig5.jpg){: .figure}
 
 *Figure 5: Spatial daylight autonomy vs. Floor area ratio graph*{: .caption}
 
@@ -157,7 +157,7 @@ In order to better understand what these results might imply for a developer, Fi
 
 While Figure 5 demonstrates interesting relationships between urban density and overall daylit areas in various urban typologies, it does not reveal how even the daylight is distributed across the floor plates within each typology. As evident in Figure 4, lower floor plates tend to be worse daylighting performers in dense arrangements. Figure 6, therefore, shows how sDA<span class="sub">(300lux)(50%)</span> results are distributed among different floor plates. Variant B10 has 7 floor plates with an sDA<span class="sub">(300lux)(50%)</span> value above 90% versus 78 with a value below 10%, showing a strong daylighting imbalance across the typology. This indicates that zoning boards should specifically focus on the solar access of the lowest floors and the streetscape. Figure 6 also shows that the floor plates towards the lowest end of the performance spectrum tend to have a significantly negative impact on cumulative typology performance. Variant C8, for example, has 73 floor plates with an sDA<span class="sub">(300lux)(50%)</span> value above 90% versus only 14 with a value below 10%; they are, however, enough to drive its cumulative score down to 40%. This can be attributed to the fact that the lowest bin floor plates tend to be the ones with the largest area and the least exposure to daylight, usually making up the base layer. Such findings suggest the introduction of additional zoning regulations that ensure daylight penetration in deeper floor plates.
 
-![figure-6](fig6.jpg){: .figure}
+![figure-6](simulation-based-daylighting-analysis-procedure/fig6.jpg){: .figure}
 
 *Figure 6. Matrix of floor plate performance histograms*{: .caption}
 
@@ -173,11 +173,11 @@ Daylight access at the building scale has proven benefits for occupant health, v
 
 Figure 6 indicates that it is insufficient to simply aim for averaged scores at the urban-scale and that it is instead advisable to also establish a lower bound for per floor plate performance scores to ensure that the lower floors will not fall below a certain threshold as densities increase. This could also be an indirect way of accounting for daylighting quality on the streetscape, a major public health debate point and an indispensable asset for a city’s vitality.
 
-![figure-7](fig7.jpg){: .figure}
+![figure-7](simulation-based-daylighting-analysis-procedure/fig7.jpg){: .figure}
 
 *Figure 7. Spatial daylight autonomy vs. Floor area ratio graph with proposed threshold*{: .caption}
 
-![figure-8](fig8.jpg){: .figure}
+![figure-8](simulation-based-daylighting-analysis-procedure/fig8.jpg){: .figure}
 
 *Figure 8. Daylit area vs. Floor area ratio graph*{: .caption}
 
@@ -196,7 +196,7 @@ In order to contextualize the impact of the research findings for New York’s Z
 
 For the purpose of this manuscript, the author chose to study two blocks within the C6-4X zoning district, located along 6th Avenue between West 26th and West 27th Streets. They acquired information regarding the fragmentation of these blocks into land parcels that reflect property boundaries. As shown in Figure 9, these blocks consist of small parcels along their long sides and one large parcel along their short side facing 6th Avenue. The scope of the analysis was limited to the large parcels, as they accommodate high density tower-on-a-base typology buildings (FAR 12.0) within a medium density broader context. The hypothesis was that a new building massing design with equal density but significantly better daylighting performance could be proposed using the proposed procedure for the aforementioned parcels.
 
-![figure-9](fig9.jpg){: .figure}
+![figure-9](simulation-based-daylighting-analysis-procedure/fig9.jpg){: .figure}
 
 *Figure 9. Urban blocks, zoning districts, and land parcels*{: .caption}
 
@@ -212,7 +212,7 @@ To define the geometric attributes of the new building massing design, the autho
 
 *Table 3. Geometric parameter values*{: .caption}
 
-![figure-10](fig10.jpg){: .figure}
+![figure-10](simulation-based-daylighting-analysis-procedure/fig10.jpg){: .figure}
 
 *Figure 10. New building massing design within its urban context*{: .caption}
 
@@ -224,7 +224,7 @@ To evaluate the performance of the new building massing design (Case A) compared
 
 The simulation results were summarized in Table 4 and the setup for all 3 cases illustrated in Figure 11. Case B performed significantly better for both metrics.
 
-![figure-11](fig11.jpg){: .figure}
+![figure-11](simulation-based-daylighting-analysis-procedure/fig11.jpg){: .figure}
 
 *Figure 11. Cases A, B and C within their urban context*{: .caption}
 
@@ -238,13 +238,13 @@ More specifically, Figure 12 illustrates the floor-average sDA<span class="sub">
 
 *Table 4. Case study results*{: .caption}
 
-![figure-12](fig12.jpg){: .figure}
+![figure-12](simulation-based-daylighting-analysis-procedure/fig12.jpg){: .figure}
 
 *Figure 12. Contextual obstruction for cases A, B, and C*{: .caption}
 
 On the other hand, Figure 13 illustrates sDA<span class="sub">(300lux)(50%)</span> mapped on floor plates for Cases A, B, and an improved Case B’. In Case A, the consistently deep floor plates of the existing massing design yield a relatively poor sDA<span class="sub">(300lux)(50%)</span> 32%. Case B appears to be more polarized, with the contextual base reaching low daylight availability levels around sDA<span class="sub">(300lux)(50%)</span> 20%, while the towers remain consistently above sDA<span class="sub">(300lux)(50%)</span> 65%. The cumulative daylight availability score of the new massing design is 60% better Case A. To further illustrate the effectiveness of the proposed procedure, the author proposed an improved matching density design (Case B’), with a 10-story high contextual base and 14m (45’) by 14m (45’) atriums that reached sDA<span class="sub">(300lux)(50%)</span> 56%, outperforming Case A by 75%. In terms of daylit area, the improvement for Case B’ (8,745 m<span class="sup">2</span>) over Case A (5,542 m<span class="sup">2</span>) indicates that the proposed design yields higher quality spaces, hinting to increased profit margins for developers.
 
-![figure-13](fig13.jpg){: .figure}
+![figure-13](simulation-based-daylighting-analysis-procedure/fig13.jpg){: .figure}
 
 *Figure 13. Daylight availability mapped on floor plates for cases A, B, and B’*{: .caption}
 

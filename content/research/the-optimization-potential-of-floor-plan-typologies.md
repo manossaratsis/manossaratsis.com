@@ -61,7 +61,7 @@ With our categorization scheme we combine and consolidate different typological 
 
 The first level of sorting is the exterior shape of a building design. The general shape and proportions of a building, reflecting functional characteristics, contextual conditions and environmental considerations can vary significantly. The reoccurrence of certain patterns, however, allows us to sort designs into discrete typologies. We identified five popular exterior shape typologies that are described in detail in Figure 1:
 
-![figure-1](fig1.jpg){: .figure}
+![figure-1](the-optimization-potential-of-floor-plan-typologies/fig1.jpg){: .figure}
 *Figure 1: Exterior shape typologies*{: .caption}
 
 * **Point:** Compact shape for both housing and office use often organized with a core in the center or on the side. This shape typology can be appointed in several scales, ranging from single-family houses to office towers.
@@ -74,7 +74,7 @@ The first level of sorting is the exterior shape of a building design. The gener
 
 The previously described shape typologies only describe the exterior appearance of a building and hence only indirectly speak to the floor-plan layout of a building. The interior organization is mostly driven by the way one enters a building and accesses the individual rooms within it. We identified five popular interior organization typologies that are described in detail in Figure 2:
 
-![figure-2](fig2.jpg){: .figure}
+![figure-2](the-optimization-potential-of-floor-plan-typologies/fig2.jpg){: .figure}
 *Figure 2: Interior organization typologies*{: .caption}
 
 * **Vertical Point:** Circulation core placed in the center or periphery of the building. The core can house only circulation space or can be designed more generously to incorporate common/shared spaces (e.g. living room/common space as circulation center).
@@ -87,7 +87,7 @@ The previously described shape typologies only describe the exterior appearance 
 
 Both exterior shape and interior organization describe high-level patterns that frequently reoccur in architectural designs regardless of the building function. Additionally, each exterior shape typology can in theory be freely combined with any interior organization typology and create an overwhelming amount of variants. In order to keep the scope of this analysis manageable we selected one built example for each possible combination of our typologies. We present the resulting samples in Figure 3.
 
-![figure-3](fig3.jpg){: .figure}
+![figure-3](the-optimization-potential-of-floor-plan-typologies/fig3.jpg){: .figure}
 *Figure 3: Typological matrix of selected floor plans*{: .caption}
 
 ### Function & Scale
@@ -105,7 +105,7 @@ The first zoning paradigm strictly follows the subdivisions prescribed by the ar
 
 The second zoning paradigm follows the ASHRAE 90.1 Appendix G recommendations. The brief guideline states that a floor should be divided into a ‘core’ and a ‘perimeter’ region. The perimeter is defined as the space within a 5m distance from the facade. Further, perimeter spaces with more than one orientation should be subdivided proportionally. The leftover region in the center of the floor forms the ‘core’ [[ANSI/ASHRAE/IESNA, 2013]](#references). In order to produce the core and perimeter geometry for all floor plans we utilized an automatic zoning algorithm [[Dogan et al., 2015]](#references). The algorithm uses straightskeleton subdivision and polygon offsetting to produce the ASHRAE 90.1 Appendix G compliant geometry. It yields closed polygons for core and perimeter of a given floor plan outline. The subdivision of the selected floor plans is shown in Figure 4.
 
-![figure-4](fig4.jpg){: .figure}
+![figure-4](the-optimization-potential-of-floor-plan-typologies/fig4.jpg){: .figure}
 *Figure 4: Typological matrix with ASHRAE-prescribed zoning*{: .caption}
 
 To construct the 3D thermal zone geometry we process the polygons that describe each zone and extrude them by a floor height 3m. The extrusion of the spaces yields the zone geometry for one floor. In order to emulate a roof, ground and middle floor, the zones are then stacked three times. A critical reader might object and note that not every building included in the floor plan matrix in Figure 3 is a three-story building. In this study however, the main focus is on analyzing the effect of different interior subdivision schemata on energy consumption. Hence, we did not intend to replicate the exact energy consumption and model representation of the selected buildings.
@@ -126,33 +126,33 @@ In order to consistently describe the thermal behavior for each model we limit t
 
 The final task before the simulations are initialized is to combine the previously described parameters with the zone geometry. The geometric and non-geometric input data is hence organized in matching data-tree structures and then streamed to the energy modeling interface called Archsim [[Dogan, 2013]](#references). Archsim is a building energy modeling plugin for Rhino/Grasshopper [[McNeel, 2012]](#references) that utilizes EnergyPlus [[DOE, 2012]](#references) or TRNSYS [[Klein, 1979]](#references). The use of Grasshopper and Archsim allow us to completely automate the Energy Plus input file production and batch execution of the simulations. For the five by five matrix with two subdivision schemes, two different use-cases, two different conditioning modes of circulation space and two different construction standards the automated procedure generates 400 energy models. Since each subdivision and space configuration scheme is expected to behave differently in different climates the process is repeated three times with a cooling-dominated (Phoenix weather), heating-dominated (Anchorage weather) and a mixed climate (Boston weather) resulting in a total of 1200 Energy Plus simulations.  For each of the simulated scenario we then compare the behavior of the two subdivision paradigms. An overview of the workflow and its information flow is given in Figure 5.
 
-![figure-5](fig5.jpg){: .figure}
+![figure-5](the-optimization-potential-of-floor-plan-typologies/fig5.jpg){: .figure}
 *Figure 5: Workflow diagram*{: .caption}
 
 ## Results
 
 The previously described simulations yield 1200 energy loads data sets consisting of 600 pairs that describe one building in ASHRAE 90.1 subdivision and the buildings original floor plan. In a post-processing step we compute the percentage error E=((x<span class="sub">AHSHRAE</span> - x<span class="sub">REAL</span>) / x<span class="sub">REAL</span>) of the total EUI and its fours components: Lighting, electric, heating and cooling loads. We plot the computed errors in a distribution chart with 10% bins ranging from positive to negative 100%. The error distribution for the total EUI is given in Figure 6.
 
-![figure-6](fig6.jpg){: .figure}
+![figure-6](the-optimization-potential-of-floor-plan-typologies/fig6.jpg){: .figure}
 *Figure 6: Distribution chart of total EUI error*{: .caption}
 
 The distribution chart shows that 75% of the simulated EUI predicted by the ASHRAE zoned models lies within a  +-15% margin. The distribution of the error of the EUI components is given in the Figures 7-10. Here the spread in the distribution chart is significantly wider. For predicted electric lighting only 33% are within the bounds of +-15%. For electric equipment, heating and cooling only 50%, 67% and 58% respectively lie within the margin.
 
-![figure-7](fig7.jpg){: .figure}
+![figure-7](the-optimization-potential-of-floor-plan-typologies/fig7.jpg){: .figure}
 *Figure 7: Distribution chart of cooling load error*{: .caption}
 
-![figure-8](fig8.jpg){: .figure}
+![figure-8](the-optimization-potential-of-floor-plan-typologies/fig8.jpg){: .figure}
 *Figure 8: Distribution chart of heating load error*{: .caption}
 
-![figure-9](fig9.jpg){: .figure}
+![figure-9](the-optimization-potential-of-floor-plan-typologies/fig9.jpg){: .figure}
 *Figure 9: Distribution chart of electric lighting error*{: .caption}
 
-![figure-10](fig10.jpg){: .figure}
+![figure-10](the-optimization-potential-of-floor-plan-typologies/fig10.jpg){: .figure}
 *Figure 10: Distribution chart of equipment load error*{: .caption}
 
 We also compute the RMSE of the total EUI and its components over all scenarios for each floor plan in order to see a relationship between error and the actual geometry. The result is given in Figure 11. It is interesting to note that floor plans such as B3, D4 and D5 report significantly smaller errors than others. This is mostly due to the geometric similarity of the architectural plan and the ASHRAE subdivision in these specific cases where both variants have similar size core regions. One should also note that similarities in topology do not guarantee consistent results between the two subdivision paradigms. A good example that showcases this effect is case E3. Here the core and perimeter regions are almost identical topologically but differ significantly in proportion and uncle cause heating and cooling predictions that differ 124% and 265% on average throughout all scenarios. Floor plans with circulation at the edges (Typologies C1-C5) instead of a central corridor have a tendency to produce significant deviation between the two zoning paradigms. Here the circulation spaces serve as a thermal buffer zone and hence lower the predicted energy use. This effect is especially pronounced when the circulation spaces are unconditioned.
 
-![figure-11](fig11.jpg){: .figure}
+![figure-11](the-optimization-potential-of-floor-plan-typologies/fig11.jpg){: .figure}
 *Figure 11: RMSE plotted on the floor plan matrix*{: .caption}
 
 In order to summarize all computed errors we provide an overview in Table 3 that plots overall RMSE for total EUI, lighting, electric, cooling and heating loads. We also show the mean bias error MBE and the minimum and maximum errors that were encountered in the data set. The overall RMSE and MBE are at 15% and 2%. However, the data also shows that the overall error is significantly lowered by balancing errors in the EUI components. The overall RMSE and MBE are significantly higher for heating cooling and lighting. The minimum and maximum show that there are extreme outliers in the data set.
@@ -191,17 +191,17 @@ Unlike other architectural optimization workflows such as structural design or d
 
 Similar to the previous simulation setup the floor plan is tested for multiple climates, construction standards and use. A 20m by 60m floor plate is simulated with nine different subdivisions. The plans are shown in Figure 12. The zoning consists of a main use area and circulation that is kept constant at 150m<span class="sup">2</span> per floor in all variants. The circulation area is visualized in light grey. A window-wall ratio of 50% is assumed for both the north and the south facade. The nine zoning variants are tested in the same 24 scenarios mentioned in the methodology section.
 
-![figure-12](fig12.jpg){: .figure}
+![figure-12](the-optimization-potential-of-floor-plan-typologies/fig12.jpg){: .figure}
 *Figure 12: Schematic design floor plan design variants with identical circulation area*{: .caption}
 
 The difference in the results is significant. Figure 13 shows a load breakdown for one scenario. In this scenario the choice of the floor plan layout by itself can make or break the LEED credits achievable for building energy load reduction.
 
-![figure-13](fig13.jpg){: .figure}
+![figure-13](the-optimization-potential-of-floor-plan-typologies/fig13.jpg){: .figure}
 *Figure 13: Load breakdown for all variants in one simulation scenario*{: .caption}
 
 In order to evaluate the variance in energy use intensity for all scenarios Figure 14 visualizes the delta of the minimum and maximum energy load among all nine floor plan variants. The delta is then normalized by the minimum-achievable-load.
 
-![figure-14](fig14.jpg){: .figure}
+![figure-14](the-optimization-potential-of-floor-plan-typologies/fig14.jpg){: .figure}
 *Figure 14: Delta of the minimum and maximum energy load divided by the minimum achievable load*{: .caption}
 
 As illustrated in Figure 14, the delta of the best and the worst performer within one scenario as high as 180% of the minimum achievable energy demand. One can thus safely infer that the floor-plan layout can have a significant influence on a building’s energy demand. This result sheds new light on the relationship between form and energy in general: whereas the traditional assumption has been that massing orientation and façade design have the greatest impact towards energy efficiency, this study extends the focus on another important parameter of the architectural design domain – the floor plan and its organization typology.
