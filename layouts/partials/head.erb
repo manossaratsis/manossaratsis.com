@@ -1,6 +1,7 @@
 <title>Manos Saratsis | <%= @item[:title] %></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="description" content="<%= @item[:description] %>"/>
 <!-- OpenGraph markup for FB + LI -->
 <% if @item[:kind] == 'article' %>
 <meta property="og:type" content="article"/>
@@ -8,7 +9,7 @@
 <% else %>
 <meta property="og:type" content="website"/>
 <% end %>
-<meta property="og:site_name" content="Manos Saratsis Personal Website"/>
+<meta property="og:site_name" content="Manos Saratsis"/>
 <% if @item.identifier.to_s == '/index.erb' %>
 <meta property="og:url" content="<%= $site %>"/>
 <% else %>
@@ -20,6 +21,7 @@
 <meta property="og:image" content="<%= "#{$site}#{asset_path(@item[:image])}" %>"/>
 <% end %>
 <!-- Twitter card markup -->
+<meta name="twitter:site" content="@sarstis"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="<%= @item[:title] %>"/>
 <meta name="twitter:description" content="<%= @item[:description] %>"/>
