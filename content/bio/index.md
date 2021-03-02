@@ -68,6 +68,8 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
+* [Renewable Energy: Common Myths Debunked](https://www.weforum.org/agenda/2021/03/renewable-energy-myths-debunked/)<br/>*Emmanuel Lagarrigue, World Economic Forum, 2021-03-01*
+
 * [Powering Schneider Electric's Clean Energy Recommendations](https://blog.stationa.com/2020/powering-schneider-electrics-clean-energy-recommendations)<br/>*The Station A Team, Station A Blog, 2020-12-03*
 
 * [U.S. Sitting on 145 GW of Unused Commercial Solar Potential](https://www.greentechmedia.com/articles/read/the-us-has-145-gigawatts-of-untapped-commercial-solar-potential)<br/>*Michelle Davis, Greentech Media, 2020-08-10*
