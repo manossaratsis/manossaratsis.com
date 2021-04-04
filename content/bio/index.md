@@ -39,9 +39,9 @@ I am a software engineer with a background in energy modeling and geospatial ana
 
 ## Academia
 
-### Project Advisor, [MIT Sloan School of Management](https://mitsloan.mit.edu/) (March 2019 - June 2020)
+### Project Advisor, [MIT Sloan School of Management](https://mitsloan.mit.edu/) (March 2019 - June 2021)
 
-Consulted for a research project run by MBA candidates at the MIT Sloan School of Management. The project was sponsored by [Station A](https://stationa.com) as part of the [Laboratory for Sustainable Business (S-Lab)](https://mitsloan.mit.edu/action-learning/s-lab) class.
+Advised on 3 research projects run by MBA candidates at the MIT Sloan School of Management. The projects were sponsored by [Station A](https://stationa.com) as part of the [Laboratory for Sustainable Business (S-Lab)](https://mitsloan.mit.edu/action-learning/s-lab) class.
 
 ### Guest Lecturer, [Cornell AAP](https://aap.cornell.edu/) (March 2019)
 
