@@ -1,6 +1,6 @@
 ---
 title: Bio
-description: I am currently the Head of Product at Station A, a Bay Area software company automating the development of clean energy.
+description: I am a software engineer and architect with a passion for cities, electrification, and thoughtful design.
 ---
 * TOC
 {:toc}
@@ -13,14 +13,18 @@ description: I am currently the Head of Product at Station A, a Bay Area softwar
 ![profile-pic](/img/profile-pic.jpg){: .profile-pic}
 
 ## About Me
-I am a software engineer with a background in energy modeling and geospatial analytics. I design and develop software systems to evaluate the impact of distributed energy technologies on buildings, cities, and the electrical grid. I received a Master of Science in Urbanism and Building Technology while conducting research at the MIT Sustainable Design Lab. I have published numerous papers on energy modeling and its implications for urban planning and design. I am currently the Head of Product at [Station A](https://stationa.com), a Bay Area software company automating the development of clean energy.
+I am a software engineer and architect with a passion for cities, electrification, and thoughtful design. I have years of experience designing and developing software products that enable data-driven climate decisions for buildings and cities. I am currently the Co-Founder and Head of Product at [Station A](https://stationa.com), where I have helped build the core patented technology, scale the software platform, expand the user network, and grow both the SaaS and Marketplace side of the business. I received a Master of Science in Urbanism and Building Technology from MIT while conducting research at the [Sustainable Design Lab](https://web.mit.edu/sustainabledesignlab/). I have published numerous papers on energy modeling and its implications for urban planning and real estate development.
 
 ## Experience
 
 ### Head of Product, [Station A](https://stationa.com) (July 2018 - Today)
 
 * Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/how-it-works).
-* Working across engineering, analytics, and marketing to expand [Station A's Provider Network](https://stationa.com/providers#network) and scale Station A's business.
+* Working across engineering, analytics, and marketing to expand Station A's user network and grow Station A's business.
+
+### Advisor, [Greenwork](https://joingreenwork.com) (September 2021 - Today)
+
+* Advising on product strategy and design to help Greenwork scale its workforce training platform and connect qualified candidates with employers in clean energy, transportation, and the trades.
 
 ### Product Manager: Geospatial Analytics, [NRG Energy](https://www.nrg.com) (August 2016 - June 2018)
 
