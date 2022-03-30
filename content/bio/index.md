@@ -72,7 +72,12 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
-* [Renewable Energy: Common Myths Debunked](https://www.weforum.org/agenda/2021/03/renewable-energy-myths-debunked/)<br/>*Emmanuel Lagarrigue, World Economic Forum, 2021-03-01*
+* [Climate Tech Startup Station A Launches "Clean Energy Grades"](https://www.prnewswire.com/news-releases/climate-tech-startup-station-a-launches-clean-energy-grades-to-instantly-generate-financial-and-carbon-savings-with-just-one-click-301512212.html)<br/>*The Station A Team, PR Newswire, 2022-03-30*
+
+* [New Clean Energy Marketplace Joins Silicon Valley Rush to Green Buildings](https://www.bloomberg.com/news/articles/2022-03-30/new-clean-energy-marketplace-joins-silicon-valley-rush-to-green-buildings)<br/>*Mark Bergen, Bloomberg, 2022-03-30*
+
+* [Launching Clean Energy Grades: A new product that tells you how good your building is for clean
+  energy](https://blog.stationa.com/2022/launching-clean-energy-grades)<br/>*The Station A Team, Station A Blog, 2022-03-29*
 
 * [Powering Schneider Electric's Clean Energy Recommendations](https://blog.stationa.com/2020/powering-schneider-electrics-clean-energy-recommendations)<br/>*The Station A Team, Station A Blog, 2020-12-03*
 
