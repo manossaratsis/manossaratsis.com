@@ -1,13 +1,13 @@
 ---
 title: Research
-description: My research focuses on city-scale climate metrics for energy, daylighting, and walkability.
+description: I research how to measure the climate footprint of cities.
 
 ---
 * TOC
 {:toc}
 {:.sidebar}
 
-# I research how to measure the climate footprint of cities
+# I research how to measure the climate footprint of cities.
 ---
 
 You can't manage what you can't measure. The first step to making our buildings and cities more sustainable is quantifying what does and doesn't work about them. My research focuses on city-scale climate metrics for energy, daylighting, and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.

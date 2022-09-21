@@ -1,12 +1,12 @@
 ---
 title: Bio
-description: I am an architect and software engineer with a passion for cities, electrification, and thoughtful design.
+description: I am an architect on an unconventional path.
 ---
 * TOC
 {:toc}
 {:.sidebar}
 
-# Learn more about my journey
+# I am an architect on an unconventional path.
 
 ---
 
