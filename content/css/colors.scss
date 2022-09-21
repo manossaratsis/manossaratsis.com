@@ -1,0 +1,21 @@
+:root {
+  --accent: 9, 204, 152;
+  --black: 15, 15, 15;
+  --almost-black: 30, 30, 30;
+  --dark-grey: 50, 50, 50;
+  --grey: 75, 75, 75;
+  --light-grey: 90, 90, 90;
+  --almost-white: 135, 135, 135;
+  --white: 235, 235, 235;
+}
+
+$theme: (
+  "accent": rgb(var(--accent)),
+  "black": rgb(var(--black)),
+  "almost-black": rgb(var(--almost-black)),
+  "dark-grey": rgb(var(--dark-grey)),
+  "grey": rgb(var(--grey)),
+  "light-grey": rgb(var(--light-grey)),
+  "almost-white": rgb(var(--almost-white)),
+  "white": rgb(var(--white)),
+);
