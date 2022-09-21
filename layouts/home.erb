@@ -5,7 +5,8 @@
   </head>
   <body class="home">
       <%=render '/partials/navbar.erb' %>
-      <img class="background" src="<%= asset_path(@item[:image]) %>" />
+      <div class="gradient"></div>
+      <div class="background" style="background-image: url(<%= asset_path(@item[:image]) %>)"></div>
       <main>
         <%= yield %>
         <% sorted_articles.each do |post| %>
