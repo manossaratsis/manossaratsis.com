@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;1,300&display=swap');
 
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -18,11 +21,11 @@ body {
   font-family: "Poppins", sans-serif;
   main {
     font-size: 18px;
-    left: calc((100vw - 42em) / 2);
+    left: calc((100vw - 44em) / 2);
     line-height: 1.9em;
     margin: 5em 0 auto;
     position: relative;
-    width: 42em;
+    width: 44em;
     ul:not(#markdown-toc) {
       list-style-type: square;
       margin: 1.2em;
@@ -46,14 +49,17 @@ body {
     }
   }
   &.home {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     main {
       display: flex;
+      flex: 1;
       flex-direction: column;
-      height: 100%;
       justify-content: center;
       margin: 0;
     }
@@ -225,7 +231,7 @@ body {
     position: fixed;
     text-align: right;
     top: 5em;
-    width: calc(((100vw - 42em) / 2) - 2em);
+    width: calc(((100vw - 44em) / 2) - 2em);
     a:link,
     a:visited {
       color: rgba(var(--almost-white), 1.0);
@@ -271,6 +277,14 @@ body {
   }
 }
 @media (max-width: 1024px) {
+  @supports (background: -webkit-named-image(i)) {
+    body {
+      &.home {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+      }
+    }
+  }
   body {
     &.home {
       main {
