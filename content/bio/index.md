@@ -2,6 +2,7 @@
 title: Bio
 description: I am an architect on an unconventional path.
 ---
+
 * TOC
 {:toc}
 {:.sidebar}
