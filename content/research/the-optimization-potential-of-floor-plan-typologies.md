@@ -55,7 +55,7 @@ The initial challenge of our study is to develop a representative set of buildin
 * **Level 1:** Exterior shape
 * **Level 2:** Interior organization
 
-With our categorization scheme we combine and consolidate different typological sorting methodologies found in contemporary architectural design theory literature [[Neufert, 2012]](#references) [[Jocher, 2010]](#references) [[Schneider, 2011]](references) [[Ebner, 2010]](#references). We also rely on the previously mentioned sources for the selection of the built examples.
+With our categorization scheme we combine and consolidate different typological sorting methodologies found in contemporary architectural design theory literature [[Neufert, 2012]](#references) [[Jocher, 2010]](#references) [[Schneider, 2011]](#references) [[Ebner, 2010]](#references). We also rely on the previously mentioned sources for the selection of the built examples.
 
 ### Level 1: Exterior shape
 
