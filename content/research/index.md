@@ -1,16 +1,16 @@
 ---
 title: Research
-description: My research focuses on urban-scale environmental performance metrics for energy, daylighting, and walkability.
+description: My research focuses on city-scale climate metrics for energy, daylighting, and walkability.
 
 ---
 * TOC
 {:toc}
 {:.sidebar}
 
-# I research how to measure the performance of our built environment
+# I research how to measure the climate footprint of cities
 ---
 
-You can't manage what you can't measure. The first step to making our buildings and cities more sustainable is quantifying what does and doesn't work about them. My research focuses on urban-scale environmental performance metrics for energy, daylighting, and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
+You can't manage what you can't measure. The first step to making our buildings and cities more sustainable is quantifying what does and doesn't work about them. My research focuses on city-scale climate metrics for energy, daylighting, and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
 
 ## Journal Publications
 

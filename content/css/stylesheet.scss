@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300, 300i, 400");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,800;1,300&display=swap');
 
 * {
   margin: 0;
@@ -11,17 +10,17 @@ body {
   overflow-x: hidden;
 }
 body {
-  background: #111;
-  color: rgba(235, 235, 235, 1);
+  background: rgb(30, 30, 30);
+  color: rgb(235, 235, 235);
   font-weight: 300;
-  font-family: "Rubik", sans-serif;
+  font-family: "Poppins", sans-serif;
   main {
     font-size: 18px;
     left: calc((100vw - 42em) / 2);
     line-height: 1.9em;
     margin-bottom: 3em;
     margin-top: 5em;
-    min-height: calc(100vh - (3em + 5em) - (2 * 3em + 0.8em));
+    min-height: calc(100vh - (3.3em + 4em) - (2 * 3em + 0.8em));
     position: relative;
     width: 42em;
     ul:not(#markdown-toc) {
@@ -30,9 +29,9 @@ body {
     }
   }
   footer {
-    color: #1e00ee;
+    color: #09cc98;
     font-size: 0.8em;
-    font-weight: 400;
+    font-weight: 600;
     padding: 3em 0;
     position: relative;
     text-align: center;
@@ -40,8 +39,7 @@ body {
     a:visited,
     a:hover,
     a:active {
-      color: #1e00ee;
-      text-decoration: underline;
+      color: #09cc98;
     }
   }
   &.home {
@@ -49,27 +47,32 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    main {
+      align-items: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
   a {
     text-decoration: none;
     &:link,
     &:visited {
-      color: #1e00ee;
+      color: #09cc98;
     }
     &:link:hover,
     &:visited:hover {
       cursor: pointer;
-      text-decoration: underline;
     }
   }
   aside {
-    color: #1e00ee;
+    color: #09cc98;
     font-size: 0.8em;
     margin-top: 2em;
     text-transform: lowercase;
   }
   blockquote {
-    border-left: 4px solid rgba(235, 235, 235, 0.9);
+    border-left: 4px solid rgba(235, 235, 235, 0.2);
     color: #999999;
     font-size: 2em;
     line-height: 1.3em;
@@ -79,44 +82,45 @@ body {
     }
   }
   em.caption {
-    color: #777777;
+    color: #cccccc;
     line-height: 1.5em;
   }
   h1 {
     color: #ffffff;
     font-size: 2.9em;
-    font-weight: 300;
+    font-weight: 800;
     line-height: 1.2em;
-    text-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+    text-shadow: 3px 3px 10px rgba(15, 15, 15, 0.1);
   }
   h2 {
     font-size: 1.2em;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: -2em;
     padding-top: 4em;
   }
   h3 {
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: -2em;
     padding-top: 4em;
   }
   hr {
-    border: 2px #ffffff solid;
+    border: 2px solid #09cc98;
+    border-radius: 2px;
     margin-bottom: 2em;
     margin-top: 4em;
-    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+    box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.1);
   }
   img {
     &.figure {
       border-radius: 4px;
-      box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.2);
+      box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.2);
       margin-top: 1.75em;
       max-width: 100%;
     }
     &.profile-pic {
       border-radius: 50%;
-      box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.2);
+      box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.2);
       height: 12em;
     }
   }
@@ -125,7 +129,7 @@ body {
     margin-top: 1.75em;
   }
   strong {
-    font-weight: 400;
+    font-weight: 600;
   }
   table {
     border-collapse: collapse;
@@ -146,10 +150,10 @@ body {
     }
   }
   ul.nav-menu {
-    background-color: rgba(55, 55, 55, 0.9);
-    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
-    -webkit-box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
-    height: 3em;
+    background-color: rgba(45, 45, 45, 0.9);
+    box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.1);
+    -webkit-box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.1);
+    height: 3.3em;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -162,21 +166,22 @@ body {
       a {
         color: #ffffff;
         display: inline-block;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 0.8em;
         letter-spacing: 0.1em;
         padding: 1.3em;
         text-transform: uppercase;
         &.logo {
-          background-color: #1e00ee;
-          color: #ffffff;
+          background-color: #09cc98;
+          color: rgb(55, 55, 55);
+          font-weight: 800;
         }
         &.currentLink {
-          background-color: #666;
-          color: #1e00ee;
+          background-color: rgb(55, 55, 55);
+          color: #09cc98;
         }
         &:not(.logo):not(.currentLink):hover {
-          background-color: #666;
+          background-color: rgb(55, 55, 55);
         }
       }
       &.icon {
@@ -189,10 +194,10 @@ body {
     outline: none;
   }
   .card {
-    background-color: rgba(30, 30, 30, 0.7);
+    background-color: rgba(45, 45, 45, 0.9);
     border-radius: 4px;
-    border-left: 3px solid #1e00ee;
-    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.1);
+    border-left: 4px solid #09cc98;
+    box-shadow: 3px 3px 10px rgba(15, 15, 15, 0.1);
     line-height: 2em;
     margin-top: 1.2em;
     padding: 1em 2em;
@@ -205,21 +210,16 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: inset 0 0 10px rgba(20, 20, 20, 0.3);
+    box-shadow: inset 0 0 10px rgba(15, 15, 15, 0.3);
     height: 60vh;
     width: 100vw;
   }
   .title {
-    font-weight: 400;
+    font-weight: 600;
   }
   .description {
-    color: #777777;
+    color: #cccccc;
     font-weight: 300;
-  }
-  .post {
-    article {
-      font-family: "Roboto Slab", serif;
-    }
   }
   ul.sidebar {
     left: 0;
@@ -230,11 +230,11 @@ body {
     width: calc(((100vw - 42em) / 2) - 2em);
     a:link,
     a:visited {
-      color: #777777;
+      color: #cccccc;
     }
     a:hover,
     a:visited:hover {
-      color: #1e00ee;
+      color: #09cc98;
     }
     li {
       font-size: 0.94em;

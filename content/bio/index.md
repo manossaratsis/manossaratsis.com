@@ -1,6 +1,6 @@
 ---
 title: Bio
-description: I am a software engineer and architect with a passion for cities, electrification, and thoughtful design.
+description: I am an architect and software engineer with a passion for cities, electrification, and thoughtful design.
 ---
 * TOC
 {:toc}
@@ -12,8 +12,8 @@ description: I am a software engineer and architect with a passion for cities, e
 
 ![profile-pic](/img/profile-pic.jpg){: .profile-pic}
 
-## About Me
-I am a software engineer and architect with a passion for cities, electrification, and thoughtful design. I have years of experience designing and developing software products that enable data-driven climate decisions for buildings and cities. I am currently the Co-Founder and Head of Product at [Station A](https://stationa.com), where I have helped build the core patented technology, scale the software platform, expand the user network, and grow both the SaaS and Marketplace side of the business. I received a Master of Science in Urbanism and Building Technology from MIT while conducting research at the [Sustainable Design Lab](https://web.mit.edu/sustainabledesignlab/). I have published numerous papers on energy modeling and its implications for urban planning and real estate development.
+## Overview
+I am an architect and software engineer with a passion for cities, great software products, and thoughtful design. I have years of experience designing and developing software that enables data-driven climate decisions for buildings and cities. I am currently the Co-Founder and Head of Product at [Station A](https://stationa.com), where I have helped build the core patented technology, scale the software platform, expand the user network, and grow both the SaaS and Marketplace side of the business. I received a Master of Science in Urbanism and Building Technology from MIT while conducting research at the [Sustainable Design Lab](https://web.mit.edu/sustainabledesignlab/). I have published numerous papers on energy modeling and its implications for urban planning and real estate development.
 
 ## Experience
 
