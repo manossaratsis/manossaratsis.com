@@ -3,8 +3,9 @@
   <head>
     <%=render '/partials/head.erb' %>
   </head>
-  <body class="home" style="background-image: url(<%= asset_path(@item[:image]) %>)"
+  <body class="home">
       <%=render '/partials/navbar.erb' %>
+      <img class="background" src="<%= asset_path(@item[:image]) %>" />
       <main>
         <%= yield %>
         <% sorted_articles.each do |post| %>

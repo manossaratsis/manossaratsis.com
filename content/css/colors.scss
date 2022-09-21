@@ -8,14 +8,3 @@
   --almost-white: 135, 135, 135;
   --white: 235, 235, 235;
 }
-
-$theme: (
-  "accent": rgb(var(--accent)),
-  "black": rgb(var(--black)),
-  "almost-black": rgb(var(--almost-black)),
-  "dark-grey": rgb(var(--dark-grey)),
-  "grey": rgb(var(--grey)),
-  "light-grey": rgb(var(--light-grey)),
-  "almost-white": rgb(var(--almost-white)),
-  "white": rgb(var(--white)),
-);

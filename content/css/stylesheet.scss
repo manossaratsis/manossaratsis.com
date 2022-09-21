@@ -1,9 +1,5 @@
 @import "./colors";
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;1,300&display=swap');
-
-
-
 
 * {
   margin: 0;
@@ -48,13 +44,17 @@ body {
       color: rgba(var(--almost-white), 1.0);
     }
   }
+  .background {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
   &.home {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 100vh;
     main {
       display: flex;
