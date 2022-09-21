@@ -4,8 +4,6 @@ description: I am an architect researching cities and climate, designing great p
 image: /img/home.jpg
 ---
 
-# 👋
-
 # [I am](/bio) an architect
 
 # [researching](/research) cities &amp; climate,
