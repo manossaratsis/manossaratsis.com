@@ -163,7 +163,7 @@ body {
   ul.nav-menu {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    background-color: rgba(var(--almost-black), 0.2);
+    background-color: rgba(var(--almost-black), 0.5);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -287,6 +287,13 @@ body {
   }
   body {
     &.home {
+      ul.nav-menu {
+        &:not(.responsive) {
+          background-color: transparent;
+          backdrop-filter: blur(0px);
+          -webkit-backdrop-filter: blur(0px);
+        }
+      }
       main {
         margin: 0 auto !important;
       }
@@ -302,7 +309,6 @@ body {
     }
     ul.nav-menu,
     ul.nav-menu.responsive {
-      background-color: transparent;
       height: initial;
       position: fixed;
     }
