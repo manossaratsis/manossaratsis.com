@@ -4,19 +4,12 @@
     <%=render '/partials/head.erb' %>
   </head>
   <body class="home">
-      <%=render '/partials/navbar.erb' %>
-      <div class="gradient"></div>
-      <div class="background" style="background-image: url(<%= asset_path(@item[:image]) %>)"></div>
-      <main>
-        <%= yield %>
-        <% sorted_articles.each do |post| %>
-        <section class="card">
-          <p class="title"><%= link_to post[:title], post.identifier.without_ext %></p>
-          <p class="description"><%= post[:description] %></p>
-          <aside>Created at <%= post[:created_at] %></aside>
-        </section>
-        <% end %>
-      </main>
+    <%=render '/partials/navbar.erb' %>
+    <div class="gradient"></div>
+    <div class="background" style="background-image: url(<%= asset_path(@item[:image]) %>)"></div>
+    <main>
+      <%= yield %>
+    </main>
     <%= render '/partials/footer.erb' %>
     <%= render '/partials/scripts.erb' %>
   </body>
