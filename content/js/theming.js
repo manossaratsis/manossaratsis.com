@@ -9,7 +9,7 @@ if (background) {
 
 // Set the accent color
 Vibrant.from('/img/home.jpg').getPalette(function(err, palette) {
-  let vibrantColor = palette.Vibrant._rgb;
+  let vibrantColor = palette.LightVibrant._rgb;
   let vibrantColorRGB = ''.concat(vibrantColor[0], ', ', vibrantColor[1], ', ', vibrantColor[2]);
   root.style.setProperty('--accent', vibrantColorRGB);
 });

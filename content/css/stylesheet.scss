@@ -216,7 +216,7 @@ body {
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    height: 240px;
+    height: 280px;
     justify-content: flex-end;
     margin-top: 1.2em;
     position: relative;
@@ -230,10 +230,10 @@ body {
     }
   }
   .tile-blur {
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     background: rgba(var(--dark-grey), 1.0);
-    background: linear-gradient(20deg, rgba(var(--almost-black), 0.8) 30%, rgba(var(--almost-black), 0.2) 100%);
+    background: linear-gradient(20deg, rgba(var(--almost-black), 0.7) 50%, rgba(var(--almost-black), 0.2) 100%);
     border-radius: 4px;
     height: 100%;
     position: absolute;
