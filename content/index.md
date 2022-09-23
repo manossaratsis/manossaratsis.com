@@ -8,6 +8,6 @@ image: /img/home.jpg
 
 # [researching](/research) cities &amp; climate,
 
-# [designing](https://stationa.com) great products,
+# [designing](/portfolio) across scales,
 
-# [&amp; building](https://www.canva.com/design/DAEg782cEEY/Wi79dqpPQmr6nh_DyTuUnA/view) a platform.
+# [&amp; building](https://stationa.com) great products.

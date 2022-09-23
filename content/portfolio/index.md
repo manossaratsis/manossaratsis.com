@@ -1,19 +1,18 @@
 ---
 title: Portfolio
-description: I'm staying curious and apply my design skills across problem spaces.
+description: I'm staying curious and applying my design skills across scales and problems.
 
 ---
 * TOC
 {:toc}
 {:.sidebar}
 
-# I'm applying my design skills across problem spaces.
+# I'm applying my design skills across scales and problems.
 ---
 
 Over the years, I have worked on various projects ranging from urban design competitions and
 architecture studios, to software development and product design. These projects have sharpened my
-ability to think like a designer, challenged my curiosity, and helped me shape my platform
-over time.
+ability to think like a designer, challenged my curiosity, and helped me shape my platform.
 
 ## Writings
 
