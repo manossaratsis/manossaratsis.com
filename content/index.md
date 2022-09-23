@@ -1,13 +1,7 @@
 ---
 title: Home
-description: I am an architect researching cities and climate, designing great products, and building a platform.
+description: I am an architect, urbanist, and entrepreneur building solutions at the nexus of cities and climate.
 image: /img/home.jpg
 ---
 
-# [I am](/bio) an architect
-
-# [researching](/research) cities &amp; climate,
-
-# [designing](/portfolio) across scales,
-
-# [&amp; building](https://stationa.com) great products.
+# I am an [architect](/portfolio), [urbanist](/research), &amp; [entrepreneur](https://stationa.com) building solutions at the nexus of cities &amp; climate.

@@ -13,11 +13,11 @@
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://manossaratsis.com/research</loc>
+        <loc>https://manossaratsis.com/portfolio</loc>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://manossaratsis.com/portfolio</loc>
+        <loc>https://manossaratsis.com/research</loc>
         <priority>0.80</priority>
     </url>
 </urlset>
