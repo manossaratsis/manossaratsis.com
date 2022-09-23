@@ -7,9 +7,16 @@ if (background) {
   background.style['--webkit-filter'] = 'blur(8px)';
 }
 
+function colorToRGB(c) {
+  return ''.concat(Math.floor(c[0]), ', ', Math.floor(c[1]), ', ', Math.floor(c[2]));
+}
+
 // Set the accent color
 Vibrant.from('/img/home.jpg').getPalette(function(err, palette) {
-  let vibrantColor = palette.LightVibrant._rgb;
-  let vibrantColorRGB = ''.concat(vibrantColor[0], ', ', vibrantColor[1], ', ', vibrantColor[2]);
-  root.style.setProperty('--accent', vibrantColorRGB);
+  root.style.setProperty('--vibrant', colorToRGB(palette.Vibrant._rgb));
+  root.style.setProperty('--light-vibrant', colorToRGB(palette.LightVibrant._rgb));
+  root.style.setProperty('--dark-vibrant', colorToRGB(palette.DarkVibrant._rgb));
+  root.style.setProperty('--muted', colorToRGB(palette.Muted._rgb));
+  root.style.setProperty('--light-muted', colorToRGB(palette.LightMuted._rgb));
+  root.style.setProperty('--dark-muted', colorToRGB(palette.DarkMuted._rgb));
 });

@@ -96,41 +96,56 @@ For the remaining game-based exercises 6 and 7 a simplified ArchSim GUI was deve
 
 * **Exercise 7** was the main 90-min in-class midterm exercise. Students formed pairs and were asked to design a 3000m<span class="sup">2</span> office building in Phoenix with the lowest greenhouse gas (GHG) emissions per floor area. The original game had used EUI as the deciding metric, mainly because these values are widely published. To sidestep the problem that EUIs for buildings with different fuel types (such as gas and electricity) somewhat mix *'apples and oranges'*, the decision in the original game had been to go with electric-only heating and cooling systems. For the new version, the authors decided to allow students to select between HAVC systems with different fuel types which triggered the choice to use GHG emissions as the driving metric. Same as for the original game, most baseline cases in Table 2 were chosen according to the ASHRAE 90.1-2007 Appendix G modelling protocol [[ASHRAE, 2007]](#references). To avoid complications associated with modelling heat flows between the building and the ground, exterior floor surfaces were modelled as adiabatic.
 
-| Description | Properties | Cost Premium |
-| :-- | :-- | :-- |
 | **Roof Insulation** | | |
+| :-- | :-- | :-- |
 | R-value R20 (base) | U-value 0.284W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> |
 | R-value R30 | U-value 0.187W/m<span class="sup">2</span>K | $.005/m<span class="sup">2</span> |
 | R-value R40 | U-value 0.131W/m<span class="sup">2</span>K | $.01/m<span class="sup">2</span> |
 | R-value R60 | U-value 0.091W/m<span class="sup">2</span>K | $.02/m<span class="sup">2</span> |
+
 | **Exterior Wall Insulation** | | |
+| :-- | :-- | :-- |
 | R-value R13 (base) | U-value 0.434W/m<span class="sup">2</span>K | $.001/m<span class="sup">2</span> |
 | R-value R19.5 | U-value 0.346W/m<span class="sup">2</span>K | $.003/m<span class="sup">2</span> |
 | R-value R28.5 | U-value 0.193W/m<span class="sup">2</span>K | $.008/m<span class="sup">2</span> |
-| **Wall-To-Window Ratio (WWR)** | | |
+
+| **Wall-Window Ratio (WWR)** | | |
+| :-- | :-- | :-- |
 | Punched Openings | WWR 0.2 | linked to glazing type |
 | Punched Openings | WWR 0.4 | linked to glazing type |
 | Punched Openings | WWR 0.6 | linked to glazing type |
 | Curtain Wall | WWR80 | linked to glazing type |
+
 | **Glazing Type** | | |
-Dbl., no coat.,<br/>Argon (base) | U-value 2.53W/m<span class="sup">2</span>K | $.009/m<span class="sup">2</span> |
+| :-- | :-- | :-- |
+| Dbl., no coat.,<br/>Argon (base) | U-value 2.53W/m<span class="sup">2</span>K | $.009/m<span class="sup">2</span> |
 | Dbl., Low-e coat. #2,<br/>Argon | U-value 1.30W/m<span class="sup">2</span>K | $.024/m<span class="sup">2</span> |
 | Dbl., Low-e coat. #2,<br/>Argon, Solar Control | U-value 1.35W/m<span class="sup">2</span>K | $.036/m<span class="sup">2</span> |
+
 | **Exterior Shading** | | |
+| :-- | :-- | :-- |
 | None (base) | N/A | N/A |
 | Shallow Overhang | Depth 0.5m | $4 |
 | Medium Overhang | Depth 1.0m | $8 |
 | Deep Overhang | Depth 1.5m | $12 |
+
 | **Lighting Power Density** | | |
+| :-- | :-- | :-- |
 | Base | 11W/m<span class="sup">2</span> (business hours) | $0 |
 | Low | 9W/m<span class="sup">2</span> (business hours) | $3.5 |
+
 | **Daylight Sensors** | | |
+| :-- | :-- | :-- |
 | None | N/A | N/A |
 | Installed | Perimeter zone 45m<br/>Target level 300lux | $5 |
+
 | **Occupancy Sensors** | | |
+| :-- | :-- | :-- |
 | None | N/A | N/A |
 | Installed | N/A | $5 |
+
 | **HVAC System** | | |
+| :-- | :-- | :-- |
 | Gas Boiler,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $0 |
 | Elec. Radiant Heating,<br/>Dir. Exp. A/C | Heating efficiency 80%<br/>Cooling COP 3.1 | $5 |
 | Ground Source Heat Pump | Heating COP 3.1<br/>Cooling COP 3.93 | $10 |

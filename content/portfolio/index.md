@@ -21,6 +21,6 @@ ability to think like a designer, challenged my curiosity, and helped me shape m
     <p class="title"><%= link_to project[:title], project.identifier.without_ext %></p>
     <p class="description"><%= project[:description] %></p>
     <aside>Created at <%= project[:created_at] %></aside>
-    <div class="tile-blur" />
+    <div class="filter" />
 </section>
 <% end %>
