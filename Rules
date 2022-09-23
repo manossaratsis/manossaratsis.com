@@ -5,8 +5,8 @@ compile '/**/*.md' do
     filter :kramdown, toc_levels: 2..2
     if @item.identifier =~ '/index.*'
         layout '/home.*'
-    elsif @item.identifier.to_s.include? 'posts'
-        layout '/post.*'
+    elsif @item.identifier.to_s.include? 'projects'
+        layout '/project.*'
     else
         layout '/default.*'
     end
