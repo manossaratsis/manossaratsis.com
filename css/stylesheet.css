@@ -211,7 +211,6 @@ body {
       body .tile .title a:link, body .tile .title a:visited, body .tile .title a:hover, body .tile .title a:visited:hover {
         color: rgba(var(--white), 1); }
     body .tile .description {
-      color: rgba(var(--almost-white), 1);
       padding-bottom: 20px;
       line-height: 32px; }
     body .tile aside {
@@ -253,6 +252,8 @@ body {
     width: 100vw; }
   body .title {
     font-weight: 600; }
+  body .description {
+    color: rgba(var(--almost-white), 1); }
   body ul.sidebar {
     left: 0;
     list-style-type: none;
