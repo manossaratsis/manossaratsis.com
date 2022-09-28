@@ -12,7 +12,7 @@ description: I'm building tools to measure the climate footprint of cities.
 
 You can't manage what you can't measure. The first step to making our buildings and cities more sustainable is quantifying what does and doesn't work about them. My research focuses on city-scale climate metrics for energy, daylighting, and walkability. My goal is to enable the proliferation of clean energy and minimal footprint design in our built environment.
 
-## Journal Publications
+## Journals
 
 <% journal_papers.each do |paper| %>
 <section class="tile" style="background-image: url(<%= asset_path(paper[:image]) %>)">
@@ -23,7 +23,7 @@ You can't manage what you can't measure. The first step to making our buildings 
 </section>
 <% end %>
 
-## Conference Proceedings
+## Conferences
 
 <% conference_papers.each do |paper| %>
 <section class="tile" style="background-image: url(<%= asset_path(paper[:image]) %>)">
