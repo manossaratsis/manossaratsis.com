@@ -263,7 +263,6 @@ body {
       }
     }
     .description {
-      color: rgba(var(--almost-white), 1);
       padding-bottom: 20px;
       line-height: 32px;
     }
@@ -317,6 +316,9 @@ body {
   }
   .title {
     font-weight: 600;
+  }
+  .description {
+    color: rgba(var(--almost-white), 1);
   }
   ul.sidebar {
     left: 0;
