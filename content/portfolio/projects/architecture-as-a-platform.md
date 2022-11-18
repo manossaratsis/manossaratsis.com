@@ -12,6 +12,11 @@ In an effort to encourage more architects to join the race to zero emissions, I 
 to narrate my journey from architecture to climatetech. The journey is narrated through the prism
 of 3 questions and 3 experiments that I have conducted over the years.
 
+I hope that my experience encourages more of my colleagues to unleash their creativity beyond
+the limits of the architecture industry.
+
+**-M**
+
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">

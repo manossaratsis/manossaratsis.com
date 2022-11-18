@@ -16,6 +16,9 @@ workflows required to get decarbonization projects done.
 This presentation explains the roots of the issue, introduces Station A as a solution, and describes
 lessons learned from building [Station A's product](https://stationa.com/how-it-works) and growing [Station A's user network](https://stationa.com/providers#network).
 
+The journey continues!
+
+**-M**
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
