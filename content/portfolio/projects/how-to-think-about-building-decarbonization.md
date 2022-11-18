@@ -1,7 +1,7 @@
 ---
 title: "How to Think About Building Decarbonization"
 created_at: 2022-11-18
-kind: writing_project
+kind: presentation_project
 description: Lessons learned from using data and engaging users to qualify and execute on projects.
 image: /portfolio/projects/how-to-think-about-building-decarbonization.jpg
 ---

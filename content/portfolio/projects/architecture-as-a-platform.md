@@ -1,7 +1,7 @@
 ---
 title: "Architecture as a Platform"
 created_at: 2022-09-27
-kind: writing_project
+kind: presentation_project
 description: Leveraging my architecture background to launch a career in climatetech.
 image: /portfolio/projects/architecture-as-a-platform.jpg
 ---
