@@ -1,0 +1,14 @@
+:root {
+  --vibrant: 192, 118, 80;
+  --dark-vibrant: 79, 31, 7;
+  --light-vibrant: 246, 180, 132;
+  --muted: 112, 64, 40;
+  --dark-muted: 140, 55, 12;
+  --light-muted: 198, 180, 46;
+  --black: 15, 15, 15;
+  --almost-black: 30, 30, 30;
+  --dark-grey: 50, 50, 50;
+  --grey: 75, 75, 75;
+  --light-grey: 125, 125, 125;
+  --almost-white: 185, 185, 185;
+  --white: 235, 235, 235; }
