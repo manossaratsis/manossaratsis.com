@@ -9,7 +9,7 @@ image: /portfolio/projects/urban-network-analysis.jpg
 <div style="position: relative; width: 100%; padding-bottom: 56.2500%; margin-top: 3em;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
      src="https://www.youtube.com/embed/eoD30-UUE-k?modestbranding=1&rel=0"
-     title="Urban Network Analysis" frameborder="0"
+     title="Urban network analysis" frameborder="0"
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen>
     </iframe>
