@@ -1,5 +1,5 @@
 ---
-title: "Urban Network Analysis"
+title: "Urban network analysis"
 created_at: 2014-10-19
 kind: presentation_project
 description: Using graph theory and network analysis techniques to understand how cities work.
