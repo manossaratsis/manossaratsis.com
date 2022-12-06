@@ -30,7 +30,8 @@ As the built environment evolves, so do our expectations of the grid as one of t
 > It is becoming clear that future-proofing the grid will require high-fidelity mapping of the interaction
 between the built environment and the energy system.
 
-This video presentation was developed during my time at [NRG Energy](https://www.nrg.com). It uses Rutland, VT
+This video presentation was developed with [Ed McCullough](https://www.linkedin.com/in/ed-mccullough-09315921/)
+during my time at [NRG Energy](https://www.nrg.com). It uses Rutland, VT
 as a case study to illustrate how distributed energy resources can operate together to form a
 virtual power plant and offer energy flexibility to a small community.
 
