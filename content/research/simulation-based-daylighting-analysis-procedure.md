@@ -12,9 +12,10 @@ kind: journal_paper
 # Simulation-based daylighting analysis procedure for developing urban zoning rules
 ---
 
+[View presentation](/portfolio/projects/daylit-density)<br/>
 [Download full manuscript](https://dspace.mit.edu/bitstream/handle/1721.1/99254/922929038-MIT.pdf)<br/>
 [Download citation](https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F09613218.2016.1159850)<br/>
-[Purchase published manuscript](http://www.tandfonline.com/doi/full/10.1080/09613218.2016.1159850)<br/>
+[Purchase published manuscript](https://www.tandfonline.com/doi/full/10.1080/09613218.2016.1159850)<br/>
 
 **Saratsis, E., Dogan, T., & Reinhart, C.F. (2016)** <br/>
 
