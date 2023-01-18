@@ -29,7 +29,7 @@ body {
   }
   footer {
     bottom: 0;
-    color: rgba(var(--vibrant), 1);
+    color: rgba(var(--accent), 1);
     font-size: 14px;
     font-weight: 600;
     left: 0;
@@ -42,7 +42,7 @@ body {
       &:visited,
       &:hover,
       &:active {
-        color: rgba(var(--vibrant), 1);
+        color: rgba(var(--accent), 1);
       }
     }
   }
@@ -88,14 +88,14 @@ body {
         text-decoration: none;
         &:link,
         &:visited {
-          color: rgba(var(--vibrant), 1);
+          color: rgba(var(--accent), 1);
         }
       }
     }
     h1,
     footer {
-      text-shadow: 0px 0px 14px rgba(var(--dark-vibrant), 0.5);
-      -webkit-text-shadow: 0px 0px 14px rgba(var(--dark-vibrant), 0.5);
+      text-shadow: 0px 0px 14px rgba(var(--dark-accent), 0.5);
+      -webkit-text-shadow: 0px 0px 14px rgba(var(--dark-accent), 0.5);
     }
     footer {
       position: fixed;
@@ -105,7 +105,7 @@ body {
     text-decoration: none;
     &:link,
     &:visited {
-      color: rgba(var(--vibrant), 1);
+      color: rgba(var(--accent), 1);
     }
     &:link:hover,
     &:visited:hover {
@@ -113,7 +113,7 @@ body {
     }
   }
   aside {
-    color: rgba(var(--vibrant), 1);
+    color: rgba(var(--accent), 1);
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
@@ -121,8 +121,8 @@ body {
     text-transform: lowercase;
   }
   blockquote {
-    border-left: 4px solid rgba(var(--dark-vibrant), 1);
-    color: rgba(var(--vibrant), 1);
+    border-left: 4px solid rgba(var(--dark-accent), 1);
+    color: rgba(var(--accent), 1);
     font-size: 36px;
     line-height: 52px;
     padding-left: 48px;
@@ -153,7 +153,7 @@ body {
     padding-top: 72px;
   }
   hr {
-    border: 2px solid rgba(var(--vibrant), 1);
+    border: 2px solid rgba(var(--accent), 1);
     border-radius: 2px;
     margin: 55px 0;
   }
@@ -184,7 +184,7 @@ body {
     th {
       padding-left: 10px;
       strong {
-        color: rgba(var(--vibrant), 1);
+        color: rgba(var(--accent), 1);
       }
     }
     tr {
@@ -192,7 +192,7 @@ body {
     }
     tbody {
       tr:nth-child(odd) {
-        background-color: rgba(var(--dark-vibrant), 0.2);
+        background-color: rgba(var(--dark-accent), 0.2);
       }
     }
   }
@@ -218,14 +218,14 @@ body {
         padding: 18px;
         text-transform: uppercase;
         &.logo {
-          background-color: rgba(var(--vibrant), 1);
-          color: rgba(var(--dark-vibrant), 1);
+          background-color: rgba(var(--accent), 1);
+          color: rgba(var(--dark-accent), 1);
         }
         &.currentLink {
-          color: rgba(var(--vibrant), 1);
+          color: rgba(var(--accent), 1);
         }
         &:not(.logo):not(.currentLink):hover {
-          color: rgba(var(--vibrant), 1);
+          color: rgba(var(--accent), 1);
           transition: color 400ms;
         }
       }
@@ -267,14 +267,14 @@ body {
       line-height: 32px;
     }
     aside {
-      color: rgba(var(--vibrant), 1);
+      color: rgba(var(--accent), 1);
       padding-bottom: 20px;
     }
     .title,
     .description,
     aside {
-      text-shadow: 0px 0px 8px rgba(var(--dark-vibrant), 0.2);
-      -webkit-text-shadow: 0px 0px 8px rgba(var(--dark-vibrant), 0.2);
+      text-shadow: 0px 0px 8px rgba(var(--dark-accent), 0.2);
+      -webkit-text-shadow: 0px 0px 8px rgba(var(--dark-accent), 0.2);
       margin: 0;
       padding-left: 20px;
       padding-right: 20px;
@@ -297,7 +297,7 @@ body {
   }
   .card {
     background-color: rgba(var(--dark-grey), 1);
-    border-left: 4px solid rgba(var(--dark-vibrant), 1);
+    border-left: 4px solid rgba(var(--dark-accent), 1);
     border-radius: 4px;
     line-height: 48px;
     margin-top: 20px;
@@ -334,7 +334,7 @@ body {
       }
       &:hover,
       &:visited:hover {
-        color: rgba(var(--vibrant), 1);
+        color: rgba(var(--accent), 1);
         transition: color 400ms;
       }
     }
