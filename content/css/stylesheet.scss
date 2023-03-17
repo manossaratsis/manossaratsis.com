@@ -117,7 +117,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-    margin-top: 36px;
+    margin-top: 12px;
     text-transform: lowercase;
   }
   blockquote {
@@ -135,7 +135,6 @@ body {
     margin-bottom: 24px;
   }
   h1 {
-    color: rgba(var(--white), 1);
     font-size: 48px;
     font-weight: 800;
     line-height: 64px;
@@ -155,7 +154,7 @@ body {
   hr {
     border: 2px solid rgba(var(--accent), 1);
     border-radius: 2px;
-    margin: 55px 0;
+    margin-top: 48px;
   }
   img {
     &.figure {
@@ -311,8 +310,15 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 40vh;
     width: 100vw;
+  }
+  .banner-filter {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    height: 40vh;
+    position: absolute;
+    width: 100%;
   }
   .title {
     font-weight: 600;

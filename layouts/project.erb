@@ -5,12 +5,14 @@
   </head>
   <body>
     <%=render '/partials/navbar.erb' %>
-    <div class="banner" style="background-image: url(<%= asset_path(@item[:image]) %>)"></div>
+    <section class="banner" style="background-image: url(<%= asset_path(@item[:image]) %>)">
+      <div class="banner-filter" />
+    </section>
     <main>
       <div class="post">
         <h1><%= @item[:title] %></h1>
-        <hr>
         <p class="description"><%= @item[:description] %></p>
+        <hr>
         <aside>Created at <%= @item[:created_at] %></aside>
         <article>
           <%= yield %>
