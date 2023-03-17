@@ -96,7 +96,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-    margin-top: 36px;
+    margin-top: 12px;
     text-transform: lowercase; }
   body blockquote {
     border-left: 4px solid rgba(var(--dark-accent), 1);
@@ -110,7 +110,6 @@ body {
     color: rgba(var(--light-grey), 1);
     margin-bottom: 24px; }
   body h1 {
-    color: rgba(var(--white), 1);
     font-size: 48px;
     font-weight: 800;
     line-height: 64px; }
@@ -127,7 +126,7 @@ body {
   body hr {
     border: 2px solid rgba(var(--accent), 1);
     border-radius: 2px;
-    margin: 55px 0; }
+    margin-top: 48px; }
   body img.figure {
     border-radius: 4px;
     margin-top: 32px;
@@ -244,8 +243,14 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 40vh;
     width: 100vw; }
+  body .banner-filter {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    height: 40vh;
+    position: absolute;
+    width: 100%; }
   body .title {
     font-weight: 600; }
   body .description {
