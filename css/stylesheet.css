@@ -320,9 +320,11 @@ body {
     width: 90% !important; }
   body h1 {
     font-size: 36px; }
-  body ul.nav-menu,
-  body ul.nav-menu.responsive {
+  body ul.nav-menu {
     height: 55px;
+    position: fixed; }
+  body ul.nav-menu.responsive {
+    height: initial;
     position: fixed; }
   body ul.nav-menu li:not(:first-child) {
     display: none; }
