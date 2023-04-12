@@ -27,7 +27,7 @@ route '/**/*.{html,md}' do
   end
 end
 
-compile '/**/*.{ico,jpg,js,png,svg,webmanifest,xml}' do
+compile '/**/*.{ico,jpg,js,json,png,svg,webmanifest,xml}' do
   write asset_path(item.identifier.to_s)
 end
 
