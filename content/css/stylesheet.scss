@@ -10,6 +10,12 @@ html,
 body {
   overflow-x: hidden;
 }
+.logo-foreground {
+  fill: rgba(var(--dark-accent), 1);
+}
+.logo-background {
+  fill: rgba(var(--accent), 1);
+}
 body {
   background: rgba(var(--almost-black), 1);
   color: rgba(var(--white), 1);
@@ -206,6 +212,7 @@ body {
     top: 0;
     width: 100vw;
     z-index: 10;
+    height: 55px;
     li {
       float: left;
       a {
@@ -217,8 +224,14 @@ body {
         padding: 18px;
         text-transform: uppercase;
         &.logo {
-          background-color: rgba(var(--accent), 1);
-          color: rgba(var(--dark-accent), 1);
+          margin-right: 18px;
+          padding: 0;
+          width: 55px;
+          .logo-image {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
         }
         &.currentLink {
           color: rgba(var(--accent), 1);
@@ -414,7 +427,7 @@ body {
     }
     ul.nav-menu,
     ul.nav-menu.responsive {
-      height: initial;
+      height: 55px;
       position: fixed;
     }
     ul.nav-menu {
