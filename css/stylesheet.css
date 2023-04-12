@@ -19,6 +19,12 @@ html,
 body {
   overflow-x: hidden; }
 
+.logo-foreground {
+  fill: rgba(var(--dark-accent), 1); }
+
+.logo-background {
+  fill: rgba(var(--accent), 1); }
+
 body {
   background: rgba(var(--almost-black), 1);
   color: rgba(var(--white), 1);
@@ -164,7 +170,8 @@ body {
     position: fixed;
     top: 0;
     width: 100vw;
-    z-index: 10; }
+    z-index: 10;
+    height: 55px; }
     body ul.nav-menu li {
       float: left; }
       body ul.nav-menu li a {
@@ -176,8 +183,13 @@ body {
         padding: 18px;
         text-transform: uppercase; }
         body ul.nav-menu li a.logo {
-          background-color: rgba(var(--accent), 1);
-          color: rgba(var(--dark-accent), 1); }
+          margin-right: 18px;
+          padding: 0;
+          width: 55px; }
+          body ul.nav-menu li a.logo .logo-image {
+            position: absolute;
+            top: 0px;
+            left: 0px; }
         body ul.nav-menu li a.currentLink {
           color: rgba(var(--accent), 1); }
         body ul.nav-menu li a:not(.logo):not(.currentLink):hover {
@@ -310,7 +322,7 @@ body {
     font-size: 36px; }
   body ul.nav-menu,
   body ul.nav-menu.responsive {
-    height: initial;
+    height: 55px;
     position: fixed; }
   body ul.nav-menu li:not(:first-child) {
     display: none; }
