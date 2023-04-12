@@ -425,9 +425,12 @@ body {
     h1 {
       font-size: 36px;
     }
-    ul.nav-menu,
-    ul.nav-menu.responsive {
+    ul.nav-menu {
       height: 55px;
+      position: fixed;
+    }
+    ul.nav-menu.responsive {
+      height: initial;
       position: fixed;
     }
     ul.nav-menu {
