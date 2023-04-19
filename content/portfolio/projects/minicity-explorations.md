@@ -8,7 +8,7 @@ image: /portfolio/projects/minicity-explorations.jpg
 
 <div style="position: relative; width: 100%; padding-bottom: 56.2500%; margin-top: 3em;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-     src="https://www.youtube.com/embed/jDWwmB1jsDQ?modestbranding=1&rel=0"
+     src="https://www.youtube.com/embed/3tjB5YSWplI?modestbranding=1&rel=0"
      title="Exploring connectivity scores" frameborder="0"
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen>
@@ -17,7 +17,7 @@ image: /portfolio/projects/minicity-explorations.jpg
 
 <div style="position: relative; width: 100%; padding-bottom: 56.2500%; margin-top: 3em;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-     src="https://www.youtube.com/embed/886BcDju-DQ?modestbranding=1&rel=0"
+     src="https://www.youtube.com/embed/eDMMaTbRUQw?modestbranding=1&rel=0"
      title="Exploring rainwater harvesting potential" frameborder="0"
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen>

@@ -8,7 +8,7 @@ image: /portfolio/projects/grid-of-the-future.jpg
 
 <div style="position: relative; width: 100%; padding-bottom: 56.2500%; margin-top: 3em;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-     src="https://www.youtube.com/embed/4j1fsfexzaE?modestbranding=1&rel=0"
+     src="https://www.youtube.com/embed/2lh5igHoEDk?modestbranding=1&rel=0"
      title="Grid of the future" frameborder="0"
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen>
