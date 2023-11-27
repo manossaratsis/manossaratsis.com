@@ -24,9 +24,13 @@ I am an architect, urbanist, and entrepreneur with a passion for cities, great s
 * Leading product strategy, design, and development for the [Station A Platform](https://stationa.com/how-it-works).
 * Working across engineering, analytics, and marketing to expand Station A's user network and grow Station A's business.
 
-### Advisor, [Greenwork](https://joingreenwork.com) (September 2021 - Today)
+### Advisor, [First Bite](https://firstbite.io) (September 2023 - Today)
 
-* Advising on product strategy and design to help Greenwork scale its workforce training platform and connect qualified candidates with employers in clean energy, transportation, and the trades.
+* Advising on product strategy and design to help First Bite develop its data platform, and become the first CRM purpose-built for the foodservice industry.
+
+### Advisor, [Greenwork](https://joingreenwork.com) (September 2021 - September 2023)
+
+* Advised on product strategy and design to help Greenwork scale its workforce training platform and connect qualified candidates with employers in clean energy, transportation, and the trades.
 
 ### Product Manager: Geospatial Analytics, [NRG Energy](https://www.nrg.com) (August 2016 - June 2018)
 
@@ -45,7 +49,7 @@ I am an architect, urbanist, and entrepreneur with a passion for cities, great s
 
 ## Academia
 
-### Project Advisor, [MIT Sloan School of Management](https://mitsloan.mit.edu/) (March 2019 - June 2021)
+### Project Advisor, [MIT Sloan School of Management](https://mitsloan.mit.edu/) (March 2019 - June 2022)
 
 Advised on 3 research projects run by MBA candidates at the MIT Sloan School of Management. The projects were sponsored by [Station A](https://stationa.com) as part of the [Laboratory for Sustainable Business (S-Lab)](https://mitsloan.mit.edu/action-learning/s-lab) class.
 
