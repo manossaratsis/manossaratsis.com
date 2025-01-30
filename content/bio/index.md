@@ -78,6 +78,8 @@ Granted patent for inventing a method to identify customers and markets for clea
 
 ## Media
 
+* [A Platform to Expedite Clean Energy Projects](https://news.mit.edu/2025/station-a-expedites-clean-energy-projects-0124)<br/>*Zach Winn, MIT News, 2025-01-24*
+
 * [Climate Tech Startup Station A Launches "Clean Energy Grades"](https://www.prnewswire.com/news-releases/climate-tech-startup-station-a-launches-clean-energy-grades-to-instantly-generate-financial-and-carbon-savings-with-just-one-click-301512212.html)<br/>*The Station A Team, PR Newswire, 2022-03-30*
 
 * [New Clean Energy Marketplace Joins Silicon Valley Rush to Green Buildings](https://www.bloomberg.com/news/articles/2022-03-30/new-clean-energy-marketplace-joins-silicon-valley-rush-to-green-buildings)<br/>*Mark Bergen, Bloomberg, 2022-03-30*
