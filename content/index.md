@@ -9,10 +9,12 @@ image: /img/home.jpg
 ## Featured projects
 
 <% featured_projects.each do |project| %>
-<section class="tile" style="background-image: url(<%= asset_path(project[:image]) %>)">
-    <p class="title"><%= link_to project[:title], project.identifier.without_ext %></p>
-    <p class="description"><%= project[:description] %></p>
-    <aside>Created at <%= project[:created_at] %></aside>
-    <div class="filter" />
+<section class="featured-tile" style="background-image: url(<%= asset_path(project[:image]) %>)">
+    <div class="featured-filter" />
+    <div class="featured-content">
+        <p class="title"><%= link_to project[:title], project.identifier.without_ext %></p>
+        <p class="description"><%= project[:description] %></p>
+        <aside>Created at <%= project[:created_at] %></aside>
+    </div>
 </section>
 <% end %>
