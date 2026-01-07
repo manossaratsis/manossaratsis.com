@@ -4,6 +4,7 @@ created_at: 2014-10-19
 kind: presentation_project
 description: Using graph theory and network analysis techniques to understand how cities work.
 image: /portfolio/projects/urban-network-analysis.jpg
+featured: true
 ---
 
 <div style="position: relative; width: 100%; padding-bottom: 56.2500%; margin-top: 3em;">

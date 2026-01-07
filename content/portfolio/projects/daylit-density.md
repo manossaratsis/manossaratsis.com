@@ -4,6 +4,7 @@ created_at: 2015-05-15
 kind: presentation_project
 description: Developing a framework for performance-aware urban zoning and real estate development.
 image: /portfolio/projects/daylit-density.jpg
+featured: true
 ---
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;

@@ -4,6 +4,7 @@ created_at: 2019-02-07
 kind: writing_project
 description: Some parallels between architecture and software as a process.
 image: /portfolio/projects/building-software.jpg
+featured: true
 ---
 
 4 years ago, right around the end of the 1st year of graduate school, I made a conscious career decision: to transition from **architecture** to **building science** and **software engineering**.

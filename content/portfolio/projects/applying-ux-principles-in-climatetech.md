@@ -4,6 +4,7 @@ created_at: 2024-03-13
 kind: presentation_project
 description: Lessons learned from building a compelling user experience for climate action.
 image: /portfolio/projects/applying-ux-principles-in-climatetech.jpg
+featured: true
 ---
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
