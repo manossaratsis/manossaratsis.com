@@ -6,8 +6,7 @@ image: /img/home.jpg
 
 # I am an [architect](/portfolio), [urbanist](/research), &amp; [entrepreneur](https://stationa.com) building solutions at the nexus of cities &amp; climate.
 
-## Featured projects
-
+<div class="featured-projects-container">
 <% featured_projects.each do |project| %>
 <section class="featured-tile" style="background-image: url(<%= asset_path(project[:image]) %>)">
     <div class="featured-filter" />
@@ -18,3 +17,4 @@ image: /img/home.jpg
     </div>
 </section>
 <% end %>
+</div>
