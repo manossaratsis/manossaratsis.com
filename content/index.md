@@ -8,8 +8,9 @@ image: /img/home.jpg
 
 <div class="featured-projects-container">
 <% featured_projects.each do |project| %>
+<% project_image = asset_path(project[:image]) %>
 <%= link_to project.identifier.without_ext, class: 'featured-tile-link' do %>
-<section class="featured-tile" style="background-image: url(<%= asset_path(project[:image]) %>)">
+<section class="featured-tile" style="background-image: url(<%= project_image %>)">
     <div class="featured-filter" />
     <div class="featured-content">
         <p class="title"><%= project[:title] %></p>
