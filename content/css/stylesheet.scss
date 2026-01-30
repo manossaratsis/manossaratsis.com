@@ -309,12 +309,16 @@ body {
   }
   .featured-projects-container {
     display: flex;
-    gap: 24px;
-    margin-top: 48px;
+    gap: 20px;
+    left: 50%;
+    margin-top: 36px;
     overflow-x: auto;
     overflow-y: hidden;
-    padding-bottom: 20px;
+    padding: 0 calc((100vw - 800px) / 2) 16px;
+    position: relative;
     scroll-behavior: smooth;
+    transform: translateX(-50%);
+    width: 100vw;
     -webkit-overflow-scrolling: touch;
     &::-webkit-scrollbar {
       height: 8px;
@@ -331,32 +335,35 @@ body {
       }
     }
   }
+  .featured-tile-link {
+    flex-shrink: 0;
+    text-decoration: none;
+  }
   .featured-tile {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(var(--black), 0.5);
+    box-shadow: 0 8px 24px rgba(var(--black), 0.5);
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    height: 560px;
+    height: 400px;
     justify-content: flex-end;
     overflow: hidden;
     position: relative;
-    width: 340px;
+    width: 300px;
     transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 400ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 16px 40px rgba(var(--black), 0.6);
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 14px 36px rgba(var(--black), 0.6);
       .featured-filter {
         background: radial-gradient(
           ellipse at bottom left,
-          rgba(var(--accent), 0.85) 0%,
-          rgba(var(--dark-accent), 0.75) 40%,
-          rgba(var(--almost-black), 0.5) 100%
+          rgba(80, 200, 220, 0.75) 0%,
+          rgba(40, 120, 160, 0.65) 40%,
+          rgba(var(--almost-black), 0.4) 100%
         );
       }
     }
@@ -365,9 +372,9 @@ body {
       -webkit-backdrop-filter: blur(10px);
       background: radial-gradient(
         ellipse at bottom left,
-        rgba(var(--accent), 0.7) 0%,
-        rgba(var(--dark-accent), 0.85) 45%,
-        rgba(var(--almost-black), 0.75) 100%
+        rgba(100, 180, 200, 0.65) 0%,
+        rgba(50, 100, 140, 0.75) 45%,
+        rgba(var(--almost-black), 0.7) 100%
       );
       border-radius: 12px;
       height: 100%;
@@ -377,40 +384,32 @@ body {
       z-index: 0;
     }
     .featured-content {
-      padding: 28px;
+      padding: 24px;
       position: relative;
       z-index: 1;
       .title {
-        font-size: 28px;
+        color: rgba(var(--white), 1);
+        font-size: 24px;
         font-weight: 800;
-        line-height: 36px;
-        margin: 0 0 12px 0;
-        text-shadow: 0px 3px 15px rgba(var(--black), 0.7);
-        -webkit-text-shadow: 0px 3px 15px rgba(var(--black), 0.7);
-        a {
-          &:link,
-          &:visited,
-          &:hover,
-          &:visited:hover {
-            color: rgba(var(--white), 1);
-            text-decoration: none;
-          }
-        }
+        line-height: 32px;
+        margin: 0 0 10px 0;
+        text-shadow: 0px 3px 12px rgba(var(--black), 0.7);
+        -webkit-text-shadow: 0px 3px 12px rgba(var(--black), 0.7);
       }
       .description {
         color: rgba(var(--almost-white), 1);
-        font-size: 16px;
-        line-height: 26px;
-        margin: 0 0 16px 0;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 0 12px 0;
         text-shadow: 0px 2px 10px rgba(var(--black), 0.6);
         -webkit-text-shadow: 0px 2px 10px rgba(var(--black), 0.6);
       }
       aside {
-        color: rgba(var(--accent), 1);
-        font-size: 13px;
+        color: rgba(80, 200, 220, 1);
+        font-size: 12px;
         font-weight: 700;
         letter-spacing: 0.8px;
-        line-height: 20px;
+        line-height: 18px;
         margin: 0;
         text-shadow: 0px 2px 10px rgba(var(--black), 0.6);
         -webkit-text-shadow: 0px 2px 10px rgba(var(--black), 0.6);
@@ -572,22 +571,25 @@ body {
       height: 460px;
     }
     .featured-projects-container {
-      margin-top: 32px;
       gap: 16px;
-      padding-bottom: 16px;
+      margin-top: 28px;
+      padding: 0 5% 16px;
     }
     .featured-tile {
-      height: 500px;
-      width: 280px;
+      height: 380px;
+      width: 260px;
       .featured-content {
-        padding: 24px;
+        padding: 20px;
         .title {
-          font-size: 24px;
-          line-height: 32px;
+          font-size: 22px;
+          line-height: 29px;
         }
         .description {
-          font-size: 15px;
-          line-height: 24px;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        aside {
+          font-size: 11px;
         }
       }
     }

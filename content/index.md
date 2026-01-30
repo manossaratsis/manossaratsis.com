@@ -8,13 +8,15 @@ image: /img/home.jpg
 
 <div class="featured-projects-container">
 <% featured_projects.each do |project| %>
+<%= link_to project.identifier.without_ext, class: 'featured-tile-link' do %>
 <section class="featured-tile" style="background-image: url(<%= asset_path(project[:image]) %>)">
     <div class="featured-filter" />
     <div class="featured-content">
-        <p class="title"><%= link_to project[:title], project.identifier.without_ext %></p>
+        <p class="title"><%= project[:title] %></p>
         <p class="description"><%= project[:description] %></p>
         <aside>Created at <%= project[:created_at] %></aside>
     </div>
 </section>
+<% end %>
 <% end %>
 </div>
